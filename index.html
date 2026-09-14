@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HL SOFT — Central de Ajuda | HL Tele Informática</title>
+<meta name="description" content="Central de ajuda do sistema HL SOFT, pela HL Tele Informática. Perguntas frequentes, vídeos e manuais do sistema ARPA.">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#122A45;
+    --brand:#0B7FE0;
+    --brand-dark:#0968B5;
+    --amber:#3FC6F0;
+    --paper:#F3F6FA;
+    --card:#FFFFFF;
+    --border:#DCE3EC;
+    --muted:#54687D;
+    --whatsapp:#25D366;
+    --whatsapp-dark:#1DA851;
+    --radius:14px;
+    --maxw:1120px;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:0.001ms !important; transition-duration:0.001ms !important;}
+  }
+
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'IBM Plex Sans', system-ui, sans-serif;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  h1,h2,h3,.wordmark{
+    font-family:'Space Grotesk', 'IBM Plex Sans', sans-serif;
+    font-weight:700;
+    line-height:1.15;
+    margin:0;
+    color:var(--ink);
+  }
+
+  a{color:var(--brand-dark);}
+
+  img{max-width:100%;display:block;}
+
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px;}
+
+  /* ---------- Header ---------- */
+  header{
+    position:sticky;top:0;z-index:50;
+    background:rgba(244,246,241,0.92);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--border);
+  }
+  .headbar{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:16px 24px;max-width:var(--maxw);margin:0 auto;gap:16px;
+  }
+  .brandblock{display:flex;flex-direction:column;align-items:flex-start;line-height:1.1;}
+  .brandlogo{height:32px;width:auto;display:block;}
+  .brandsub{font-size:0.72rem;color:var(--muted);margin-top:6px;}
+
+  nav.chips{display:none;gap:6px;}
+  nav.chips a{
+    font-size:0.9rem;text-decoration:none;color:var(--ink);
+    padding:8px 14px;border-radius:999px;white-space:nowrap;
+  }
+  nav.chips a:hover{background:#E7ECE3;}
+
+  .btn{
+    display:inline-flex;align-items:center;gap:8px;
+    font-family:'IBM Plex Sans',sans-serif;font-weight:600;font-size:0.95rem;
+    padding:12px 20px;border-radius:10px;text-decoration:none;
+    border:1px solid transparent;cursor:pointer;white-space:nowrap;
+  }
+  .btn-whats{background:var(--whatsapp);color:#fff;}
+  .btn-whats:hover{background:var(--whatsapp-dark);}
+  .btn-outline{background:transparent;color:var(--ink);border-color:var(--border);}
+  .btn-outline:hover{border-color:var(--ink);}
+  .btn-sm{padding:9px 14px;font-size:0.85rem;}
+
+  @media (min-width:860px){
+    nav.chips{display:flex;}
+  }
+
+  /* ---------- Hero ---------- */
+  .hero{padding:56px 0 64px;}
+  .hero .wrap{
+    display:grid;grid-template-columns:1fr;gap:40px;align-items:center;
+  }
+  @media (min-width:900px){
+    .hero .wrap{grid-template-columns:1.1fr 0.9fr;}
+  }
+  .eyebrow{
+    color:var(--brand-dark);font-weight:600;font-size:0.95rem;margin-bottom:14px;
+  }
+  .hero h1{font-size:2.3rem;letter-spacing:-0.01em;}
+  @media (min-width:640px){.hero h1{font-size:2.9rem;}}
+  .hero p.lead{
+    font-size:1.08rem;color:var(--muted);max-width:52ch;margin-top:18px;
+  }
+  .hero-ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px;}
+
+  /* receipt mock */
+  .receipt{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:4px;
+    padding:26px 24px 34px;
+    max-width:340px;
+    margin:0 auto;
+    box-shadow:0 18px 40px -18px rgba(14,42,43,0.35);
+    position:relative;
+  }
+  .receipt::after{
+    content:"";
+    position:absolute;left:0;right:0;bottom:-11px;height:20px;
+    background-image:
+      linear-gradient(135deg, var(--paper) 25%, transparent 25%),
+      linear-gradient(225deg, var(--paper) 25%, transparent 25%);
+    background-size:16px 22px;
+    background-position:0 0;
+    background-color:var(--card);
+  }
+  .receipt-head{
+    font-family:'Space Grotesk',sans-serif;font-weight:700;
+    text-align:center;font-size:0.95rem;letter-spacing:0.04em;
+    border-bottom:1px dashed var(--border);padding-bottom:14px;margin-bottom:14px;
+  }
+  .receipt-head small{display:block;font-family:'IBM Plex Sans';font-weight:400;
+    color:var(--muted);letter-spacing:normal;margin-top:4px;font-size:0.78rem;}
+  .receipt-line{
+    display:flex;justify-content:space-between;gap:12px;
+    font-family:'IBM Plex Mono','IBM Plex Sans',monospace;font-size:0.82rem;
+    padding:6px 0;color:var(--ink);
+  }
+  .receipt-line span:first-child{color:var(--muted);}
+  .receipt-total{
+    display:flex;justify-content:space-between;
+    border-top:1px dashed var(--border);margin-top:10px;padding-top:12px;
+    font-weight:700;font-family:'Space Grotesk',sans-serif;font-size:0.92rem;
+  }
+  .receipt-total span:last-child{color:var(--brand-dark);}
+
+  /* ---------- Sections generic ---------- */
+  section{padding:60px 0;}
+  section + section{border-top:1px solid var(--border);}
+  .section-head{max-width:60ch;margin-bottom:36px;}
+  .section-tag{color:var(--brand-dark);font-weight:600;font-size:0.9rem;margin-bottom:8px;}
+  .section-head h2{font-size:1.8rem;}
+  .section-head p{color:var(--muted);margin-top:10px;}
+
+  /* ---------- FAQ ---------- */
+  .faq-cat{margin-bottom:38px;}
+  .faq-cat h3{
+    font-size:1.05rem;color:var(--brand-dark);
+    display:flex;align-items:center;gap:10px;margin-bottom:14px;
+  }
+  .faq-cat h3::before{
+    content:"";width:8px;height:8px;border-radius:2px;background:var(--amber);flex:none;
+  }
+  details{
+    background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
+    margin-bottom:10px;overflow:hidden;
+  }
+  details summary{
+    cursor:pointer;list-style:none;padding:16px 20px;
+    font-weight:600;font-size:0.98rem;
+    display:flex;justify-content:space-between;align-items:center;gap:16px;
+  }
+  details summary::-webkit-details-marker{display:none;}
+  details summary::after{
+    content:"+";font-family:'Space Grotesk',sans-serif;font-weight:600;
+    font-size:1.3rem;color:var(--brand);flex:none;line-height:1;
+  }
+  details[open] summary::after{content:"–";}
+  details p{
+    margin:0;padding:0 20px 20px;color:var(--muted);max-width:68ch;
+  }
+
+  /* ---------- Videos ---------- */
+  .video-grid{
+    display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:18px;
+  }
+  .video-card{
+    background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
+    overflow:hidden;text-decoration:none;color:var(--ink);display:block;
+  }
+  .video-thumb{
+    position:relative;aspect-ratio:16/9;background:#dfe4da;overflow:hidden;
+  }
+  .video-thumb img{width:100%;height:100%;object-fit:cover;}
+  .play-badge{
+    position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+    background:linear-gradient(0deg, rgba(14,42,43,0.35), rgba(14,42,43,0));
+  }
+  .play-badge span{
+    width:46px;height:46px;border-radius:50%;background:rgba(255,255,255,0.92);
+    display:flex;align-items:center;justify-content:center;
+  }
+  .play-badge svg{margin-left:3px;}
+  .video-card .vtitle{
+    padding:14px 16px;font-size:0.88rem;font-weight:500;
+    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+  }
+  #videoStatus{color:var(--muted);font-size:0.92rem;}
+  .video-fallback{
+    background:var(--card);border:1px dashed var(--border);border-radius:var(--radius);
+    padding:28px;text-align:center;
+  }
+
+  /* ---------- Manuais ---------- */
+  .manual-search{
+    width:100%;font:inherit;font-size:0.95rem;color:var(--ink);
+    padding:13px 16px;border-radius:10px;border:1px solid var(--border);
+    background:var(--card);margin-bottom:18px;
+  }
+  .manual-search:focus{outline:2px solid var(--brand);outline-offset:1px;}
+  .manual-cat{
+    background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
+    margin-bottom:10px;overflow:hidden;
+  }
+  .manual-cat > summary{
+    cursor:pointer;list-style:none;padding:16px 20px;
+    display:flex;align-items:center;justify-content:space-between;gap:16px;
+  }
+  .manual-cat > summary::-webkit-details-marker{display:none;}
+  .manual-cat-title{font-weight:600;font-size:0.98rem;}
+  .manual-cat-count{
+    font-size:0.75rem;font-weight:600;color:var(--brand-dark);
+    background:#E4F0FB;padding:3px 10px;border-radius:999px;flex:none;
+  }
+  .manual-cat > summary::after{
+    content:"+";font-family:'Space Grotesk',sans-serif;font-weight:600;
+    font-size:1.3rem;color:var(--brand);flex:none;line-height:1;margin-left:8px;
+  }
+  .manual-cat[open] > summary::after{content:"–";}
+  .manual-cat-body{padding:4px 20px 18px;}
+  .manual-group-name{
+    font-size:0.8rem;font-weight:600;color:var(--muted);
+    text-transform:uppercase;letter-spacing:0.03em;
+    margin:14px 0 6px;
+  }
+  .manual-file-list{list-style:none;margin:0;padding:0;}
+  .manual-file-list li{border-top:1px solid var(--border);}
+  .manual-file-list li:first-child{border-top:none;}
+  .manual-file-list a{
+    display:flex;align-items:center;gap:10px;
+    padding:10px 4px;text-decoration:none;color:var(--ink);font-size:0.9rem;
+  }
+  .manual-file-list a:hover{color:var(--brand-dark);}
+  .manual-file-list svg{flex:none;color:var(--brand);}
+  .manual-empty, .manual-fallback{
+    background:var(--card);border:1px dashed var(--border);border-radius:var(--radius);
+    padding:24px;text-align:center;color:var(--muted);
+  }
+  mark{background:#CFE8FF;color:inherit;border-radius:3px;}
+
+  /* ---------- Suporte ---------- */
+  .support-grid{
+    display:grid;grid-template-columns:1fr;gap:16px;
+  }
+  @media (min-width:720px){.support-grid{grid-template-columns:repeat(3,1fr);}}
+  .support-card{
+    background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
+    padding:24px;
+  }
+  .support-card h3{font-size:1rem;margin-bottom:8px;}
+  .support-card p{color:var(--muted);margin:0 0 14px;font-size:0.9rem;}
+  .support-card a.value{font-weight:600;color:var(--ink);text-decoration:none;font-size:0.95rem;}
+  .support-card a.value:hover{color:var(--brand-dark);}
+
+  /* ---------- Footer ---------- */
+  footer{padding:34px 0;border-top:1px solid var(--border);}
+  footer .wrap{
+    display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:14px;
+    color:var(--muted);font-size:0.85rem;
+  }
+  .footer-brand{display:flex;align-items:center;gap:12px;}
+  .footer-brand img{height:34px;width:auto;border-radius:6px;}
+
+  /* ---------- Floating WhatsApp ---------- */
+  .float-whats{
+    position:fixed;right:20px;bottom:20px;z-index:60;
+    width:58px;height:58px;border-radius:50%;
+    background:var(--whatsapp);display:flex;align-items:center;justify-content:center;
+    box-shadow:0 10px 24px -8px rgba(0,0,0,0.4);
+    text-decoration:none;
+  }
+  .float-whats:hover{background:var(--whatsapp-dark);}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="headbar">
+    <div class="brandblock">
+      <img class="brandlogo" src="assets/logo-hlsoft-horizontal.png" alt="HL SOFT">
+      <span class="brandsub">Central de ajuda · HL Tele Informática</span>
+    </div>
+    <nav class="chips">
+      <a href="#faq">Perguntas frequentes</a>
+      <a href="#videos">Vídeos</a>
+      <a href="#manuais">Manuais</a>
+      <a href="#suporte">Suporte</a>
+    </nav>
+    <a class="btn btn-whats btn-sm" target="_blank" rel="noopener"
+       href="https://wa.me/5588999246404?text=Ol%C3%A1!%20Preciso%20de%20suporte%20com%20o%20sistema%20HL%20SOFT.">
+      WhatsApp
+    </a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Automação comercial · Suporte HL SOFT</div>
+      <h1>Dúvidas sobre o HL SOFT? Estão todas aqui.</h1>
+      <p class="lead">
+        Central de ajuda da HL Tele Informática para quem usa o sistema no
+        dia a dia do comércio: vendas, estoque, notas fiscais e financeiro,
+        explicados sem enrolação.
+      </p>
+      <div class="hero-ctas">
+        <a class="btn btn-whats" target="_blank" rel="noopener"
+           href="https://wa.me/5588999246404?text=Ol%C3%A1!%20Preciso%20de%20suporte%20com%20o%20sistema%20HL%20SOFT.">
+          Falar com o suporte no WhatsApp
+        </a>
+        <a class="btn btn-outline" href="#faq">Ver perguntas frequentes</a>
+      </div>
+    </div>
+    <div class="receipt">
+      <div class="receipt-head">CUPOM DE ATENDIMENTO
+        <small>HL Tele Informática · HL SOFT</small>
+      </div>
+      <div class="receipt-line"><span>1x</span><span>Sistema HL SOFT ........... ativo</span></div>
+      <div class="receipt-line"><span>1x</span><span>Suporte via WhatsApp ...... imediato</span></div>
+      <div class="receipt-line"><span>1x</span><span>Manuais do sistema ........ disponíveis</span></div>
+      <div class="receipt-line"><span>1x</span><span>Vídeos explicativos ....... no canal</span></div>
+      <div class="receipt-total"><span>TOTAL</span><span>dúvida resolvida ✔</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="section-tag">Perguntas frequentes</div>
+      <h2>Tudo o que perguntam sobre o HL SOFT</h2>
+      <p>Separado por assunto. Não achou sua dúvida aqui? É só chamar o suporte.</p>
+    </div>
+
+    <div class="faq-cat">
+      <h3>Sobre o sistema</h3>
+      <details>
+        <summary>O que é o sistema HL SOFT?</summary>
+        <p>O HL SOFT é o sistema de automação comercial da HL Tele Informática. Ele reúne em um só programa o controle de vendas (PDV), estoque, financeiro e emissão de notas fiscais, pensado para o dia a dia de lojas e comércios em geral. A HL Tele Informática também presta suporte ao sistema ARPA — veja a seção de manuais mais abaixo.</p>
+      </details>
+      <details>
+        <summary>Preciso de internet para usar o sistema?</summary>
+        <p>O funcionamento básico do PDV e do controle de estoque roda localmente no computador. A internet entra nos momentos de comunicação com a Sefaz — emissão de NF-e/NFC-e, consulta de XML e atualizações. Se a conexão cair no meio do expediente, dá para continuar vendendo e emitir os documentos fiscais assim que ela voltar.</p>
+      </details>
+      <details>
+        <summary>Em quais computadores o sistema funciona?</summary>
+        <p>O sistema roda em computadores com Windows. Antes de instalar, é bom que nossa equipe avalie a configuração da máquina para garantir que atende aos requisitos mínimos — fale com o suporte para essa checagem.</p>
+      </details>
+    </div>
+
+    <div class="faq-cat">
+      <h3>Vendas e PDV</h3>
+      <details>
+        <summary>Como faço uma venda no caixa (PDV)?</summary>
+        <p>No menu principal, entre em Vendas &gt; PDV/Caixa, informe os itens (por código, código de barras ou nome do produto), confira os valores e finalize escolhendo a forma de pagamento. Se tiver dúvida na hora, o suporte consegue te orientar por WhatsApp com a tela aberta.</p>
+      </details>
+      <details>
+        <summary>Como emito a nota fiscal (NF-e) ou o cupom fiscal (NFC-e)?</summary>
+        <p>Depois de fechar a venda no PDV, o sistema oferece a opção de emitir o documento fiscal vinculado a ela. É importante manter o certificado digital e a conexão com a Sefaz ativos nesse momento. Se a Sefaz rejeitar, o motivo aparece na tela — nesse caso, chame o suporte informando o código do erro.</p>
+      </details>
+      <details>
+        <summary>Como cancelo uma venda já registrada?</summary>
+        <p>Vendas ainda não fiscais podem ser canceladas direto na tela do PDV. Se já foi emitida nota fiscal, o cancelamento precisa seguir o prazo e as regras da Sefaz — fale com o suporte antes de cancelar um documento já emitido, para não ter problema fiscal.</p>
+      </details>
+      <details>
+        <summary>Dá para dar desconto em uma venda?</summary>
+        <p>Sim, o desconto pode ser aplicado por item ou no total da venda, dentro dos limites configurados para o seu usuário. Se o campo de desconto estiver bloqueado, provavelmente é uma permissão de perfil — o suporte pode ajustar isso.</p>
+      </details>
+    </div>
+
+    <div class="faq-cat">
+      <h3>Estoque e produtos</h3>
+      <details>
+        <summary>Como cadastro um novo produto?</summary>
+        <p>Acesse o cadastro de Produtos e preencha código, descrição, unidade, preço e os dados fiscais (NCM, CFOP, tributação). Preencher os dados fiscais corretamente evita rejeição na hora de emitir a nota — na dúvida, peça ajuda ao suporte.</p>
+      </details>
+      <details>
+        <summary>Como consulto o estoque de um produto?</summary>
+        <p>No cadastro ou na consulta rápida de produtos você vê a quantidade disponível em tempo real, já descontando vendas e somando compras registradas.</p>
+      </details>
+      <details>
+        <summary>Como registro a entrada de mercadoria de um fornecedor?</summary>
+        <p>Pelo módulo de Compras, dá para lançar a entrada manualmente ou importar direto o arquivo XML da nota fiscal do fornecedor — o sistema cadastra produto, fornecedor e quantidade automaticamente a partir do XML.</p>
+      </details>
+      <details>
+        <summary>Como faço a devolução de uma venda ou compra?</summary>
+        <p>Existe uma rotina própria de devolução, tanto para venda (gera crédito para o cliente e caixa) quanto para compra (gera crédito com o fornecedor). Ela já ajusta o estoque e o financeiro automaticamente.</p>
+      </details>
+    </div>
+
+    <div class="faq-cat">
+      <h3>Financeiro</h3>
+      <details>
+        <summary>Como lanço uma conta a pagar ou a receber?</summary>
+        <p>No módulo Financeiro, cadastre o título informando valor, vencimento e categoria — o sistema mantém o controle de contas em aberto, pagas e atrasadas.</p>
+      </details>
+      <details>
+        <summary>Como emito o relatório de vendas do dia ou do mês?</summary>
+        <p>Em Relatórios &gt; Vendas, escolha o período desejado. Dá para filtrar por vendedor, forma de pagamento ou produto — útil para fechar o caixa do dia ou conferir o movimento do mês.</p>
+      </details>
+    </div>
+
+    <div class="faq-cat">
+      <h3>Backup, atualização e problemas técnicos</h3>
+      <details>
+        <summary>Como faço backup dos dados do sistema?</summary>
+        <p>Recomendamos manter o backup automático ativado, configurado com o suporte na instalação. Vale também guardar uma cópia periódica em outro local (nuvem ou pen drive) — dados de venda e fiscais não têm como ser recuperados sem um backup.</p>
+      </details>
+      <details>
+        <summary>O sistema travou ou está lento, o que eu faço?</summary>
+        <p>Primeiro, feche e abra o sistema novamente. Se continuar lento, verifique a conexão com a internet e o espaço livre no computador. Persistindo o problema, chame o suporte e diga o que aparecia na tela no momento da trava — isso agiliza o diagnóstico.</p>
+      </details>
+      <details>
+        <summary>Esqueci minha senha de acesso, como recupero?</summary>
+        <p>A senha só pode ser redefinida por um usuário com permissão de administrador dentro do sistema, ou pelo suporte da HL. Chame a gente pelo WhatsApp que resolvemos rápido.</p>
+      </details>
+      <details>
+        <summary>Como atualizo o sistema para a versão mais recente?</summary>
+        <p>As atualizações do HL SOFT costumam ser aplicadas remotamente pelo nosso suporte, para garantir que nada trave no meio da operação. Se aparecer um aviso de atualização disponível na tela, chame a gente antes de aceitar sozinho.</p>
+      </details>
+    </div>
+
+    <div class="faq-cat">
+      <h3>Suporte e manuais</h3>
+      <details>
+        <summary>Como falo com o suporte da HL Tele Informática?</summary>
+        <p>O mais rápido é pelo botão de WhatsApp aqui no site. Também atendemos pelos e-mails suporteautomacao@gmail.com e suporteadmhl@gmail.com.</p>
+      </details>
+      <details>
+        <summary>Vocês também dão suporte ao sistema ARPA?</summary>
+        <p>Sim. Além do HL SOFT, a HL Tele Informática atende clientes que usam o sistema ARPA. Os manuais completos do ARPA estão organizados por assunto na seção "Manuais" logo abaixo.</p>
+      </details>
+      <details>
+        <summary>Vocês dão treinamento para novos funcionários?</summary>
+        <p>Sim — fale com o suporte para agendar um treinamento, presencial ou por chamada de vídeo, para a equipe que vai usar o sistema no dia a dia.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section id="videos">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="section-tag">Vídeos</div>
+      <h2>Vídeos explicativos do sistema</h2>
+      <p>Prévias direto do nosso canal do YouTube. Clique em qualquer vídeo para assistir lá.</p>
+    </div>
+    <div id="videoArea">
+      <p id="videoStatus">Carregando vídeos do canal…</p>
+      <div class="video-grid" id="videoGrid"></div>
+    </div>
+  </div>
+</section>
+
+<section id="manuais">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="section-tag">Manuais</div>
+      <h2>Manuais do sistema ARPA</h2>
+      <p>A HL Tele Informática também dá suporte ao sistema ARPA. Mais de 600 manuais organizados por assunto — use a busca ou abra por categoria.</p>
+    </div>
+    <input type="search" id="manualSearch" class="manual-search" style="display:none" placeholder="Buscar um manual (ex: boleto, backup, NFC-e...)">
+    <p id="manualStatus" style="color:var(--muted);font-size:0.92rem;">Carregando manuais…</p>
+    <div id="manualArea"></div>
+  </div>
+</section>
+
+<section id="suporte">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="section-tag">Suporte</div>
+      <h2>Fale com a gente</h2>
+      <p>Estamos por perto para resolver o que o FAQ não deu conta.</p>
+    </div>
+    <div class="support-grid">
+      <div class="support-card">
+        <h3>WhatsApp</h3>
+        <p>Atendimento mais rápido, com print ou vídeo da tela se precisar.</p>
+        <a class="value" target="_blank" rel="noopener"
+           href="https://wa.me/5588999246404?text=Ol%C3%A1!%20Preciso%20de%20suporte%20com%20o%20sistema%20HL%20SOFT.">
+          (88) 99924-6404
+        </a>
+      </div>
+      <div class="support-card">
+        <h3>Suporte técnico</h3>
+        <p>Para dúvidas de uso, erros e emissão fiscal.</p>
+        <a class="value" href="mailto:suporteautomacao@gmail.com">suporteautomacao@gmail.com</a>
+      </div>
+      <div class="support-card">
+        <h3>Administrativo</h3>
+        <p>Para contratos, licenças e assuntos administrativos.</p>
+        <a class="value" href="mailto:suporteadmhl@gmail.com">suporteadmhl@gmail.com</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-brand">
+      <img src="assets/logo-hlteleinformatica.png" alt="HL Tele Informática">
+      <span>HL SOFT e suporte ao sistema ARPA</span>
+    </div>
+    <span>Senador Pompeu, CE</span>
+  </div>
+</footer>
+
+<a class="float-whats" target="_blank" rel="noopener" aria-label="Falar no WhatsApp"
+   href="https://wa.me/5588999246404?text=Ol%C3%A1!%20Preciso%20de%20suporte%20com%20o%20sistema%20HL%20SOFT.">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="#fff"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.9 9.9 0 0 0 4.75 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.03c-.24.68-1.4 1.33-1.93 1.4-.49.07-1.11.1-1.8-.11-.41-.13-.94-.3-1.62-.6-2.85-1.23-4.71-4.1-4.85-4.29-.14-.19-1.16-1.54-1.16-2.93 0-1.4.73-2.08 1-2.36.24-.27.53-.34.7-.34l.5.01c.16 0 .38-.06.6.46.24.56.79 1.95.86 2.09.07.14.11.3.02.49-.09.19-.14.3-.28.46-.14.16-.29.36-.41.48-.14.14-.28.29-.12.57.16.28.71 1.17 1.52 1.9 1.05.94 1.93 1.23 2.21 1.37.28.14.44.12.61-.07.16-.19.68-.79.87-1.06.19-.27.37-.22.62-.13.26.09 1.63.77 1.91.91.28.14.46.21.53.33.07.12.07.68-.17 1.36z"/></svg>
+</a>
+
+<script>
+(function(){
+  const grid = document.getElementById('videoGrid');
+  const status = document.getElementById('videoStatus');
+  const channelUrl = 'https://www.youtube.com/@hlsoft_sistemacomercial';
+  const channelId = 'UCIFDpPTBFAtVk8OYBNWs1fA';
+  const rssUrl = 'https://www.youtube.com/feeds/videos.xml?channel_id=' + channelId;
+
+  function fallback(){
+    if (status) status.remove();
+    grid.innerHTML =
+      '<div class="video-fallback" style="grid-column:1/-1;">' +
+      '<p style="margin:0 0 14px;color:var(--muted);">Não foi possível carregar a prévia dos vídeos agora.</p>' +
+      '<a class="btn btn-outline" target="_blank" rel="noopener" href="' + channelUrl + '">Ver vídeos no canal do YouTube</a>' +
+      '</div>';
+  }
+
+  function cardHtml(videoId, title){
+    const thumb = 'https://i.ytimg.com/vi/' + videoId + '/hqdefault.jpg';
+    const videoUrl = 'https://www.youtube.com/watch?v=' + videoId;
+    return (
+      '<a class="video-card" target="_blank" rel="noopener" href="' + videoUrl + '">' +
+        '<div class="video-thumb">' +
+          '<img loading="lazy" src="' + thumb + '" alt="">' +
+          '<div class="play-badge"><span>' +
+            '<svg width="16" height="16" viewBox="0 0 24 24" fill="#0B7FE0"><path d="M8 5v14l11-7z"/></svg>' +
+          '</span></div>' +
+        '</div>' +
+        '<div class="vtitle">' + String(title).replace(/</g,'&lt;') + '</div>' +
+      '</a>'
+    );
+  }
+
+  function renderFromRss2Json(items){
+    if (status) status.remove();
+    grid.innerHTML = items.map(function(item){
+      const m = (item.link || '').match(/[?&]v=([^&]+)/);
+      const videoId = m ? m[1] : (item.guid || '').split(':').pop();
+      return cardHtml(videoId, item.title || 'Vídeo');
+    }).join('');
+  }
+
+  function renderFromXml(entries){
+    if (status) status.remove();
+    grid.innerHTML = entries.map(function(entry){
+      const title = (entry.querySelector('title') || {}).textContent || 'Vídeo';
+      const linkEl = entry.querySelector('link');
+      const videoUrl = linkEl ? linkEl.getAttribute('href') : channelUrl;
+      const idMatch = videoUrl.match(/v=([^&]+)/);
+      const videoId = idMatch ? idMatch[1] : null;
+      return videoId ? cardHtml(videoId, title) : '';
+    }).join('');
+  }
+
+  // Estratégia 1: rss2json (rápido, já entrega em JSON)
+  fetch('https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(rssUrl))
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      if (data.status !== 'ok' || !data.items || !data.items.length) throw new Error('rss2json vazio');
+      renderFromRss2Json(data.items.slice(0, 6));
+    })
+    .catch(function(){
+      // Estratégia 2: proxy genérico + parse do XML original
+      const proxy = 'https://api.allorigins.win/raw?url=';
+      fetch(proxy + encodeURIComponent(rssUrl))
+        .then(function(r){ return r.text(); })
+        .then(function(xmlText){
+          const xml = new DOMParser().parseFromString(xmlText, 'text/xml');
+          const entries = Array.prototype.slice.call(xml.querySelectorAll('entry')).slice(0, 6);
+          if (!entries.length) throw new Error('sem entradas');
+          renderFromXml(entries);
+        })
+        .catch(fallback);
+    });
+})();
+</script>
+
+<script>
+(function(){
+  const area = document.getElementById('manualArea');
+  const status = document.getElementById('manualStatus');
+  const search = document.getElementById('manualSearch');
+  let manifest = null;
+
+  function esc(s){ return String(s).replace(/</g,'&lt;'); }
+
+  function highlight(text, term){
+    if(!term) return esc(text);
+    const idx = text.toLowerCase().indexOf(term.toLowerCase());
+    if(idx === -1) return esc(text);
+    return esc(text.slice(0,idx)) + '<mark>' + esc(text.slice(idx, idx+term.length)) + '</mark>' + esc(text.slice(idx+term.length));
+  }
+
+  const fileIcon = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>';
+
+  function render(term){
+    const t = (term || '').trim().toLowerCase();
+    let anyMatch = false;
+    const html = manifest.categories.map(function(cat){
+      const groupsHtml = cat.groups.map(function(g){
+        const files = g.files.filter(function(f){ return !t || f.title.toLowerCase().includes(t); });
+        if(!files.length) return '';
+        const listHtml = files.map(function(f){
+          return '<li><a target="_blank" rel="noopener" href="' + f.path + '">' + fileIcon +
+                 '<span>' + highlight(f.title, t) + '</span></a></li>';
+        }).join('');
+        return (g.name ? '<div class="manual-group-name">' + esc(g.name) + '</div>' : '') +
+               '<ul class="manual-file-list">' + listHtml + '</ul>';
+      }).join('');
+      const matchCount = cat.groups.reduce(function(sum,g){
+        return sum + g.files.filter(function(f){ return !t || f.title.toLowerCase().includes(t); }).length;
+      }, 0);
+      if(!matchCount) return '';
+      anyMatch = true;
+      const openAttr = t ? ' open' : '';
+      return (
+        '<details class="manual-cat"' + openAttr + '>' +
+          '<summary><span class="manual-cat-title">' + esc(cat.name) + '</span>' +
+            '<span class="manual-cat-count">' + matchCount + '</span></summary>' +
+          '<div class="manual-cat-body">' + groupsHtml + '</div>' +
+        '</details>'
+      );
+    }).join('');
+
+    area.innerHTML = anyMatch ? html : '<div class="manual-empty">Nenhum manual encontrado para essa busca.</div>';
+  }
+
+  fetch('assets/manuais/manifest.json')
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      manifest = data;
+      status.remove();
+      search.style.display = '';
+      render('');
+      search.addEventListener('input', function(){ render(search.value); });
+    })
+    .catch(function(){
+      status.remove();
+      search.remove();
+      area.innerHTML = '<div class="manual-fallback">Não foi possível carregar a lista de manuais agora. Peça o manual direto pelo WhatsApp ou e-mail do suporte.</div>';
+    });
+})();
+</script>
+
+</body>
+</html>
