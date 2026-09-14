@@ -1,0 +1,3143 @@
+{
+  "categories": [
+    {
+      "name": "Complementares",
+      "slug": "complementares",
+      "groups": [
+        {
+          "name": null,
+          "files": [
+            {
+              "title": "Manual completo de configuração e forma do envio de e-mail",
+              "path": "assets/manuais/complementares/procedimentos-complementares-manual-completo-de-configuracao-e-forma-do-envio-de.pdf"
+            },
+            {
+              "title": "Manual de como consultar parcelas à receber integrado entre filiais",
+              "path": "assets/manuais/complementares/procedimentos-complementares-manual-de-como-consultar-parcelas-a-receber-integra.pdf"
+            },
+            {
+              "title": "Manual de como personalizar etiquetas",
+              "path": "assets/manuais/complementares/procedimentos-complementares-manual-de-como-personalizar-etiquetas.pdf"
+            },
+            {
+              "title": "Manual do Preço Mínimo na Ordem de Serviço",
+              "path": "assets/manuais/complementares/procedimentos-complementares-manual-do-preco-minimo-na-ordem-de-servico.pdf"
+            },
+            {
+              "title": "Manual do Preço Mínimo no Orçamento",
+              "path": "assets/manuais/complementares/procedimentos-complementares-manual-do-preco-minimo-no-orcamento.pdf"
+            },
+            {
+              "title": "Ordem de produção durante o pedido de venda utilizando um serviço",
+              "path": "assets/manuais/complementares/procedimentos-complementares-ordem-de-producao-durante-o-pedido-de-venda-utiliza.pdf"
+            },
+            {
+              "title": "Ordem de serviço automotivo",
+              "path": "assets/manuais/complementares/procedimentos-complementares-ordem-de-servico-automotivo.pdf"
+            },
+            {
+              "title": "Relatórios do módulo de Ordem de Produção",
+              "path": "assets/manuais/complementares/procedimentos-complementares-relatorios-do-modulo-de-ordem-de-producao.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Balanças",
+          "files": [
+            {
+              "title": "Manual de como configurar balanças de checkout",
+              "path": "assets/manuais/complementares/balancas/procedimentos-complementares-manual-de-como-configurar-balancas-de-checkout.pdf"
+            },
+            {
+              "title": "Manual de como configurar balanças pesadeiras",
+              "path": "assets/manuais/complementares/balancas/procedimentos-complementares-manual-de-como-configurar-balancas-pesadeiras.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Boletos",
+          "files": [
+            {
+              "title": "Layout de boletos da Caixa Econômica Federal (CEF)",
+              "path": "assets/manuais/complementares/boletos/procedimentos-complementares-layout-de-boletos-da-caixa-economica-federal-cef.pdf"
+            },
+            {
+              "title": "Lista de bancos homologados no sistema",
+              "path": "assets/manuais/complementares/boletos/procedimentos-complementares-lista-de-bancos-homologados-no-sistema.pdf"
+            },
+            {
+              "title": "Manual de Integração API boletos Sicoob",
+              "path": "assets/manuais/complementares/boletos/procedimentos-complementares-manual-de-integracao-api-boletos-sicoob.pdf"
+            },
+            {
+              "title": "Manual de como configurar juros e multa para boletos",
+              "path": "assets/manuais/complementares/boletos/procedimentos-complementares-manual-de-como-configurar-juros-e-multa-para-boleto.pdf"
+            },
+            {
+              "title": "Manual de como copiar o código de barras de um boleto gerado",
+              "path": "assets/manuais/complementares/boletos/procedimentos-complementares-manual-de-como-copiar-o-codigo-de-barras-de-um-bole.pdf"
+            },
+            {
+              "title": "Manual de homologação de boletos utilizando a DLL",
+              "path": "assets/manuais/complementares/boletos/procedimentos-complementares-manual-de-homologacao-de-boletos-utilizando-a-dll.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Comissão",
+          "files": [
+            {
+              "title": "Manual da comissão fracionada",
+              "path": "assets/manuais/complementares/comissao/procedimentos-complementares-manual-da-comissao-fracionada.pdf"
+            },
+            {
+              "title": "Manual das formas de aplicar comissão por usuário",
+              "path": "assets/manuais/complementares/comissao/procedimentos-complementares-manual-das-formas-de-aplicar-comissao-por-usuario.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Compras",
+          "files": [
+            {
+              "title": "Destaque do código do benefício adicional do item no módulo de compra",
+              "path": "assets/manuais/complementares/compras/procedimentos-complementares-destaque-do-codigo-do-beneficio-adicional-do-item-n.pdf"
+            },
+            {
+              "title": "Entrada de nota com produtos de importação com um item",
+              "path": "assets/manuais/complementares/compras/procedimentos-complementares-entrada-de-nota-com-produtos-de-importacao-com-um-i.pdf"
+            },
+            {
+              "title": "Entrada de nota de compra importação de XML com frete CIF",
+              "path": "assets/manuais/complementares/compras/procedimentos-complementares-entrada-de-nota-de-compra-importacao-de-xml-com-fre.pdf"
+            },
+            {
+              "title": "Entrada em Nota de Compra Manualmente (exemplo para clientes que compram vários itens na nota e dão entrada em apenas um)",
+              "path": "assets/manuais/complementares/compras/procedimentos-complementares-entrada-em-nota-de-compra-manualmente-exemplo-para-.pdf"
+            },
+            {
+              "title": "Entrada em Produto Matéria-Prima tipo Carcaça",
+              "path": "assets/manuais/complementares/compras/procedimentos-complementares-entrada-em-produto-materia-prima-tipo-carcaca.pdf"
+            },
+            {
+              "title": "Lançamento de nota de compra com guia GNRE",
+              "path": "assets/manuais/complementares/compras/procedimentos-complementares-lancamento-de-nota-de-compra-com-guia-gnre.pdf"
+            },
+            {
+              "title": "Lançamento de nota de compra manual",
+              "path": "assets/manuais/complementares/compras/procedimentos-complementares-lancamento-de-nota-de-compra-manual.pdf"
+            },
+            {
+              "title": "Manual completo de reabertura de nota de compra",
+              "path": "assets/manuais/complementares/compras/procedimentos-complementares-manual-completo-de-reabertura-de-nota-de-compra.pdf"
+            },
+            {
+              "title": "Manual de como dar entrada em nota de produtor rural com emissão de contra nota",
+              "path": "assets/manuais/complementares/compras/procedimentos-complementares-manual-de-como-dar-entrada-em-nota-de-produtor-rura.pdf"
+            },
+            {
+              "title": "Manual de como emitir manifesto eletrônico de nota de compra",
+              "path": "assets/manuais/complementares/compras/procedimentos-complementares-manual-de-como-emitir-manifesto-eletronico-de-nota-.pdf"
+            },
+            {
+              "title": "Manual de como gerar código de barras automaticamente pela compra",
+              "path": "assets/manuais/complementares/compras/procedimentos-complementares-manual-de-como-gerar-codigo-de-barras-automaticamen.pdf"
+            },
+            {
+              "title": "Manual de nota de importação com vários itens",
+              "path": "assets/manuais/complementares/compras/procedimentos-complementares-manual-de-nota-de-importacao-com-varios-itens.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Modelos de Impressão",
+          "files": [
+            {
+              "title": "Modelos para impressão de carnê",
+              "path": "assets/manuais/complementares/modelos-de-impressao/procedimentos-complementares-modelos-para-impressao-de-carne.pdf"
+            },
+            {
+              "title": "Modelos para impressão de chamado técnico",
+              "path": "assets/manuais/complementares/modelos-de-impressao/procedimentos-complementares-modelos-para-impressao-de-chamado-tecnico.pdf"
+            },
+            {
+              "title": "Modelos para impressão de ordem de serviço",
+              "path": "assets/manuais/complementares/modelos-de-impressao/procedimentos-complementares-modelos-para-impressao-de-ordem-de-servico.pdf"
+            },
+            {
+              "title": "Modelos para impressão de pedido de venda_orçamento",
+              "path": "assets/manuais/complementares/modelos-de-impressao/procedimentos-complementares-modelos-para-impressao-de-pedido-de-venda-orcamento.pdf"
+            },
+            {
+              "title": "Modelos para impressão de promissória",
+              "path": "assets/manuais/complementares/modelos-de-impressao/procedimentos-complementares-modelos-para-impressao-de-promissoria.pdf"
+            }
+          ]
+        },
+        {
+          "name": "NFCe",
+          "files": [
+            {
+              "title": "Dúvidas sobre contingência",
+              "path": "assets/manuais/complementares/nfce/procedimentos-complementares-duvidas-sobre-contingencia.pdf"
+            },
+            {
+              "title": "Integração entre a NFC-e e meios de pagamento eletrônico - TEF",
+              "path": "assets/manuais/complementares/nfce/procedimentos-complementares-integracao-entre-a-nfc-e-e-meios-de-pagamento-eletr.pdf"
+            },
+            {
+              "title": "Manual da NFC-e de fatura",
+              "path": "assets/manuais/complementares/nfce/procedimentos-complementares-manual-da-nfc-e-de-fatura.pdf"
+            },
+            {
+              "title": "Manual sobre o processo de contingência automática NFC-e",
+              "path": "assets/manuais/complementares/nfce/procedimentos-complementares-manual-sobre-o-processo-de-contingencia-automatica-.pdf"
+            }
+          ]
+        },
+        {
+          "name": "NFe",
+          "files": [
+            {
+              "title": "Manual de como inutilizar NF-e e NFC-e",
+              "path": "assets/manuais/complementares/nfe/procedimentos-complementares-manual-de-como-inutilizar-nf-e-e-nfc-e.pdf"
+            },
+            {
+              "title": "Manual de emissão de nota de complemento de ICMS",
+              "path": "assets/manuais/complementares/nfe/procedimentos-complementares-manual-de-emissao-de-nota-de-complemento-de-icms.pdf"
+            },
+            {
+              "title": "Manual do cancelamento extemporâneo",
+              "path": "assets/manuais/complementares/nfe/procedimentos-complementares-manual-do-cancelamento-extemporaneo.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Produtos",
+          "files": [
+            {
+              "title": "Informando código de barras no cadastro do item",
+              "path": "assets/manuais/complementares/produtos/procedimentos-complementares-informando-codigo-de-barras-no-cadastro-do-item.pdf"
+            },
+            {
+              "title": "Manual de como vincular produtos similares ao cadastro de um produto",
+              "path": "assets/manuais/complementares/produtos/procedimentos-complementares-manual-de-como-vincular-produtos-similares-ao-cadas.pdf"
+            },
+            {
+              "title": "Manual do controle de produtos por validade",
+              "path": "assets/manuais/complementares/produtos/procedimentos-complementares-manual-do-controle-de-produtos-por-validade.pdf"
+            },
+            {
+              "title": "Revisão dos custos de aquisição, calculo do markup, identificação do preço de venda de acordo com o markup_",
+              "path": "assets/manuais/complementares/produtos/procedimentos-complementares-revisao-dos-custos-de-aquisicao-calculo-do-markup-i.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Tributos",
+          "files": [
+            {
+              "title": "Cenário de vendas graxas, óleos e lubrificantes",
+              "path": "assets/manuais/complementares/tributos/procedimentos-complementares-cenario-de-vendas-graxas-oleos-e-lubrificantes.pdf"
+            },
+            {
+              "title": "Cenários diferentes para destaque de ICMS ST em notas fiscais",
+              "path": "assets/manuais/complementares/tributos/procedimentos-complementares-cenarios-diferentes-para-destaque-de-icms-st-em-not.pdf"
+            },
+            {
+              "title": "Dois exemplos de cadastro de figuras de CFOP",
+              "path": "assets/manuais/complementares/tributos/procedimentos-complementares-dois-exemplos-de-cadastro-de-figuras-de-cfop.pdf"
+            },
+            {
+              "title": "Emissão de nota bonificada com destaque de ICMS e ICMS ST",
+              "path": "assets/manuais/complementares/tributos/procedimentos-complementares-emissao-de-nota-bonificada-com-destaque-de-icms-e-i.pdf"
+            },
+            {
+              "title": "Manual completo sobre o Registro Bloco K",
+              "path": "assets/manuais/complementares/tributos/procedimentos-complementares-manual-completo-sobre-o-registro-bloco-k.pdf"
+            },
+            {
+              "title": "Manual da Emissão de CF-e Complementar",
+              "path": "assets/manuais/complementares/tributos/procedimentos-complementares-manual-da-emissao-de-cf-e-complementar.pdf"
+            },
+            {
+              "title": "Manual da Importação de CSV - Manutenção de códigos e tributos",
+              "path": "assets/manuais/complementares/tributos/procedimentos-complementares-manual-da-importacao-de-csv-manutencao-de-codigos-e.pdf"
+            },
+            {
+              "title": "Manual de como descontar PIS_COFINS da base de cálculo de ICMS",
+              "path": "assets/manuais/complementares/tributos/procedimentos-complementares-manual-de-como-descontar-pis-cofins-da-base-de-calc.pdf"
+            },
+            {
+              "title": "Manual de como destacar ICMS em itens bonificados",
+              "path": "assets/manuais/complementares/tributos/procedimentos-complementares-manual-de-como-destacar-icms-em-itens-bonificados.pdf"
+            },
+            {
+              "title": "Manual de como destacar o valor aproximado dos tributos",
+              "path": "assets/manuais/complementares/tributos/procedimentos-complementares-manual-de-como-destacar-o-valor-aproximado-dos-trib.pdf"
+            },
+            {
+              "title": "Manual de como gerar Bloco B do Sped Fiscal",
+              "path": "assets/manuais/complementares/tributos/procedimentos-complementares-manual-de-como-gerar-bloco-b-do-sped-fiscal.pdf"
+            },
+            {
+              "title": "Manual de esclarecimentos referente ao IPI",
+              "path": "assets/manuais/complementares/tributos/procedimentos-complementares-manual-de-esclarecimentos-referente-ao-ipi.pdf"
+            },
+            {
+              "title": "Manual de operações com Suframa",
+              "path": "assets/manuais/complementares/tributos/procedimentos-complementares-manual-de-operacoes-com-suframa.pdf"
+            },
+            {
+              "title": "Manual de repasse do crédito de ICMS",
+              "path": "assets/manuais/complementares/tributos/procedimentos-complementares-manual-de-repasse-do-credito-de-icms.pdf"
+            },
+            {
+              "title": "Manual dos produtos monofásicos",
+              "path": "assets/manuais/complementares/tributos/procedimentos-complementares-manual-dos-produtos-monofasicos.pdf"
+            },
+            {
+              "title": "Manual sobre a nova tributação monofásica do ICMS aplicado aos combustíveis (GLP)",
+              "path": "assets/manuais/complementares/tributos/procedimentos-complementares-manual-sobre-a-nova-tributacao-monofasica-do-icms-a.pdf"
+            },
+            {
+              "title": "Mensagens destacadas pelo sistema ao fazer emissão de NFe",
+              "path": "assets/manuais/complementares/tributos/procedimentos-complementares-mensagens-destacadas-pelo-sistema-ao-fazer-emissao-.pdf"
+            },
+            {
+              "title": "Regras de transferência entre matriz e filial para empresas de varejo e atacado",
+              "path": "assets/manuais/complementares/tributos/procedimentos-complementares-regras-de-transferencia-entre-matriz-e-filial-para-.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Vendas",
+          "files": [
+            {
+              "title": "Manual Completo de como configurar Autenticadora",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-manual-completo-de-como-configurar-autenticadora.pdf"
+            },
+            {
+              "title": "Manual Completo de como configurar observação no item da venda",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-manual-completo-de-como-configurar-observacao-no-it.pdf"
+            },
+            {
+              "title": "Manual completo sobre limite de crédito do cliente",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-manual-completo-sobre-limite-de-credito-do-cliente.pdf"
+            },
+            {
+              "title": "Manual da opção sugestões de vendas",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-manual-da-opcao-sugestoes-de-vendas.pdf"
+            },
+            {
+              "title": "Manual de associação da espécie e portador às condições de pagamento",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-manual-de-associacao-da-especie-e-portador-as-condi.pdf"
+            },
+            {
+              "title": "Manual de como configurar desconto no preço de venda e limite permitido com senha",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-manual-de-como-configurar-desconto-no-preco-de-vend.pdf"
+            },
+            {
+              "title": "Manual de como configurar valor limite de vendas para clientes sem CPF_CNPJ",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-manual-de-como-configurar-valor-limite-de-vendas-pa.pdf"
+            },
+            {
+              "title": "Manual de como controlar vendas de vale presente",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-manual-de-como-controlar-vendas-de-vale-presente.pdf"
+            },
+            {
+              "title": "Manual de como emitir NF-e referenciando NFC-e_cupons fiscais",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-manual-de-como-emitir-nf-e-referenciando-nfc-e-cupo.pdf"
+            },
+            {
+              "title": "Manual de como emitir notas de exportação",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-manual-de-como-emitir-notas-de-exportacao.pdf"
+            },
+            {
+              "title": "Manual de como ocultar o faturamento da DANFe",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-manual-de-como-ocultar-o-faturamento-da-danfe.pdf"
+            },
+            {
+              "title": "Manual de como realizar venda de produto bonificado",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-manual-de-como-realizar-venda-de-produto-bonificado.pdf"
+            },
+            {
+              "title": "Manual de como transferir itens de um pedido para outro",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-manual-de-como-transferir-itens-de-um-pedido-para-o.pdf"
+            },
+            {
+              "title": "Manual de como utilizar Dados de garantia e dias para retorno",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-manual-de-como-utilizar-dados-de-garantia-e-dias-pa.pdf"
+            },
+            {
+              "title": "Manual de como utilizar Fardo no pedido de venda",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-manual-de-como-utilizar-fardo-no-pedido-de-venda.pdf"
+            },
+            {
+              "title": "Manual de como utilizar comanda",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-manual-de-como-utilizar-comanda.pdf"
+            },
+            {
+              "title": "Manual de vendas de produtos com quantidades múltiplas",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-manual-de-vendas-de-produtos-com-quantidades-multip.pdf"
+            },
+            {
+              "title": "Manual do preço mínimo na Venda",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-manual-do-preco-minimo-na-venda.pdf"
+            },
+            {
+              "title": "Manual do processo de Venda (F12) utilizando Arpag",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-manual-do-processo-de-venda-f12-utilizando-arpag.pdf"
+            },
+            {
+              "title": "Manual do processo de Venda (F12) utilizando TEF",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-manual-do-processo-de-venda-f12-utilizando-tef.pdf"
+            },
+            {
+              "title": "Manual do índice de conversão",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-manual-do-indice-de-conversao.pdf"
+            },
+            {
+              "title": "Procedimento de venda utilizando configurações de ótica",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-procedimento-de-venda-utilizando-configuracoes-de-o.pdf"
+            },
+            {
+              "title": "Processo de controle de mercadoria de contrato de serviço _ licitações (Mão de Obra Global)",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-processo-de-controle-de-mercadoria-de-contrato-de-s.pdf"
+            },
+            {
+              "title": "Venda de Kit no PDV Fiscal",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-venda-de-kit-no-pdv-fiscal.pdf"
+            },
+            {
+              "title": "Venda de Kit no Sistema Control",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-venda-de-kit-no-sistema-control.pdf"
+            },
+            {
+              "title": "[Vídeo] Manual de como trabalhar com troco no sistema",
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-video-manual-de-como-trabalhar-com-troco-no-sistema.pdf"
+            }
+          ]
+        }
+      ],
+      "count": 90
+    },
+    {
+      "name": "Conversão de Banco de Dados",
+      "slug": "conversao-de-banco-de-dados",
+      "groups": [
+        {
+          "name": null,
+          "files": [
+            {
+              "title": "Lista de conversores",
+              "path": "assets/manuais/conversao-de-banco-de-dados/lista-de-conversores.pdf"
+            },
+            {
+              "title": "Manual de como realizar a troca de servidor",
+              "path": "assets/manuais/conversao-de-banco-de-dados/manual-de-como-realizar-a-troca-de-servidor.pdf"
+            },
+            {
+              "title": "Manual de como realizar o teste para verificar se o registro está chegando na Arpa",
+              "path": "assets/manuais/conversao-de-banco-de-dados/manual-de-como-realizar-o-teste-para-verificar-se-o-registro-esta-chegando-na-ar.pdf"
+            },
+            {
+              "title": "Manual de conversão de Arpa para Arpa",
+              "path": "assets/manuais/conversao-de-banco-de-dados/manual-de-conversao-de-arpa-para-arpa.pdf"
+            },
+            {
+              "title": "Manual de conversão de banco de dados MongoDB",
+              "path": "assets/manuais/conversao-de-banco-de-dados/manual-de-conversao-de-banco-de-dados-mongodb.pdf"
+            },
+            {
+              "title": "Manual de conversão de banco de dados MySQL",
+              "path": "assets/manuais/conversao-de-banco-de-dados/manual-de-conversao-de-banco-de-dados-mysql.pdf"
+            },
+            {
+              "title": "Manual do Conversor Universal ARPA Sistemas",
+              "path": "assets/manuais/conversao-de-banco-de-dados/manual-do-conversor-universal-arpa-sistemas.pdf"
+            },
+            {
+              "title": "Manual do conversor de banco de dados de sistemas específicos",
+              "path": "assets/manuais/conversao-de-banco-de-dados/manual-do-conversor-de-banco-de-dados-de-sistemas-especificos.pdf"
+            },
+            {
+              "title": "Manual dos campos obrigatórios utilizados no Conversor Universal ARPA Sistemas",
+              "path": "assets/manuais/conversao-de-banco-de-dados/manual-dos-campos-obrigatorios-utilizados-no-conversor-universal-arpa-sistemas.pdf"
+            }
+          ]
+        }
+      ],
+      "count": 9
+    },
+    {
+      "name": "Instalação, Atualização, Backup e Planos do Sistema",
+      "slug": "instalacao-atualizacao-backup-e-planos-do-sistema",
+      "groups": [
+        {
+          "name": "Atualização",
+          "files": [
+            {
+              "title": "Atualização do sistema completa (Servidor e terminais) pelo link do update, em sistema com versão superior a 2018",
+              "path": "assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/atualizacao/atualizacao-do-sistema-completa-servidor-e-terminais-pelo-link-do-update-em-sist.pdf"
+            },
+            {
+              "title": "Atualização terminal Standalone",
+              "path": "assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/atualizacao/atualizacao-terminal-standalone.pdf"
+            },
+            {
+              "title": "Manual do Assistente de Atualização (Á partir da versão 1.25.4.0)",
+              "path": "assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/atualizacao/manual-do-assistente-de-atualizacao-a-partir-da-versao-1-25-4-0.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Backup",
+          "files": [
+            {
+              "title": "Como efetuar a cópia de segurança conferir a mesma e salvar em um mídia externa",
+              "path": "assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/backup/como-efetuar-a-copia-de-seguranca-conferir-a-mesma-e-salvar-em-um-midia-externa.pdf"
+            },
+            {
+              "title": "Como fazer backup da base Control",
+              "path": "assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/backup/como-fazer-backup-da-base-control.pdf"
+            },
+            {
+              "title": "Manual de como configurar o backup em mais de uma base de dados, e configurando o caminho para ser salvo o backup",
+              "path": "assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/backup/manual-de-como-configurar-o-backup-em-mais-de-uma-base-de-dados-e-configurando-o.pdf"
+            },
+            {
+              "title": "Manual do agendamento de backups",
+              "path": "assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/backup/manual-do-agendamento-de-backups.pdf"
+            },
+            {
+              "title": "Manual do aplicativo de backup em nuvem",
+              "path": "assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/backup/manual-do-aplicativo-de-backup-em-nuvem.pdf"
+            },
+            {
+              "title": "Manual para iniciar o uso do backup automático",
+              "path": "assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/backup/manual-para-iniciar-o-uso-do-backup-automatico.pdf"
+            }
+          ]
+        },
+        {
+          "name": "DeletarCriarRestaurar base via comando CMD",
+          "files": [
+            {
+              "title": "Deletar base control, e recriá-la restaurando backup",
+              "path": "assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/deletarcriarrestaurar-base-via-comando-cmd/deletar-base-control-e-recria-la-restaurando-backup.pdf"
+            },
+            {
+              "title": "Manual de criação de base de dados e restauração de backup",
+              "path": "assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/deletarcriarrestaurar-base-via-comando-cmd/manual-de-criacao-de-base-de-dados-e-restauracao-de-backup.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Demo - Regras",
+          "files": [
+            {
+              "title": "Desativando licença",
+              "path": "assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/demo-regras/desativando-licenca.pdf"
+            },
+            {
+              "title": "Regras básicas para registro do demonstrativo",
+              "path": "assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/demo-regras/regras-basicas-para-registro-do-demonstrativo.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Instalação",
+          "files": [
+            {
+              "title": "Manual de instalação e configuração do Software denominado Sistema CONTROL com mais de uma base de dados",
+              "path": "assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/instalacao/manual-de-instalacao-e-configuracao-do-software-denominado-sistema-control-com-m.pdf"
+            },
+            {
+              "title": "Manual de instalação e configuração do Software denominado Sistema CONTROL e seu frente de caixa denominado PDV-FISCAL",
+              "path": "assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/instalacao/manual-de-instalacao-e-configuracao-do-software-denominado-sistema-control-e-seu.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Planos do Sistema",
+          "files": [
+            {
+              "title": "Tabela de diferenças entre os planos do Sistema",
+              "path": "assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/planos-do-sistema/tabela-de-diferencas-entre-os-planos-do-sistema.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Reinstalação",
+          "files": [
+            {
+              "title": "Reinstalação do sistema no micro Servidor",
+              "path": "assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/reinstalacao/reinstalacao-do-sistema-no-micro-servidor.pdf"
+            },
+            {
+              "title": "Reinstalação do sistema no micro Terminal",
+              "path": "assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/reinstalacao/reinstalacao-do-sistema-no-micro-terminal.pdf"
+            }
+          ]
+        }
+      ],
+      "count": 18
+    },
+    {
+      "name": "Menu Ajuda",
+      "slug": "menu-ajuda",
+      "groups": [
+        {
+          "name": null,
+          "files": [
+            {
+              "title": "Manual da inclusão de licenças pelo dados de registros_licenças",
+              "path": "assets/manuais/menu-ajuda/manual-da-inclusao-de-licencas-pelo-dados-de-registros-licencas.pdf"
+            },
+            {
+              "title": "Manual da opção Ajuda do Sistema",
+              "path": "assets/manuais/menu-ajuda/manual-da-opcao-ajuda-do-sistema.pdf"
+            },
+            {
+              "title": "Manual da opção Verificar Atualizações (Á partir da versão 1.25.4.0)",
+              "path": "assets/manuais/menu-ajuda/manual-da-opcao-verificar-atualizacoes-a-partir-da-versao-1-25-4-0.pdf"
+            },
+            {
+              "title": "Manual da opção Verificar Atualizações",
+              "path": "assets/manuais/menu-ajuda/manual-da-opcao-verificar-atualizacoes.pdf"
+            },
+            {
+              "title": "Manual de como acessar a loja do certificado digital",
+              "path": "assets/manuais/menu-ajuda/manual-de-como-acessar-a-loja-do-certificado-digital.pdf"
+            },
+            {
+              "title": "Manual de como acessar informações sobre o sistema",
+              "path": "assets/manuais/menu-ajuda/manual-de-como-acessar-informacoes-sobre-o-sistema.pdf"
+            },
+            {
+              "title": "Manual de como executar script na base de dados por dentro do sistema",
+              "path": "assets/manuais/menu-ajuda/manual-de-como-executar-script-na-base-de-dados-por-dentro-do-sistema.pdf"
+            },
+            {
+              "title": "Manual de como realizar manutenção de tabelas",
+              "path": "assets/manuais/menu-ajuda/manual-de-como-realizar-manutencao-de-tabelas.pdf"
+            },
+            {
+              "title": "Manual do acesso remoto (assistência remota)",
+              "path": "assets/manuais/menu-ajuda/manual-do-acesso-remoto-assistencia-remota.pdf"
+            },
+            {
+              "title": "Manual do controle de terminais de vendas",
+              "path": "assets/manuais/menu-ajuda/manual-do-controle-de-terminais-de-vendas.pdf"
+            },
+            {
+              "title": "Manual do controle de terminais móveis",
+              "path": "assets/manuais/menu-ajuda/manual-do-controle-de-terminais-moveis.pdf"
+            }
+          ]
+        }
+      ],
+      "count": 11
+    },
+    {
+      "name": "Menu B.I",
+      "slug": "menu-b-i",
+      "groups": [
+        {
+          "name": null,
+          "files": [
+            {
+              "title": "Manual do Gerador de Relatórios",
+              "path": "assets/manuais/menu-b-i/manual-do-gerador-de-relatorios.pdf"
+            },
+            {
+              "title": "Manual do módulo BI",
+              "path": "assets/manuais/menu-b-i/manual-do-modulo-bi.pdf"
+            }
+          ]
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Menu Cadastros",
+      "slug": "menu-cadastros",
+      "groups": [
+        {
+          "name": "Cidades",
+          "files": [
+            {
+              "title": "Manual Completo do cadastro de estados",
+              "path": "assets/manuais/menu-cadastros/cidades/manual-completo-do-cadastro-de-estados.pdf"
+            },
+            {
+              "title": "Manual do cadastro das cidades",
+              "path": "assets/manuais/menu-cadastros/cidades/manual-do-cadastro-das-cidades.pdf"
+            },
+            {
+              "title": "Manual do cadastro de países",
+              "path": "assets/manuais/menu-cadastros/cidades/manual-do-cadastro-de-paises.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Clientes",
+          "files": [
+            {
+              "title": "Manual Completo das funções existentes no módulo de clientes",
+              "path": "assets/manuais/menu-cadastros/clientes/manual-completo-das-funcoes-existentes-no-modulo-de-clientes.pdf"
+            },
+            {
+              "title": "Manual Completo de inclusão de um novo cliente_consumidor estrangeiro (para exportação)",
+              "path": "assets/manuais/menu-cadastros/clientes/manual-completo-de-inclusao-de-um-novo-cliente-consumidor-estrangeiro-para-expor.pdf"
+            },
+            {
+              "title": "Manual Completo do cadastro de um novo cliente_consumidor",
+              "path": "assets/manuais/menu-cadastros/clientes/manual-completo-do-cadastro-de-um-novo-cliente-consumidor.pdf"
+            },
+            {
+              "title": "Manual Completo do significado das cores exibidas no cadastro de clientes",
+              "path": "assets/manuais/menu-cadastros/clientes/manual-completo-do-significado-das-cores-exibidas-no-cadastro-de-clientes.pdf"
+            },
+            {
+              "title": "Manual de roteirização de clientes",
+              "path": "assets/manuais/menu-cadastros/clientes/manual-de-roteirizacao-de-clientes.pdf"
+            },
+            {
+              "title": "Manual do Histórico Financeiro no cadastro de clientes",
+              "path": "assets/manuais/menu-cadastros/clientes/manual-do-historico-financeiro-no-cadastro-de-clientes.pdf"
+            },
+            {
+              "title": "Manual do cadastro de classes profissionais de clientes",
+              "path": "assets/manuais/menu-cadastros/clientes/manual-do-cadastro-de-classes-profissionais-de-clientes.pdf"
+            },
+            {
+              "title": "Manual do cadastro de grupos de clientes",
+              "path": "assets/manuais/menu-cadastros/clientes/manual-do-cadastro-de-grupos-de-clientes.pdf"
+            },
+            {
+              "title": "Manual do cadastro de profissões de clientes",
+              "path": "assets/manuais/menu-cadastros/clientes/manual-do-cadastro-de-profissoes-de-clientes.pdf"
+            },
+            {
+              "title": "Manual do cadastro de regiões de clientes",
+              "path": "assets/manuais/menu-cadastros/clientes/manual-do-cadastro-de-regioes-de-clientes.pdf"
+            },
+            {
+              "title": "Manual do cadastro de rotas de clientes",
+              "path": "assets/manuais/menu-cadastros/clientes/manual-do-cadastro-de-rotas-de-clientes.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Dados TEF-POS",
+          "files": [
+            {
+              "title": "Manual de configuração do equipamentos POS",
+              "path": "assets/manuais/menu-cadastros/dados-tef-pos/manual-de-configuracao-do-equipamentos-pos.pdf"
+            },
+            {
+              "title": "Manual do cadastro de uma operadora de cartão",
+              "path": "assets/manuais/menu-cadastros/dados-tef-pos/manual-do-cadastro-de-uma-operadora-de-cartao.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Financeiro",
+          "files": [
+            {
+              "title": "Manual das Chaves PIX integrado",
+              "path": "assets/manuais/menu-cadastros/financeiro/manual-das-chaves-pix-integrado.pdf"
+            },
+            {
+              "title": "Manual de Gerar QrCode estático",
+              "path": "assets/manuais/menu-cadastros/financeiro/manual-de-gerar-qrcode-estatico.pdf"
+            },
+            {
+              "title": "Manual de configuração do horário de abertura e fechamento de caixa",
+              "path": "assets/manuais/menu-cadastros/financeiro/manual-de-configuracao-do-horario-de-abertura-e-fechamento-de-caixa.pdf"
+            },
+            {
+              "title": "Manual do cadastro de centro de custos",
+              "path": "assets/manuais/menu-cadastros/financeiro/manual-do-cadastro-de-centro-de-custos.pdf"
+            },
+            {
+              "title": "Manual do cadastro de condições de pagamento",
+              "path": "assets/manuais/menu-cadastros/financeiro/manual-do-cadastro-de-condicoes-de-pagamento.pdf"
+            },
+            {
+              "title": "Manual do cadastro de conta cofre",
+              "path": "assets/manuais/menu-cadastros/financeiro/manual-do-cadastro-de-conta-cofre.pdf"
+            },
+            {
+              "title": "Manual do cadastro de contas de banco ou caixa",
+              "path": "assets/manuais/menu-cadastros/financeiro/manual-do-cadastro-de-contas-de-banco-ou-caixa.pdf"
+            },
+            {
+              "title": "Manual do cadastro de espécies de pagamento",
+              "path": "assets/manuais/menu-cadastros/financeiro/manual-do-cadastro-de-especies-de-pagamento.pdf"
+            },
+            {
+              "title": "Manual do cadastro de planos de histórico",
+              "path": "assets/manuais/menu-cadastros/financeiro/manual-do-cadastro-de-planos-de-historico.pdf"
+            },
+            {
+              "title": "Manual do cadastro de portadores e bancos",
+              "path": "assets/manuais/menu-cadastros/financeiro/manual-do-cadastro-de-portadores-e-bancos.pdf"
+            },
+            {
+              "title": "Manual do rateio de plano de contas",
+              "path": "assets/manuais/menu-cadastros/financeiro/manual-do-rateio-de-plano-de-contas.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Mensagens",
+          "files": [
+            {
+              "title": "Manual do cadastro de ajustes e motivos de cancelamento",
+              "path": "assets/manuais/menu-cadastros/mensagens/manual-do-cadastro-de-ajustes-e-motivos-de-cancelamento.pdf"
+            },
+            {
+              "title": "Manual do cadastro de observações para NF e outras",
+              "path": "assets/manuais/menu-cadastros/mensagens/manual-do-cadastro-de-observacoes-para-nf-e-outras.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Outros",
+          "files": [
+            {
+              "title": "Manual de configuração do equipamento SAT_MFE",
+              "path": "assets/manuais/menu-cadastros/outros/manual-de-configuracao-do-equipamento-sat-mfe.pdf"
+            },
+            {
+              "title": "Manual do cadastro de filiais",
+              "path": "assets/manuais/menu-cadastros/outros/manual-do-cadastro-de-filiais.pdf"
+            },
+            {
+              "title": "Manual do cadastro de intermediador",
+              "path": "assets/manuais/menu-cadastros/outros/manual-do-cadastro-de-intermediador.pdf"
+            },
+            {
+              "title": "Manual do cadastro de procedimentos",
+              "path": "assets/manuais/menu-cadastros/outros/manual-do-cadastro-de-procedimentos.pdf"
+            },
+            {
+              "title": "Manual do cadastro de terminais de importação",
+              "path": "assets/manuais/menu-cadastros/outros/manual-do-cadastro-de-terminais-de-importacao.pdf"
+            },
+            {
+              "title": "Manual do cadastro de um sistema de proteção ao crédito",
+              "path": "assets/manuais/menu-cadastros/outros/manual-do-cadastro-de-um-sistema-de-protecao-ao-credito.pdf"
+            },
+            {
+              "title": "Manual do cadastro de veículos",
+              "path": "assets/manuais/menu-cadastros/outros/manual-do-cadastro-de-veiculos.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Produto",
+          "files": [
+            {
+              "title": "Distribuição automática de lote",
+              "path": "assets/manuais/menu-cadastros/produto/distribuicao-automatica-de-lote.pdf"
+            },
+            {
+              "title": "Manual Completo do Cadastro de Produtos - Com quantia de embalagem",
+              "path": "assets/manuais/menu-cadastros/produto/manual-completo-do-cadastro-de-produtos-com-quantia-de-embalagem.pdf"
+            },
+            {
+              "title": "Manual Completo do cadastro de um novo produto",
+              "path": "assets/manuais/menu-cadastros/produto/manual-completo-do-cadastro-de-um-novo-produto.pdf"
+            },
+            {
+              "title": "Manual Informando código de barras no cadastro do item",
+              "path": "assets/manuais/menu-cadastros/produto/manual-informando-codigo-de-barras-no-cadastro-do-item.pdf"
+            },
+            {
+              "title": "Manual completo das funções existentes no módulo de produtos",
+              "path": "assets/manuais/menu-cadastros/produto/manual-completo-das-funcoes-existentes-no-modulo-de-produtos.pdf"
+            },
+            {
+              "title": "Manual de como duplicar o cadastro de um produto",
+              "path": "assets/manuais/menu-cadastros/produto/manual-de-como-duplicar-o-cadastro-de-um-produto.pdf"
+            },
+            {
+              "title": "Manual de como gerar código de barras pelo sistema",
+              "path": "assets/manuais/menu-cadastros/produto/manual-de-como-gerar-codigo-de-barras-pelo-sistema.pdf"
+            },
+            {
+              "title": "Manual de formação de preço padrão",
+              "path": "assets/manuais/menu-cadastros/produto/manual-de-formacao-de-preco-padrao.pdf"
+            },
+            {
+              "title": "Manual do Cadastro de Seriais",
+              "path": "assets/manuais/menu-cadastros/produto/manual-do-cadastro-de-seriais.pdf"
+            },
+            {
+              "title": "Manual do cadastro de classes de produtos",
+              "path": "assets/manuais/menu-cadastros/produto/manual-do-cadastro-de-classes-de-produtos.pdf"
+            },
+            {
+              "title": "Manual do cadastro de composições",
+              "path": "assets/manuais/menu-cadastros/produto/manual-do-cadastro-de-composicoes.pdf"
+            },
+            {
+              "title": "Manual do cadastro de departamentos de produtos",
+              "path": "assets/manuais/menu-cadastros/produto/manual-do-cadastro-de-departamentos-de-produtos.pdf"
+            },
+            {
+              "title": "Manual do cadastro de grade de produtos",
+              "path": "assets/manuais/menu-cadastros/produto/manual-do-cadastro-de-grade-de-produtos.pdf"
+            },
+            {
+              "title": "Manual do cadastro de grupos de produtos",
+              "path": "assets/manuais/menu-cadastros/produto/manual-do-cadastro-de-grupos-de-produtos.pdf"
+            },
+            {
+              "title": "Manual do cadastro de lotes",
+              "path": "assets/manuais/menu-cadastros/produto/manual-do-cadastro-de-lotes.pdf"
+            },
+            {
+              "title": "Manual do cadastro de orçamento modelo",
+              "path": "assets/manuais/menu-cadastros/produto/manual-do-cadastro-de-orcamento-modelo.pdf"
+            },
+            {
+              "title": "Manual do cadastro de produtos de lote",
+              "path": "assets/manuais/menu-cadastros/produto/manual-do-cadastro-de-produtos-de-lote.pdf"
+            },
+            {
+              "title": "Manual do cadastro de subgrupos de produtos",
+              "path": "assets/manuais/menu-cadastros/produto/manual-do-cadastro-de-subgrupos-de-produtos.pdf"
+            },
+            {
+              "title": "Manual do cadastro de séries de produtos",
+              "path": "assets/manuais/menu-cadastros/produto/manual-do-cadastro-de-series-de-produtos.pdf"
+            },
+            {
+              "title": "Manual do cadastro de unidades de medidas",
+              "path": "assets/manuais/menu-cadastros/produto/manual-do-cadastro-de-unidades-de-medidas.pdf"
+            },
+            {
+              "title": "Manual do significado das cores exibidas no cadastro de produtos",
+              "path": "assets/manuais/menu-cadastros/produto/manual-do-significado-das-cores-exibidas-no-cadastro-de-produtos.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Tributário",
+          "files": [
+            {
+              "title": "Manual da lista de produtos com mudança de tributação",
+              "path": "assets/manuais/menu-cadastros/tributario/manual-da-lista-de-produtos-com-mudanca-de-tributacao.pdf"
+            },
+            {
+              "title": "Manual do cadastro da situação tributária de ISS",
+              "path": "assets/manuais/menu-cadastros/tributario/manual-do-cadastro-da-situacao-tributaria-de-iss.pdf"
+            },
+            {
+              "title": "Manual do cadastro da tabela de código do beneficio fiscal",
+              "path": "assets/manuais/menu-cadastros/tributario/manual-do-cadastro-da-tabela-de-codigo-do-beneficio-fiscal.pdf"
+            },
+            {
+              "title": "Manual do cadastro de CFOPs",
+              "path": "assets/manuais/menu-cadastros/tributario/manual-do-cadastro-de-cfops.pdf"
+            },
+            {
+              "title": "Manual do cadastro de código CNAE",
+              "path": "assets/manuais/menu-cadastros/tributario/manual-do-cadastro-de-codigo-cnae.pdf"
+            },
+            {
+              "title": "Manual do cadastro de figuras de CFOPs",
+              "path": "assets/manuais/menu-cadastros/tributario/manual-do-cadastro-de-figuras-de-cfops.pdf"
+            },
+            {
+              "title": "Manual do cadastro de tabelas de ICMS desonerado",
+              "path": "assets/manuais/menu-cadastros/tributario/manual-do-cadastro-de-tabelas-de-icms-desonerado.pdf"
+            },
+            {
+              "title": "Manual do cadastro de tabelas de redução de alíquotas de ICMS",
+              "path": "assets/manuais/menu-cadastros/tributario/manual-do-cadastro-de-tabelas-de-reducao-de-aliquotas-de-icms.pdf"
+            },
+            {
+              "title": "Manual do cadastro de tabelas de substituição tributária",
+              "path": "assets/manuais/menu-cadastros/tributario/manual-do-cadastro-de-tabelas-de-substituicao-tributaria.pdf"
+            },
+            {
+              "title": "Manual do módulo de manutenção de códigos e tributos",
+              "path": "assets/manuais/menu-cadastros/tributario/manual-do-modulo-de-manutencao-de-codigos-e-tributos.pdf"
+            },
+            {
+              "title": "Pauta Fiscal (PMPF)",
+              "path": "assets/manuais/menu-cadastros/tributario/pauta-fiscal-pmpf.pdf"
+            },
+            {
+              "title": "Reforma Tributária — Manual da Tabela de CST e classificação tributária do IBS e CBS",
+              "path": "assets/manuais/menu-cadastros/tributario/reforma-tributaria/manual-da-tabela-de-cst-e-classificacao-tributaria-do-ibs-e-cbs.pdf"
+            },
+            {
+              "title": "Reforma Tributária — Manual do cadastro de regras tributárias",
+              "path": "assets/manuais/menu-cadastros/tributario/reforma-tributaria/manual-do-cadastro-de-regras-tributarias.pdf"
+            },
+            {
+              "title": "Reforma Tributária — Manual do cadastro de um novo fornecedor",
+              "path": "assets/manuais/menu-cadastros/tributario/reforma-tributaria/manual-do-cadastro-de-um-novo-fornecedor.pdf"
+            },
+            {
+              "title": "Reforma Tributária — Manual do cadastro de uma nova transportadora",
+              "path": "assets/manuais/menu-cadastros/tributario/reforma-tributaria/manual-do-cadastro-de-uma-nova-transportadora.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Vendedores e Usuários",
+          "files": [
+            {
+              "title": "Manual do cadastro de cargos de vendedores e usuários",
+              "path": "assets/manuais/menu-cadastros/vendedores-e-usuarios/manual-do-cadastro-de-cargos-de-vendedores-e-usuarios.pdf"
+            },
+            {
+              "title": "Manual do cadastro de vendedores e usuários",
+              "path": "assets/manuais/menu-cadastros/vendedores-e-usuarios/manual-do-cadastro-de-vendedores-e-usuarios.pdf"
+            }
+          ]
+        }
+      ],
+      "count": 74
+    },
+    {
+      "name": "Menu Manutenção",
+      "slug": "menu-manutencao",
+      "groups": [
+        {
+          "name": "Bancos e Caixas",
+          "files": [
+            {
+              "title": "Manual da abertura de caixa",
+              "path": "assets/manuais/menu-manutencao/bancos-e-caixas/manual-da-abertura-de-caixa.pdf"
+            },
+            {
+              "title": "Manual da inclusão e lançamentos no extra caixa",
+              "path": "assets/manuais/menu-manutencao/bancos-e-caixas/manual-da-inclusao-e-lancamentos-no-extra-caixa.pdf"
+            },
+            {
+              "title": "Manual da transferência financeira",
+              "path": "assets/manuais/menu-manutencao/bancos-e-caixas/manual-da-transferencia-financeira.pdf"
+            },
+            {
+              "title": "Manual de consulta e lançamentos no caixa",
+              "path": "assets/manuais/menu-manutencao/bancos-e-caixas/manual-de-consulta-e-lancamentos-no-caixa.pdf"
+            },
+            {
+              "title": "Manual do controle de cheques pré-datados",
+              "path": "assets/manuais/menu-manutencao/bancos-e-caixas/manual-do-controle-de-cheques-pre-datados.pdf"
+            },
+            {
+              "title": "Manual do fechamento de caixa",
+              "path": "assets/manuais/menu-manutencao/bancos-e-caixas/manual-do-fechamento-de-caixa.pdf"
+            },
+            {
+              "title": "Manutenção de lançamentos e conciliação bancária",
+              "path": "assets/manuais/menu-manutencao/bancos-e-caixas/manutencao-de-lancamentos-e-conciliacao-bancaria.pdf"
+            }
+          ]
+        },
+        {
+          "name": "CRM",
+          "files": [
+            {
+              "title": "Manual completo do controle por pós venda",
+              "path": "assets/manuais/menu-manutencao/crm/manual-completo-do-controle-por-pos-venda.pdf"
+            },
+            {
+              "title": "Manual do controle de contatos de visita",
+              "path": "assets/manuais/menu-manutencao/crm/manual-do-controle-de-contatos-de-visita.pdf"
+            },
+            {
+              "title": "Manual do módulo de aniversariantes",
+              "path": "assets/manuais/menu-manutencao/crm/manual-do-modulo-de-aniversariantes.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Compras",
+          "files": [
+            {
+              "title": "Manual Completo Coletor de XML",
+              "path": "assets/manuais/menu-manutencao/compras/manual-completo-coletor-de-xml.pdf"
+            },
+            {
+              "title": "Manual Completo de como dar entrada em notas de serviço",
+              "path": "assets/manuais/menu-manutencao/compras/manual-completo-de-como-dar-entrada-em-notas-de-servico.pdf"
+            },
+            {
+              "title": "Manual da entrada de remessa para conserto",
+              "path": "assets/manuais/menu-manutencao/compras/manual-da-entrada-de-remessa-para-conserto.pdf"
+            },
+            {
+              "title": "Manual da saída de remessa para conserto (nota de garantia)",
+              "path": "assets/manuais/menu-manutencao/compras/manual-da-saida-de-remessa-para-conserto-nota-de-garantia.pdf"
+            },
+            {
+              "title": "Manual das configurações de consulta DF-e",
+              "path": "assets/manuais/menu-manutencao/compras/manual-das-configuracoes-de-consulta-df-e.pdf"
+            },
+            {
+              "title": "Manual das regras de entrada de nota de compra",
+              "path": "assets/manuais/menu-manutencao/compras/manual-das-regras-de-entrada-de-nota-de-compra.pdf"
+            },
+            {
+              "title": "Manual de como dar entrada de fatura de energia elétrica",
+              "path": "assets/manuais/menu-manutencao/compras/manual-de-como-dar-entrada-de-fatura-de-energia-eletrica.pdf"
+            },
+            {
+              "title": "Manual de como importar notas de compra por XML",
+              "path": "assets/manuais/menu-manutencao/compras/manual-de-como-importar-notas-de-compra-por-xml.pdf"
+            },
+            {
+              "title": "Manual de como processar compras em sequência de lote",
+              "path": "assets/manuais/menu-manutencao/compras/manual-de-como-processar-compras-em-sequencia-de-lote.pdf"
+            },
+            {
+              "title": "Manual do módulo de devolução de compra",
+              "path": "assets/manuais/menu-manutencao/compras/manual-do-modulo-de-devolucao-de-compra.pdf"
+            },
+            {
+              "title": "Manual do módulo de pedidos de compra",
+              "path": "assets/manuais/menu-manutencao/compras/manual-do-modulo-de-pedidos-de-compra.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Contas a Pagar",
+          "files": [
+            {
+              "title": "Manual completo do contas à pagar (quitar_consultar)",
+              "path": "assets/manuais/menu-manutencao/contas-a-pagar/manual-completo-do-contas-a-pagar-quitar-consultar.pdf"
+            },
+            {
+              "title": "Manual de como lançar faturas avulsas",
+              "path": "assets/manuais/menu-manutencao/contas-a-pagar/manual-de-como-lancar-faturas-avulsas.pdf"
+            },
+            {
+              "title": "Manual do crédito de fornecedores",
+              "path": "assets/manuais/menu-manutencao/contas-a-pagar/manual-do-credito-de-fornecedores.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Contas a Receber",
+          "files": [
+            {
+              "title": "Manual completo do contas a receber (quitar_consultar)",
+              "path": "assets/manuais/menu-manutencao/contas-a-receber/manual-completo-do-contas-a-receber-quitar-consultar.pdf"
+            },
+            {
+              "title": "Manual de como consultar transações PIX",
+              "path": "assets/manuais/menu-manutencao/contas-a-receber/manual-de-como-consultar-transacoes-pix.pdf"
+            },
+            {
+              "title": "Manual de como consultar transações Smart POS",
+              "path": "assets/manuais/menu-manutencao/contas-a-receber/manual-de-como-consultar-transacoes-smart-pos.pdf"
+            },
+            {
+              "title": "Manual de como lançar faturas avulsas",
+              "path": "assets/manuais/menu-manutencao/contas-a-receber/manual-de-como-lancar-faturas-avulsas.pdf"
+            },
+            {
+              "title": "Manual de consulta das parcelas a receber_recebidas_canceladas no período",
+              "path": "assets/manuais/menu-manutencao/contas-a-receber/manual-de-consulta-das-parcelas-a-receber-recebidas-canceladas-no-periodo.pdf"
+            },
+            {
+              "title": "Manual do crédito de clientes",
+              "path": "assets/manuais/menu-manutencao/contas-a-receber/manual-do-credito-de-clientes.pdf"
+            },
+            {
+              "title": "Gerenciamento de Boletos — Manual completo de Transferência de carteira_modalidade de cobrança (Antecipação de boletos)",
+              "path": "assets/manuais/menu-manutencao/contas-a-receber/gerenciamento-de-boletos/manual-completo-de-transferencia-de-carteira-modalidade-de-cobranca-antecipacao-.pdf"
+            },
+            {
+              "title": "Gerenciamento de Boletos — Manual da consulta de boletos gerados",
+              "path": "assets/manuais/menu-manutencao/contas-a-receber/gerenciamento-de-boletos/manual-da-consulta-de-boletos-gerados.pdf"
+            },
+            {
+              "title": "Gerenciamento de Boletos — Manual de como gerar remessas",
+              "path": "assets/manuais/menu-manutencao/contas-a-receber/gerenciamento-de-boletos/manual-de-como-gerar-remessas.pdf"
+            },
+            {
+              "title": "Gerenciamento de Boletos — Manual de como importar retornos",
+              "path": "assets/manuais/menu-manutencao/contas-a-receber/gerenciamento-de-boletos/manual-de-como-importar-retornos.pdf"
+            },
+            {
+              "title": "Gerenciamento de Boletos — Manual do consulta de boletos excluídos",
+              "path": "assets/manuais/menu-manutencao/contas-a-receber/gerenciamento-de-boletos/manual-do-consulta-de-boletos-excluidos.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Exportação para Contabilidade",
+          "files": [
+            {
+              "title": "Manual da agenda do dia",
+              "path": "assets/manuais/menu-manutencao/exportacao-para-contabilidade/manual-da-agenda-do-dia.pdf"
+            },
+            {
+              "title": "Manual de como enviar arquivos fiscais para a contabilidade",
+              "path": "assets/manuais/menu-manutencao/exportacao-para-contabilidade/manual-de-como-enviar-arquivos-fiscais-para-a-contabilidade.pdf"
+            },
+            {
+              "title": "Manual de como gerar SPED Contribuições (PIS _ COFINS)",
+              "path": "assets/manuais/menu-manutencao/exportacao-para-contabilidade/manual-de-como-gerar-sped-contribuicoes-pis-cofins.pdf"
+            },
+            {
+              "title": "Manual de como gerar SPED Fiscal",
+              "path": "assets/manuais/menu-manutencao/exportacao-para-contabilidade/manual-de-como-gerar-sped-fiscal.pdf"
+            },
+            {
+              "title": "Manual de como gerar arquivo Sintegra",
+              "path": "assets/manuais/menu-manutencao/exportacao-para-contabilidade/manual-de-como-gerar-arquivo-sintegra.pdf"
+            },
+            {
+              "title": "Manual do Registro 1601 - Operações com instrumentos de pagamentos eletrônicos",
+              "path": "assets/manuais/menu-manutencao/exportacao-para-contabilidade/manual-do-registro-1601-operacoes-com-instrumentos-de-pagamentos-eletronicos.pdf"
+            },
+            {
+              "title": "Manual do Sped Contribuições (Unificado)",
+              "path": "assets/manuais/menu-manutencao/exportacao-para-contabilidade/manual-do-sped-contribuicoes-unificado.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Gerenciar Notas Eletrônicas",
+          "files": [
+            {
+              "title": "Manual da Manutenção de arquivos eletrônicos",
+              "path": "assets/manuais/menu-manutencao/gerenciar-notas-eletronicas/manual-da-manutencao-de-arquivos-eletronicos.pdf"
+            },
+            {
+              "title": "Manual de como validar XMLs rejeitados",
+              "path": "assets/manuais/menu-manutencao/gerenciar-notas-eletronicas/manual-de-como-validar-xmls-rejeitados.pdf"
+            },
+            {
+              "title": "Manual de emissão de cartas de correções eletrônicas",
+              "path": "assets/manuais/menu-manutencao/gerenciar-notas-eletronicas/manual-de-emissao-de-cartas-de-correcoes-eletronicas.pdf"
+            },
+            {
+              "title": "Manual de utilização do gerenciador de notas eletrônicas (NF-e)",
+              "path": "assets/manuais/menu-manutencao/gerenciar-notas-eletronicas/manual-de-utilizacao-do-gerenciador-de-notas-eletronicas-nf-e.pdf"
+            },
+            {
+              "title": "Manual do gerenciador de NFC-es emitidas em contingência",
+              "path": "assets/manuais/menu-manutencao/gerenciar-notas-eletronicas/manual-do-gerenciador-de-nfc-es-emitidas-em-contingencia.pdf"
+            },
+            {
+              "title": "Manual do gerenciador de notas eletrônicas (NFS-e)",
+              "path": "assets/manuais/menu-manutencao/gerenciar-notas-eletronicas/manual-do-gerenciador-de-notas-eletronicas-nfs-e.pdf"
+            },
+            {
+              "title": "Manual para reimpressão de notas em contingência",
+              "path": "assets/manuais/menu-manutencao/gerenciar-notas-eletronicas/manual-para-reimpressao-de-notas-em-contingencia.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Manutenção de Estoque",
+          "files": [
+            {
+              "title": "Manual Completo da conferência e ajuste de estoque manual e por importação",
+              "path": "assets/manuais/menu-manutencao/manutencao-de-estoque/manual-completo-da-conferencia-e-ajuste-de-estoque-manual-e-por-importacao.pdf"
+            },
+            {
+              "title": "Manual da consulta rápida de seriais",
+              "path": "assets/manuais/menu-manutencao/manutencao-de-estoque/manual-da-consulta-rapida-de-seriais.pdf"
+            },
+            {
+              "title": "Manual da devolução de empréstimos",
+              "path": "assets/manuais/menu-manutencao/manutencao-de-estoque/manual-da-devolucao-de-emprestimos.pdf"
+            },
+            {
+              "title": "Manual da devolução de itens pegos emprestados",
+              "path": "assets/manuais/menu-manutencao/manutencao-de-estoque/manual-da-devolucao-de-itens-pegos-emprestados.pdf"
+            },
+            {
+              "title": "Manual da entrada de condicional",
+              "path": "assets/manuais/menu-manutencao/manutencao-de-estoque/manual-da-entrada-de-condicional.pdf"
+            },
+            {
+              "title": "Manual da entrada e saída manual de estoque",
+              "path": "assets/manuais/menu-manutencao/manutencao-de-estoque/manual-da-entrada-e-saida-manual-de-estoque.pdf"
+            },
+            {
+              "title": "Manual do Zerar saldo de estoque",
+              "path": "assets/manuais/menu-manutencao/manutencao-de-estoque/manual-do-zerar-saldo-de-estoque.pdf"
+            },
+            {
+              "title": "Manual do cadastro de patrimônios",
+              "path": "assets/manuais/menu-manutencao/manutencao-de-estoque/manual-do-cadastro-de-patrimonios.pdf"
+            },
+            {
+              "title": "Manual do cálculo de demanda",
+              "path": "assets/manuais/menu-manutencao/manutencao-de-estoque/manual-do-calculo-de-demanda.pdf"
+            },
+            {
+              "title": "Manual do módulo conferente de vendas _ compras _ transferência",
+              "path": "assets/manuais/menu-manutencao/manutencao-de-estoque/manual-do-modulo-conferente-de-vendas-compras-transferencia.pdf"
+            },
+            {
+              "title": "Manual do módulo de empréstimos",
+              "path": "assets/manuais/menu-manutencao/manutencao-de-estoque/manual-do-modulo-de-emprestimos.pdf"
+            },
+            {
+              "title": "Manual do módulo pego emprestado",
+              "path": "assets/manuais/menu-manutencao/manutencao-de-estoque/manual-do-modulo-pego-emprestado.pdf"
+            },
+            {
+              "title": "Manual do ponto de reposição",
+              "path": "assets/manuais/menu-manutencao/manutencao-de-estoque/manual-do-ponto-de-reposicao.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Manutenção de Preços",
+          "files": [
+            {
+              "title": "Manual Completo da tabela promocional",
+              "path": "assets/manuais/menu-manutencao/manutencao-de-precos/manual-completo-da-tabela-promocional.pdf"
+            },
+            {
+              "title": "Manual das tabelas de preços de clientes",
+              "path": "assets/manuais/menu-manutencao/manutencao-de-precos/manual-das-tabelas-de-precos-de-clientes.pdf"
+            },
+            {
+              "title": "Manual de gestão de promoção",
+              "path": "assets/manuais/menu-manutencao/manutencao-de-precos/manual-de-gestao-de-promocao.pdf"
+            },
+            {
+              "title": "Manual do módulo de aumento de preço",
+              "path": "assets/manuais/menu-manutencao/manutencao-de-precos/manual-do-modulo-de-aumento-de-preco.pdf"
+            },
+            {
+              "title": "Manual do módulo de consulta preço",
+              "path": "assets/manuais/menu-manutencao/manutencao-de-precos/manual-do-modulo-de-consulta-preco.pdf"
+            },
+            {
+              "title": "Sistema Control_ Manual das tabelas de preços",
+              "path": "assets/manuais/menu-manutencao/manutencao-de-precos/sistema-control-manual-das-tabelas-de-precos.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Operações com Filiais",
+          "files": [
+            {
+              "title": "Manual da importação de dados da matriz",
+              "path": "assets/manuais/menu-manutencao/operacoes-com-filiais/manual-da-importacao-de-dados-da-matriz.pdf"
+            },
+            {
+              "title": "Manual da transferência entre filiais (entrada e saída)",
+              "path": "assets/manuais/menu-manutencao/operacoes-com-filiais/manual-da-transferencia-entre-filiais-entrada-e-saida.pdf"
+            },
+            {
+              "title": "Manual de como importar dados da matriz automaticamente [Filial com nome de control e inclusa na pasta Control]",
+              "path": "assets/manuais/menu-manutencao/operacoes-com-filiais/manual-de-como-importar-dados-da-matriz-automaticamente-filial-com-nome-de-contr.pdf"
+            },
+            {
+              "title": "Manual de como importar dados da matriz automaticamente [Filial com nome diferente de Control e contida em uma pasta com nome diferente de Control]",
+              "path": "assets/manuais/menu-manutencao/operacoes-com-filiais/manual-de-como-importar-dados-da-matriz-automaticamente-filial-com-nome-diferent.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Produção",
+          "files": [
+            {
+              "title": "Manual da relação de produção por item acabado",
+              "path": "assets/manuais/menu-manutencao/producao/manual-da-relacao-de-producao-por-item-acabado.pdf"
+            },
+            {
+              "title": "Manual do módulo de ordem de produção",
+              "path": "assets/manuais/menu-manutencao/producao/manual-do-modulo-de-ordem-de-producao.pdf"
+            },
+            {
+              "title": "Manual dos relatórios de relação da produção",
+              "path": "assets/manuais/menu-manutencao/producao/manual-dos-relatorios-de-relacao-da-producao.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Vendas",
+          "files": [
+            {
+              "title": "Consulta e manutenção de vendas",
+              "path": "assets/manuais/menu-manutencao/vendas/consulta-e-manutencao-de-vendas.pdf"
+            },
+            {
+              "title": "Manual completo das funções existentes no módulo de vendas",
+              "path": "assets/manuais/menu-manutencao/vendas/manual-completo-das-funcoes-existentes-no-modulo-de-vendas.pdf"
+            },
+            {
+              "title": "Manual da consulta de entrega futura",
+              "path": "assets/manuais/menu-manutencao/vendas/manual-da-consulta-de-entrega-futura.pdf"
+            },
+            {
+              "title": "Manual da consulta de itens reservados",
+              "path": "assets/manuais/menu-manutencao/vendas/manual-da-consulta-de-itens-reservados.pdf"
+            },
+            {
+              "title": "Manual da definição de metas para vendas",
+              "path": "assets/manuais/menu-manutencao/vendas/manual-da-definicao-de-metas-para-vendas.pdf"
+            },
+            {
+              "title": "Manual da separação de volumes",
+              "path": "assets/manuais/menu-manutencao/vendas/manual-da-separacao-de-volumes.pdf"
+            },
+            {
+              "title": "Manual da separação e consulta de itens separados",
+              "path": "assets/manuais/menu-manutencao/vendas/manual-da-separacao-e-consulta-de-itens-separados.pdf"
+            },
+            {
+              "title": "Manual de como processar vendas em sequência de lote",
+              "path": "assets/manuais/menu-manutencao/vendas/manual-de-como-processar-vendas-em-sequencia-de-lote.pdf"
+            },
+            {
+              "title": "Manual de como realizar vendas à vista e à prazo",
+              "path": "assets/manuais/menu-manutencao/vendas/manual-de-como-realizar-vendas-a-vista-e-a-prazo.pdf"
+            },
+            {
+              "title": "Manual de como transformar orçamento em venda diretamente pela venda",
+              "path": "assets/manuais/menu-manutencao/vendas/manual-de-como-transformar-orcamento-em-venda-diretamente-pela-venda.pdf"
+            },
+            {
+              "title": "Manual de como transformar orçamentos em vendas",
+              "path": "assets/manuais/menu-manutencao/vendas/manual-de-como-transformar-orcamentos-em-vendas.pdf"
+            },
+            {
+              "title": "Manual de inclusão de custos dos pedidos de venda",
+              "path": "assets/manuais/menu-manutencao/vendas/manual-de-inclusao-de-custos-dos-pedidos-de-venda.pdf"
+            },
+            {
+              "title": "Manual de remessa de venda fora",
+              "path": "assets/manuais/menu-manutencao/vendas/manual-de-remessa-de-venda-fora.pdf"
+            },
+            {
+              "title": "Manual de retorno de remessa de venda fora",
+              "path": "assets/manuais/menu-manutencao/vendas/manual-de-retorno-de-remessa-de-venda-fora.pdf"
+            },
+            {
+              "title": "Manual de saldo complementar de remessa de venda fora",
+              "path": "assets/manuais/menu-manutencao/vendas/manual-de-saldo-complementar-de-remessa-de-venda-fora.pdf"
+            },
+            {
+              "title": "Manual do Importar XML de Vendas",
+              "path": "assets/manuais/menu-manutencao/vendas/manual-do-importar-xml-de-vendas.pdf"
+            },
+            {
+              "title": "Manual do Saldo a Complementar - Entrega Futura",
+              "path": "assets/manuais/menu-manutencao/vendas/manual-do-saldo-a-complementar-entrega-futura.pdf"
+            },
+            {
+              "title": "Manual do calendário de entrega",
+              "path": "assets/manuais/menu-manutencao/vendas/manual-do-calendario-de-entrega.pdf"
+            },
+            {
+              "title": "Manual do módulo de Ordem de Serviço",
+              "path": "assets/manuais/menu-manutencao/vendas/manual-do-modulo-de-ordem-de-servico.pdf"
+            },
+            {
+              "title": "Manual do módulo de devolução de venda",
+              "path": "assets/manuais/menu-manutencao/vendas/manual-do-modulo-de-devolucao-de-venda.pdf"
+            },
+            {
+              "title": "Manual do módulo de nota fiscal avulsa",
+              "path": "assets/manuais/menu-manutencao/vendas/manual-do-modulo-de-nota-fiscal-avulsa.pdf"
+            },
+            {
+              "title": "Manual do módulo de orçamentos",
+              "path": "assets/manuais/menu-manutencao/vendas/manual-do-modulo-de-orcamentos.pdf"
+            },
+            {
+              "title": "Manual do módulo de pré-vendas",
+              "path": "assets/manuais/menu-manutencao/vendas/manual-do-modulo-de-pre-vendas.pdf"
+            },
+            {
+              "title": "Manual do pedido de entrega futura",
+              "path": "assets/manuais/menu-manutencao/vendas/manual-do-pedido-de-entrega-futura.pdf"
+            },
+            {
+              "title": "Manual do romaneio de entrega",
+              "path": "assets/manuais/menu-manutencao/vendas/manual-do-romaneio-de-entrega.pdf"
+            }
+          ]
+        }
+      ],
+      "count": 100
+    },
+    {
+      "name": "Menu Relatórios",
+      "slug": "menu-relatorios",
+      "groups": [
+        {
+          "name": null,
+          "files": [
+            {
+              "title": "Sistema Control_ Personalizados",
+              "path": "assets/manuais/menu-relatorios/sistema-control-personalizados.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Caixa",
+          "files": [
+            {
+              "title": "Manual Completo de Balancete Geral",
+              "path": "assets/manuais/menu-relatorios/caixa/manual-completo-de-balancete-geral.pdf"
+            },
+            {
+              "title": "Manual completo de Balancete por Competência",
+              "path": "assets/manuais/menu-relatorios/caixa/manual-completo-de-balancete-por-competencia.pdf"
+            },
+            {
+              "title": "Recibo Avulso",
+              "path": "assets/manuais/menu-relatorios/caixa/recibo-avulso.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Clientes e Fornecedores",
+          "files": [
+            {
+              "title": "Alvarás de Clientes",
+              "path": "assets/manuais/menu-relatorios/clientes-e-fornecedores/alvaras-de-clientes.pdf"
+            },
+            {
+              "title": "Alvarás de fornecedores",
+              "path": "assets/manuais/menu-relatorios/clientes-e-fornecedores/alvaras-de-fornecedores.pdf"
+            },
+            {
+              "title": "Cartão de clientes",
+              "path": "assets/manuais/menu-relatorios/clientes-e-fornecedores/cartao-de-clientes.pdf"
+            },
+            {
+              "title": "Clientes que nunca movimentaram",
+              "path": "assets/manuais/menu-relatorios/clientes-e-fornecedores/clientes-que-nunca-movimentaram.pdf"
+            },
+            {
+              "title": "Clientes sem região",
+              "path": "assets/manuais/menu-relatorios/clientes-e-fornecedores/clientes-sem-regiao.pdf"
+            },
+            {
+              "title": "Dias sem movimentação por período",
+              "path": "assets/manuais/menu-relatorios/clientes-e-fornecedores/dias-sem-movimentacao-por-periodo.pdf"
+            },
+            {
+              "title": "Manual do Relatório de fornecedores",
+              "path": "assets/manuais/menu-relatorios/clientes-e-fornecedores/manual-do-relatorio-de-fornecedores.pdf"
+            },
+            {
+              "title": "Vigência dos contratos",
+              "path": "assets/manuais/menu-relatorios/clientes-e-fornecedores/vigencia-dos-contratos.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Comissão",
+          "files": [
+            {
+              "title": "Comissão de parcelas recebidas de vendas e faturas (Gráfico)",
+              "path": "assets/manuais/menu-relatorios/comissao/comissao-de-parcelas-recebidas-de-vendas-e-faturas-grafico.pdf"
+            },
+            {
+              "title": "Comissão por item Fracionado",
+              "path": "assets/manuais/menu-relatorios/comissao/comissao-por-item-fracionado.pdf"
+            },
+            {
+              "title": "Comissões a Vista e a Prazo - Impostos Simples",
+              "path": "assets/manuais/menu-relatorios/comissao/comissoes-a-vista-e-a-prazo-impostos-simples.pdf"
+            },
+            {
+              "title": "Comissões a Vista e a Prazo por Venda",
+              "path": "assets/manuais/menu-relatorios/comissao/comissoes-a-vista-e-a-prazo-por-venda.pdf"
+            },
+            {
+              "title": "Comissões a Vista e a Prazo por item",
+              "path": "assets/manuais/menu-relatorios/comissao/comissoes-a-vista-e-a-prazo-por-item.pdf"
+            },
+            {
+              "title": "Comissões por Nota Agrupado por Vendedor",
+              "path": "assets/manuais/menu-relatorios/comissao/comissoes-por-nota-agrupado-por-vendedor.pdf"
+            },
+            {
+              "title": "Comissões por Produto",
+              "path": "assets/manuais/menu-relatorios/comissao/comissoes-por-produto.pdf"
+            },
+            {
+              "title": "Comissões por parcelas recebidas (Texto)",
+              "path": "assets/manuais/menu-relatorios/comissao/comissoes-por-parcelas-recebidas-texto.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Compras",
+          "files": [
+            {
+              "title": "Compras Tributadas",
+              "path": "assets/manuais/menu-relatorios/compras/compras-tributadas.pdf"
+            },
+            {
+              "title": "Compras com Estoque e Vendas",
+              "path": "assets/manuais/menu-relatorios/compras/compras-com-estoque-e-vendas.pdf"
+            },
+            {
+              "title": "Compras por Fornecedor e Item com IPI_Frete",
+              "path": "assets/manuais/menu-relatorios/compras/compras-por-fornecedor-e-item-com-ipi-frete.pdf"
+            },
+            {
+              "title": "Consulta de Itens Comprados",
+              "path": "assets/manuais/menu-relatorios/compras/consulta-de-itens-comprados.pdf"
+            },
+            {
+              "title": "Relatório de Compra",
+              "path": "assets/manuais/menu-relatorios/compras/relatorio-de-compra.pdf"
+            },
+            {
+              "title": "Sistema Control_ Remessa para conserto",
+              "path": "assets/manuais/menu-relatorios/compras/sistema-control-remessa-para-conserto.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Contas a Pagar",
+          "files": [
+            {
+              "title": "Clientes com Crédito",
+              "path": "assets/manuais/menu-relatorios/contas-a-pagar/clientes-com-credito.pdf"
+            },
+            {
+              "title": "Contas à pagar com detalhes",
+              "path": "assets/manuais/menu-relatorios/contas-a-pagar/contas-a-pagar-com-detalhes.pdf"
+            },
+            {
+              "title": "Contas à pagar geral",
+              "path": "assets/manuais/menu-relatorios/contas-a-pagar/contas-a-pagar-geral.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Contas à Receber",
+          "files": [
+            {
+              "title": "Analíticos_ Com ficha de cadastro",
+              "path": "assets/manuais/menu-relatorios/contas-a-receber/analiticos-com-ficha-de-cadastro.pdf"
+            },
+            {
+              "title": "Analíticos_ Com juros, multa e desconto",
+              "path": "assets/manuais/menu-relatorios/contas-a-receber/analiticos-com-juros-multa-e-desconto.pdf"
+            },
+            {
+              "title": "Analíticos_ De cobrança com recibo",
+              "path": "assets/manuais/menu-relatorios/contas-a-receber/analiticos-de-cobranca-com-recibo.pdf"
+            },
+            {
+              "title": "Analíticos_ De cobrança",
+              "path": "assets/manuais/menu-relatorios/contas-a-receber/analiticos-de-cobranca.pdf"
+            },
+            {
+              "title": "Destino de parcelas quitadas",
+              "path": "assets/manuais/menu-relatorios/contas-a-receber/destino-de-parcelas-quitadas.pdf"
+            },
+            {
+              "title": "Diário Auxiliar por período",
+              "path": "assets/manuais/menu-relatorios/contas-a-receber/diario-auxiliar-por-periodo.pdf"
+            },
+            {
+              "title": "Manual de relatório analítico_ Controle de cobrança",
+              "path": "assets/manuais/menu-relatorios/contas-a-receber/manual-de-relatorio-analitico-controle-de-cobranca.pdf"
+            },
+            {
+              "title": "Parcelas a receber por intervalos",
+              "path": "assets/manuais/menu-relatorios/contas-a-receber/parcelas-a-receber-por-intervalos.pdf"
+            },
+            {
+              "title": "Parcelas pendentes por clientes com itens",
+              "path": "assets/manuais/menu-relatorios/contas-a-receber/parcelas-pendentes-por-clientes-com-itens.pdf"
+            },
+            {
+              "title": "Parcelas pendentes por data da venda",
+              "path": "assets/manuais/menu-relatorios/contas-a-receber/parcelas-pendentes-por-data-da-venda.pdf"
+            },
+            {
+              "title": "Parcelas recebidas por espécie detalhado por cliente",
+              "path": "assets/manuais/menu-relatorios/contas-a-receber/parcelas-recebidas-por-especie-detalhado-por-cliente.pdf"
+            },
+            {
+              "title": "Previsões e agendamentos_ Agenda Recebimento",
+              "path": "assets/manuais/menu-relatorios/contas-a-receber/previsoes-e-agendamentos-agenda-recebimento.pdf"
+            },
+            {
+              "title": "Previsões e agendamentos_ Previsão Recebimento",
+              "path": "assets/manuais/menu-relatorios/contas-a-receber/previsoes-e-agendamentos-previsao-recebimento.pdf"
+            },
+            {
+              "title": "Ranking de recebimento por cliente",
+              "path": "assets/manuais/menu-relatorios/contas-a-receber/ranking-de-recebimento-por-cliente.pdf"
+            },
+            {
+              "title": "Recebimento por período",
+              "path": "assets/manuais/menu-relatorios/contas-a-receber/recebimento-por-periodo.pdf"
+            },
+            {
+              "title": "Sintéticos_ Parcelas Vencidas e a vencer com data de referência",
+              "path": "assets/manuais/menu-relatorios/contas-a-receber/sinteticos-parcelas-vencidas-e-a-vencer-com-data-de-referencia.pdf"
+            },
+            {
+              "title": "Totais receber e recebimento por portador",
+              "path": "assets/manuais/menu-relatorios/contas-a-receber/totais-receber-e-recebimento-por-portador.pdf"
+            },
+            {
+              "title": "Totais recebidos por espécies",
+              "path": "assets/manuais/menu-relatorios/contas-a-receber/totais-recebidos-por-especies.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Etiquetas",
+          "files": [
+            {
+              "title": "Etiqueta de Produtos Selecionados.._",
+              "path": "assets/manuais/menu-relatorios/etiquetas/etiqueta-de-produtos-selecionados.pdf"
+            },
+            {
+              "title": "Etiquetas Clientes_Fornecedores",
+              "path": "assets/manuais/menu-relatorios/etiquetas/etiquetas-clientes-fornecedores.pdf"
+            },
+            {
+              "title": "Etiquetas para Cerâmica",
+              "path": "assets/manuais/menu-relatorios/etiquetas/etiquetas-para-ceramica.pdf"
+            },
+            {
+              "title": "Manual completo sobre Mascara de Preços",
+              "path": "assets/manuais/menu-relatorios/etiquetas/manual-completo-sobre-mascara-de-precos.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Gerenciais",
+          "files": [
+            {
+              "title": "Analise Financeira",
+              "path": "assets/manuais/menu-relatorios/gerenciais/analise-financeira.pdf"
+            },
+            {
+              "title": "Configuração D.R.E_",
+              "path": "assets/manuais/menu-relatorios/gerenciais/configuracao-d-r-e.pdf"
+            },
+            {
+              "title": "Fluxo de caixa",
+              "path": "assets/manuais/menu-relatorios/gerenciais/fluxo-de-caixa.pdf"
+            },
+            {
+              "title": "Impressão D.R.E_",
+              "path": "assets/manuais/menu-relatorios/gerenciais/impressao-d-r-e.pdf"
+            },
+            {
+              "title": "Ranking de clientes por preço médio",
+              "path": "assets/manuais/menu-relatorios/gerenciais/ranking-de-clientes-por-preco-medio.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Notas",
+          "files": [
+            {
+              "title": "Cálculo de ICMS",
+              "path": "assets/manuais/menu-relatorios/notas/calculo-de-icms.pdf"
+            },
+            {
+              "title": "Manual Completo de ICMS Antecipação",
+              "path": "assets/manuais/menu-relatorios/notas/manual-completo-de-icms-antecipacao.pdf"
+            },
+            {
+              "title": "Notas Emitidas",
+              "path": "assets/manuais/menu-relatorios/notas/notas-emitidas.pdf"
+            },
+            {
+              "title": "Notas com Totais",
+              "path": "assets/manuais/menu-relatorios/notas/notas-com-totais.pdf"
+            },
+            {
+              "title": "Recuperação de Imposto",
+              "path": "assets/manuais/menu-relatorios/notas/recuperacao-de-imposto.pdf"
+            },
+            {
+              "title": "Total por CFOP",
+              "path": "assets/manuais/menu-relatorios/notas/total-por-cfop.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Orçamentos",
+          "files": [
+            {
+              "title": "Lista de Itens nos Orçamentos",
+              "path": "assets/manuais/menu-relatorios/orcamentos/lista-de-itens-nos-orcamentos.pdf"
+            },
+            {
+              "title": "Lista de Orçamentos Abertos com Itens",
+              "path": "assets/manuais/menu-relatorios/orcamentos/lista-de-orcamentos-abertos-com-itens.pdf"
+            },
+            {
+              "title": "Lista de Orçamentos Confirmados",
+              "path": "assets/manuais/menu-relatorios/orcamentos/lista-de-orcamentos-confirmados.pdf"
+            },
+            {
+              "title": "Lista de Orçamentos",
+              "path": "assets/manuais/menu-relatorios/orcamentos/lista-de-orcamentos.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Produtos",
+          "files": [
+            {
+              "title": "Conferência de estoque zerado",
+              "path": "assets/manuais/menu-relatorios/produtos/conferencia-de-estoque-zerado.pdf"
+            },
+            {
+              "title": "Controle de validade",
+              "path": "assets/manuais/menu-relatorios/produtos/controle-de-validade.pdf"
+            },
+            {
+              "title": "Estoque Remessa para Venda Fora",
+              "path": "assets/manuais/menu-relatorios/produtos/estoque-remessa-para-venda-fora.pdf"
+            },
+            {
+              "title": "Inventário",
+              "path": "assets/manuais/menu-relatorios/produtos/inventario.pdf"
+            },
+            {
+              "title": "Lista de Preço modelo Gráfico",
+              "path": "assets/manuais/menu-relatorios/produtos/lista-de-preco-modelo-grafico.pdf"
+            },
+            {
+              "title": "Lista de Produtos",
+              "path": "assets/manuais/menu-relatorios/produtos/lista-de-produtos.pdf"
+            },
+            {
+              "title": "Lotes vencidos e a vencer",
+              "path": "assets/manuais/menu-relatorios/produtos/lotes-vencidos-e-a-vencer.pdf"
+            },
+            {
+              "title": "Preços Alterados",
+              "path": "assets/manuais/menu-relatorios/produtos/precos-alterados.pdf"
+            },
+            {
+              "title": "Produtos cadastrados por Importação de XML",
+              "path": "assets/manuais/menu-relatorios/produtos/produtos-cadastrados-por-importacao-de-xml.pdf"
+            },
+            {
+              "title": "Produtos com Aplicação",
+              "path": "assets/manuais/menu-relatorios/produtos/produtos-com-aplicacao.pdf"
+            },
+            {
+              "title": "Produtos com Giro modelo Gráfico",
+              "path": "assets/manuais/menu-relatorios/produtos/produtos-com-giro-modelo-grafico.pdf"
+            },
+            {
+              "title": "Produtos com código de barras repetido",
+              "path": "assets/manuais/menu-relatorios/produtos/produtos-com-codigo-de-barras-repetido.pdf"
+            },
+            {
+              "title": "Produtos com divergência da quantidade lançada x lote",
+              "path": "assets/manuais/menu-relatorios/produtos/produtos-com-divergencia-da-quantidade-lancada-x-lote.pdf"
+            },
+            {
+              "title": "Produtos e Impostos",
+              "path": "assets/manuais/menu-relatorios/produtos/produtos-e-impostos.pdf"
+            },
+            {
+              "title": "Produtos e Tabelas de Preço",
+              "path": "assets/manuais/menu-relatorios/produtos/produtos-e-tabelas-de-preco.pdf"
+            },
+            {
+              "title": "Produtos por markup",
+              "path": "assets/manuais/menu-relatorios/produtos/produtos-por-markup.pdf"
+            },
+            {
+              "title": "Rastreio de Lotes",
+              "path": "assets/manuais/menu-relatorios/produtos/rastreio-de-lotes.pdf"
+            },
+            {
+              "title": "Razão de Produtos",
+              "path": "assets/manuais/menu-relatorios/produtos/razao-de-produtos.pdf"
+            },
+            {
+              "title": "Relatório de Patrimônio",
+              "path": "assets/manuais/menu-relatorios/produtos/relatorio-de-patrimonio.pdf"
+            },
+            {
+              "title": "Sistema Control_ Conferência de Estoque modelo Gráfico",
+              "path": "assets/manuais/menu-relatorios/produtos/sistema-control-conferencia-de-estoque-modelo-grafico.pdf"
+            },
+            {
+              "title": "Termo de abertura",
+              "path": "assets/manuais/menu-relatorios/produtos/termo-de-abertura.pdf"
+            },
+            {
+              "title": "Termo de encerramento",
+              "path": "assets/manuais/menu-relatorios/produtos/termo-de-encerramento.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Vendas",
+          "files": [
+            {
+              "title": "Consulta de itens vendidos",
+              "path": "assets/manuais/menu-relatorios/vendas/consulta-de-itens-vendidos.pdf"
+            },
+            {
+              "title": "Consulta vendas abertas",
+              "path": "assets/manuais/menu-relatorios/vendas/consulta-vendas-abertas.pdf"
+            },
+            {
+              "title": "Faturamento Diário",
+              "path": "assets/manuais/menu-relatorios/vendas/faturamento-diario.pdf"
+            },
+            {
+              "title": "Faturamento por dia",
+              "path": "assets/manuais/menu-relatorios/vendas/faturamento-por-dia.pdf"
+            },
+            {
+              "title": "Itens excluídos",
+              "path": "assets/manuais/menu-relatorios/vendas/itens-excluidos.pdf"
+            },
+            {
+              "title": "Itens vendidos_abertos",
+              "path": "assets/manuais/menu-relatorios/vendas/itens-vendidos-abertos.pdf"
+            },
+            {
+              "title": "Manual do relatório Curva ABC",
+              "path": "assets/manuais/menu-relatorios/vendas/manual-do-relatorio-curva-abc.pdf"
+            },
+            {
+              "title": "Manual sobre o relatório de vendas tributadas",
+              "path": "assets/manuais/menu-relatorios/vendas/manual-sobre-o-relatorio-de-vendas-tributadas.pdf"
+            },
+            {
+              "title": "Mapa de Vendas",
+              "path": "assets/manuais/menu-relatorios/vendas/mapa-de-vendas.pdf"
+            },
+            {
+              "title": "Número de Vendas por Cliente",
+              "path": "assets/manuais/menu-relatorios/vendas/numero-de-vendas-por-cliente.pdf"
+            },
+            {
+              "title": "Pedidos efetuados",
+              "path": "assets/manuais/menu-relatorios/vendas/pedidos-efetuados.pdf"
+            },
+            {
+              "title": "Pedidos por transportador",
+              "path": "assets/manuais/menu-relatorios/vendas/pedidos-por-transportador.pdf"
+            },
+            {
+              "title": "Pedidos rejeitados",
+              "path": "assets/manuais/menu-relatorios/vendas/pedidos-rejeitados.pdf"
+            },
+            {
+              "title": "Preço médio vendido - grupo",
+              "path": "assets/manuais/menu-relatorios/vendas/preco-medio-vendido-grupo.pdf"
+            },
+            {
+              "title": "Preço médio vendido - produto",
+              "path": "assets/manuais/menu-relatorios/vendas/preco-medio-vendido-produto.pdf"
+            },
+            {
+              "title": "Relatório de Devoluções",
+              "path": "assets/manuais/menu-relatorios/vendas/relatorio-de-devolucoes.pdf"
+            },
+            {
+              "title": "Relatório de Entregas Futuras",
+              "path": "assets/manuais/menu-relatorios/vendas/relatorio-de-entregas-futuras.pdf"
+            },
+            {
+              "title": "Ticket Médio de Venda",
+              "path": "assets/manuais/menu-relatorios/vendas/ticket-medio-de-venda.pdf"
+            },
+            {
+              "title": "Totais de Vendas",
+              "path": "assets/manuais/menu-relatorios/vendas/totais-de-vendas.pdf"
+            },
+            {
+              "title": "Totais de vendas por cidade",
+              "path": "assets/manuais/menu-relatorios/vendas/totais-de-vendas-por-cidade.pdf"
+            },
+            {
+              "title": "Totais por procedimentos",
+              "path": "assets/manuais/menu-relatorios/vendas/totais-por-procedimentos.pdf"
+            },
+            {
+              "title": "Vendas por grupos de clientes",
+              "path": "assets/manuais/menu-relatorios/vendas/vendas-por-grupos-de-clientes.pdf"
+            },
+            {
+              "title": "Vendas por pedidos",
+              "path": "assets/manuais/menu-relatorios/vendas/vendas-por-pedidos.pdf"
+            },
+            {
+              "title": "Vendas por vendedor",
+              "path": "assets/manuais/menu-relatorios/vendas/vendas-por-vendedor.pdf"
+            }
+          ]
+        }
+      ],
+      "count": 112
+    },
+    {
+      "name": "Menu Utilitários",
+      "slug": "menu-utilitarios",
+      "groups": [
+        {
+          "name": "Complementares",
+          "files": [
+            {
+              "title": "Manual da configuração de envio de documento compactado",
+              "path": "assets/manuais/menu-utilitarios/complementares/manual-da-configuracao-de-envio-de-documento-compactado.pdf"
+            },
+            {
+              "title": "Manual de como reaproveitar_ajustar número de nota",
+              "path": "assets/manuais/menu-utilitarios/complementares/manual-de-como-reaproveitar-ajustar-numero-de-nota.pdf"
+            },
+            {
+              "title": "Manual de configuração da logomarca da empresa dentro do sistema",
+              "path": "assets/manuais/menu-utilitarios/complementares/manual-de-configuracao-da-logomarca-da-empresa-dentro-do-sistema.pdf"
+            },
+            {
+              "title": "Sistema Control_ Manual de configurações técnicas de NF-e",
+              "path": "assets/manuais/menu-utilitarios/complementares/sistema-control-manual-de-configuracoes-tecnicas-de-nf-e.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Configurações",
+          "files": [
+            {
+              "title": "Manual completo das configurações do sistema",
+              "path": "assets/manuais/menu-utilitarios/configuracoes/manual-completo-das-configuracoes-do-sistema.pdf"
+            },
+            {
+              "title": "Manual completo do Gerenciador de serviços Arpa",
+              "path": "assets/manuais/menu-utilitarios/configuracoes/manual-completo-do-gerenciador-de-servicos-arpa.pdf"
+            },
+            {
+              "title": "Manual de como atualizar endereços Webservices",
+              "path": "assets/manuais/menu-utilitarios/configuracoes/manual-de-como-atualizar-enderecos-webservices.pdf"
+            },
+            {
+              "title": "Manual de como atualizar schemas_DLL NFe_NFCe_NFSe_MDFe_Coletor XML_Boletos",
+              "path": "assets/manuais/menu-utilitarios/configuracoes/manual-de-como-atualizar-schemas-dll-nfe-nfce-nfse-mdfe-coletor-xml-boletos.pdf"
+            },
+            {
+              "title": "Manual de como gerar o arquivo busca preço GERTEC",
+              "path": "assets/manuais/menu-utilitarios/configuracoes/manual-de-como-gerar-o-arquivo-busca-preco-gertec.pdf"
+            },
+            {
+              "title": "Manual do gênero do item",
+              "path": "assets/manuais/menu-utilitarios/configuracoes/manual-do-genero-do-item.pdf"
+            },
+            {
+              "title": "Manual do módulo agenda",
+              "path": "assets/manuais/menu-utilitarios/configuracoes/manual-do-modulo-agenda.pdf"
+            },
+            {
+              "title": "Manual do módulo de Configurar integração com Whatsapp",
+              "path": "assets/manuais/menu-utilitarios/configuracoes/manual-do-modulo-de-configurar-integracao-com-whatsapp.pdf"
+            },
+            {
+              "title": "Manual do módulo de favoritos",
+              "path": "assets/manuais/menu-utilitarios/configuracoes/manual-do-modulo-de-favoritos.pdf"
+            },
+            {
+              "title": "Manual do módulo exporta balança",
+              "path": "assets/manuais/menu-utilitarios/configuracoes/manual-do-modulo-exporta-balanca.pdf"
+            },
+            {
+              "title": "Manual do processo completo do cartão ponto",
+              "path": "assets/manuais/menu-utilitarios/configuracoes/manual-do-processo-completo-do-cartao-ponto.pdf"
+            },
+            {
+              "title": "Manual referente aos endereços NF-e",
+              "path": "assets/manuais/menu-utilitarios/configuracoes/manual-referente-aos-enderecos-nf-e.pdf"
+            },
+            {
+              "title": "Manual referente aos endereços NFC-e",
+              "path": "assets/manuais/menu-utilitarios/configuracoes/manual-referente-aos-enderecos-nfc-e.pdf"
+            },
+            {
+              "title": "Manual referente aos endereços NFS-e",
+              "path": "assets/manuais/menu-utilitarios/configuracoes/manual-referente-aos-enderecos-nfs-e.pdf"
+            },
+            {
+              "title": "Sistema Control_ Manual de como atualizar tabela de carga tributária",
+              "path": "assets/manuais/menu-utilitarios/configuracoes/sistema-control-manual-de-como-atualizar-tabela-de-carga-tributaria.pdf"
+            },
+            {
+              "title": "Sistema Control_ Manual de como proceder com as imagens do cadastro do produto",
+              "path": "assets/manuais/menu-utilitarios/configuracoes/sistema-control-manual-de-como-proceder-com-as-imagens-do-cadastro-do-produto.pdf"
+            },
+            {
+              "title": "Sistema Control_ Manual de como trocar o usuário logado",
+              "path": "assets/manuais/menu-utilitarios/configuracoes/sistema-control-manual-de-como-trocar-o-usuario-logado.pdf"
+            },
+            {
+              "title": "Sistema Control_ Manual dos campos de mala direta (contratos)",
+              "path": "assets/manuais/menu-utilitarios/configuracoes/sistema-control-manual-dos-campos-de-mala-direta-contratos.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Segurança",
+          "files": [
+            {
+              "title": "Manual Completo dos níveis de acesso individual por usuário",
+              "path": "assets/manuais/menu-utilitarios/seguranca/manual-completo-dos-niveis-de-acesso-individual-por-usuario.pdf"
+            },
+            {
+              "title": "Manual completo de definições de horários para acesso ao Sistema",
+              "path": "assets/manuais/menu-utilitarios/seguranca/manual-completo-de-definicoes-de-horarios-para-acesso-ao-sistema.pdf"
+            },
+            {
+              "title": "Manual dos níveis de acesso padrão (permissão padrão de usuários)",
+              "path": "assets/manuais/menu-utilitarios/seguranca/manual-dos-niveis-de-acesso-padrao-permissao-padrao-de-usuarios.pdf"
+            }
+          ]
+        }
+      ],
+      "count": 25
+    },
+    {
+      "name": "Módulos Adicionais",
+      "slug": "modulos-adicionais",
+      "groups": [
+        {
+          "name": "Agendamento de Backups",
+          "files": [
+            {
+              "title": "Manual do agendamento de backups",
+              "path": "assets/manuais/modulos-adicionais/agendamento-de-backups/manual-do-agendamento-de-backups.pdf"
+            },
+            {
+              "title": "Manual do aplicativo de backup em nuvem",
+              "path": "assets/manuais/modulos-adicionais/agendamento-de-backups/manual-do-aplicativo-de-backup-em-nuvem.pdf"
+            },
+            {
+              "title": "Manual para iniciar o uso do backup automático",
+              "path": "assets/manuais/modulos-adicionais/agendamento-de-backups/manual-para-iniciar-o-uso-do-backup-automatico.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Arpag",
+          "files": [
+            {
+              "title": "Manual de configuração_utilização do aplicativo Arpag - Cielo",
+              "path": "assets/manuais/modulos-adicionais/arpag/manual-de-configuracao-utilizacao-do-aplicativo-arpag-cielo.pdf"
+            },
+            {
+              "title": "Manual de configuração_utilização do aplicativo Arpag - Fiserv",
+              "path": "assets/manuais/modulos-adicionais/arpag/manual-de-configuracao-utilizacao-do-aplicativo-arpag-fiserv.pdf"
+            },
+            {
+              "title": "Manual de configuração_utilização do aplicativo Arpag - PagSeguro",
+              "path": "assets/manuais/modulos-adicionais/arpag/manual-de-configuracao-utilizacao-do-aplicativo-arpag-pagseguro.pdf"
+            },
+            {
+              "title": "Manual de configuração_utilização do aplicativo Arpag - Rede",
+              "path": "assets/manuais/modulos-adicionais/arpag/manual-de-configuracao-utilizacao-do-aplicativo-arpag-rede.pdf"
+            },
+            {
+              "title": "Manual de configuração_utilização do aplicativo Arpag - Stone",
+              "path": "assets/manuais/modulos-adicionais/arpag/manual-de-configuracao-utilizacao-do-aplicativo-arpag-stone.pdf"
+            },
+            {
+              "title": "Manual de configuração_utilização do aplicativo Arpag - Vero",
+              "path": "assets/manuais/modulos-adicionais/arpag/manual-de-configuracao-utilizacao-do-aplicativo-arpag-vero.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Catálogo Digital",
+          "files": [
+            {
+              "title": "Manual do catálogo digital",
+              "path": "assets/manuais/modulos-adicionais/catalogo-digital/manual-do-catalogo-digital.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Dashboards",
+          "files": [
+            {
+              "title": "Manual do sistema Dashboard",
+              "path": "assets/manuais/modulos-adicionais/dashboards/manual-do-sistema-dashboard.pdf"
+            }
+          ]
+        },
+        {
+          "name": "GOC - Gerenciador de Operações de Cartão",
+          "files": [
+            {
+              "title": "Manual completo sobre o GOC",
+              "path": "assets/manuais/modulos-adicionais/goc-gerenciador-de-operacoes-de-cartao/manual-completo-sobre-o-goc.pdf"
+            },
+            {
+              "title": "Manual sobre o controle de pontos do GOC",
+              "path": "assets/manuais/modulos-adicionais/goc-gerenciador-de-operacoes-de-cartao/manual-sobre-o-controle-de-pontos-do-goc.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Gerenciador de Integrações",
+          "files": [
+            {
+              "title": "Configurações gerenciador de integrações - Novas Funções versão 24",
+              "path": "assets/manuais/modulos-adicionais/gerenciador-de-integracoes/configuracoes-gerenciador-de-integracoes-novas-funcoes-versao-24.pdf"
+            },
+            {
+              "title": "Configurações gerenciador de integrações - Versão 2025",
+              "path": "assets/manuais/modulos-adicionais/gerenciador-de-integracoes/configuracoes-gerenciador-de-integracoes-versao-2025.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Integração Contabil",
+          "files": [
+            {
+              "title": "Detalhes do layout",
+              "path": "assets/manuais/modulos-adicionais/integracao-contabil/detalhes-do-layout.pdf"
+            },
+            {
+              "title": "Manual de configuração e geração de integrações externas",
+              "path": "assets/manuais/modulos-adicionais/integracao-contabil/manual-de-configuracao-e-geracao-de-integracoes-externas.pdf"
+            },
+            {
+              "title": "Manual de primeiro acesso ao Sistema de Integração contábil - Layout",
+              "path": "assets/manuais/modulos-adicionais/integracao-contabil/manual-de-primeiro-acesso-ao-sistema-de-integracao-contabil-layout.pdf"
+            },
+            {
+              "title": "Sistema de layout",
+              "path": "assets/manuais/modulos-adicionais/integracao-contabil/sistema-de-layout.pdf"
+            }
+          ]
+        },
+        {
+          "name": "MDF-e",
+          "files": [
+            {
+              "title": "Manual completo do MDF-e",
+              "path": "assets/manuais/modulos-adicionais/mdf-e/manual-completo-do-mdf-e.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Pratto Control",
+          "files": [
+            {
+              "title": "Cadastros — Manual de geração do QR-Code",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/cadastros/manual-de-geracao-do-qr-code.pdf"
+            },
+            {
+              "title": "Cadastros — Manual do cadastro de clientes",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/cadastros/manual-do-cadastro-de-clientes.pdf"
+            },
+            {
+              "title": "Cadastros — Manual do cadastro de comandas",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/cadastros/manual-do-cadastro-de-comandas.pdf"
+            },
+            {
+              "title": "Cadastros — Manual do cadastro de departamentos",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/cadastros/manual-do-cadastro-de-departamentos.pdf"
+            },
+            {
+              "title": "Cadastros — Manual do cadastro de entregador",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/cadastros/manual-do-cadastro-de-entregador.pdf"
+            },
+            {
+              "title": "Cadastros — Manual do cadastro de faixa de entrega",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/cadastros/manual-do-cadastro-de-faixa-de-entrega.pdf"
+            },
+            {
+              "title": "Cadastros — Manual do cadastro de famílias",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/cadastros/manual-do-cadastro-de-familias.pdf"
+            },
+            {
+              "title": "Cadastros — Manual do cadastro de mesas",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/cadastros/manual-do-cadastro-de-mesas.pdf"
+            },
+            {
+              "title": "Cadastros — Manual do cadastro de produto adicionais",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/cadastros/manual-do-cadastro-de-produto-adicionais.pdf"
+            },
+            {
+              "title": "Cadastros — Manual do cadastro de produtos",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/cadastros/manual-do-cadastro-de-produtos.pdf"
+            },
+            {
+              "title": "Cadastros — Manual do cadastro de setores",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/cadastros/manual-do-cadastro-de-setores.pdf"
+            },
+            {
+              "title": "Cadastros — Manual do cadastro de tamanhos",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/cadastros/manual-do-cadastro-de-tamanhos.pdf"
+            },
+            {
+              "title": "Cadastros — Manual do cadastro do painel de senha",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/cadastros/manual-do-cadastro-do-painel-de-senha.pdf"
+            },
+            {
+              "title": "Cadastros — Manual do cardápio digital",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/cadastros/manual-do-cardapio-digital.pdf"
+            },
+            {
+              "title": "Cadastros — Módulos adicionais_ Manual do cadastro de comandas inutilizadas",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/cadastros/modulos-adicionais-manual-do-cadastro-de-comandas-inutilizadas.pdf"
+            },
+            {
+              "title": "Cadastros — _ Manual da usabilidade do cardápio digital",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/cadastros/manual-da-usabilidade-do-cardapio-digital.pdf"
+            },
+            {
+              "title": "Complementares — Manual da funcionalidade do F3 no Pratto Control",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/complementares/manual-da-funcionalidade-do-f3-no-pratto-control.pdf"
+            },
+            {
+              "title": "Complementares — Manual das informações referente a tela inicial do aplicativo Pratto Mobile",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/complementares/manual-das-informacoes-referente-a-tela-inicial-do-aplicativo-pratto-mobile.pdf"
+            },
+            {
+              "title": "Complementares — Manual de como utilizar código de barra na comanda",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/complementares/manual-de-como-utilizar-codigo-de-barra-na-comanda.pdf"
+            },
+            {
+              "title": "Complementares — Manual de download e configuração do aplicativo Pratto Mobile a partir da versão de 2022",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/complementares/manual-de-download-e-configuracao-do-aplicativo-pratto-mobile-a-partir-da-versao.pdf"
+            },
+            {
+              "title": "Complementares — Manual de download e configuração do aplicativo Pratto Mobile",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/complementares/manual-de-download-e-configuracao-do-aplicativo-pratto-mobile.pdf"
+            },
+            {
+              "title": "Complementares — Manual de lançamento de produtos divisíveis - Mobile",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/complementares/manual-de-lancamento-de-produtos-divisiveis-mobile.pdf"
+            },
+            {
+              "title": "Complementares — Manual de utilização das comandas - Mobile",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/complementares/manual-de-utilizacao-das-comandas-mobile.pdf"
+            },
+            {
+              "title": "Complementares — Manual de utilização de mesas - Mobile",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/complementares/manual-de-utilizacao-de-mesas-mobile.pdf"
+            },
+            {
+              "title": "Complementares — Manual do cadastro de espécies de pagamento do iFood no Sistema Control",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/complementares/manual-do-cadastro-de-especies-de-pagamento-do-ifood-no-sistema-control.pdf"
+            },
+            {
+              "title": "Complementares — Manual do controle de terminais móveis",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/complementares/manual-do-controle-de-terminais-moveis.pdf"
+            },
+            {
+              "title": "Complementares — Manual dos requisitos para utilização do APP - Licenças e serviços dentro do Sistema Control",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/complementares/manual-dos-requisitos-para-utilizacao-do-app-licencas-e-servicos-dentro-do-siste.pdf"
+            },
+            {
+              "title": "Cozinha — Manual de utilização da Cozinha",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/cozinha/manual-de-utilizacao-da-cozinha.pdf"
+            },
+            {
+              "title": "Instalação — Manual da atualização dos módulos adicionais",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/instalacao/manual-da-atualizacao-dos-modulos-adicionais.pdf"
+            },
+            {
+              "title": "Instalação — Manual das licenças do Sistema Pratto Control",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/instalacao/manual-das-licencas-do-sistema-pratto-control.pdf"
+            },
+            {
+              "title": "Instalação — Manual de instalação de módulos adicionais",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/instalacao/manual-de-instalacao-de-modulos-adicionais.pdf"
+            },
+            {
+              "title": "Instalação — Manual do primeiro login",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/instalacao/manual-do-primeiro-login.pdf"
+            },
+            {
+              "title": "Instalação — Manual dos requisitos de máquina para funcionamento do sistema",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/instalacao/manual-dos-requisitos-de-maquina-para-funcionamento-do-sistema.pdf"
+            },
+            {
+              "title": "Manutenção - Mesa e Delivery — Manual completo de utilização dos processos de delivery e retirada",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/manutencao-mesa-e-delivery/manual-completo-de-utilizacao-dos-processos-de-delivery-e-retirada.pdf"
+            },
+            {
+              "title": "Manutenção - Mesa e Delivery — Manual da reserva de mesas",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/manutencao-mesa-e-delivery/manual-da-reserva-de-mesas.pdf"
+            },
+            {
+              "title": "Manutenção - Mesa e Delivery — Manual da utilização da comanda - com vídeo",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/manutencao-mesa-e-delivery/manual-da-utilizacao-da-comanda-com-video.pdf"
+            },
+            {
+              "title": "Manutenção - Mesa e Delivery — Manual da utilização da mesa - com vídeo",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/manutencao-mesa-e-delivery/manual-da-utilizacao-da-mesa-com-video.pdf"
+            },
+            {
+              "title": "Manutenção - Mesa e Delivery — Manual de como unir mesas e comandas",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/manutencao-mesa-e-delivery/manual-de-como-unir-mesas-e-comandas.pdf"
+            },
+            {
+              "title": "Manutenção - Mesa e Delivery — Manual de lançamento de produtos divisíveis",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/manutencao-mesa-e-delivery/manual-de-lancamento-de-produtos-divisiveis.pdf"
+            },
+            {
+              "title": "Painel de Senha — Manual da opção chamar senha",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/painel-de-senha/manual-da-opcao-chamar-senha.pdf"
+            },
+            {
+              "title": "Painel de Senha — Manual da opção zerar senha",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/painel-de-senha/manual-da-opcao-zerar-senha.pdf"
+            },
+            {
+              "title": "Painel de Senha — Manual das configurações do painel de senha",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/painel-de-senha/manual-das-configuracoes-do-painel-de-senha.pdf"
+            },
+            {
+              "title": "Painel de Senha — Manual de utilização do chamar senha e do monitor de cozinha",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/painel-de-senha/manual-de-utilizacao-do-chamar-senha-e-do-monitor-de-cozinha.pdf"
+            },
+            {
+              "title": "Relatórios — Manual do relatório de pedidos rejeitados no iFood",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/relatorios/manual-do-relatorio-de-pedidos-rejeitados-no-ifood.pdf"
+            },
+            {
+              "title": "Relatórios — Módulos adicionais_ Manual do relatório de entregas por entregador",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/relatorios/modulos-adicionais-manual-do-relatorio-de-entregas-por-entregador.pdf"
+            },
+            {
+              "title": "Relatórios — Módulos adicionais_ Manual do relatório de histórico de atendimentos",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/relatorios/modulos-adicionais-manual-do-relatorio-de-historico-de-atendimentos.pdf"
+            },
+            {
+              "title": "Relatórios — Módulos adicionais_ Manual do relatório de histórico de pagamentos",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/relatorios/modulos-adicionais-manual-do-relatorio-de-historico-de-pagamentos.pdf"
+            },
+            {
+              "title": "Relatórios — Módulos adicionais_ Manual do relatório de pedidos efetuados",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/relatorios/modulos-adicionais-manual-do-relatorio-de-pedidos-efetuados.pdf"
+            },
+            {
+              "title": "Relatórios — Módulos adicionais_ Manual do relatório de resumo de atendimentos",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/relatorios/modulos-adicionais-manual-do-relatorio-de-resumo-de-atendimentos.pdf"
+            },
+            {
+              "title": "Utilitários — Manual das configurações do Sistema Pratto Control",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/utilitarios/manual-das-configuracoes-do-sistema-pratto-control.pdf"
+            },
+            {
+              "title": "Utilitários — Manual de como atualizar dados no iFood",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/utilitarios/manual-de-como-atualizar-dados-no-ifood.pdf"
+            },
+            {
+              "title": "Utilitários — Manual dos níveis de acesso individual por usuário do Sistema Pratto Control",
+              "path": "assets/manuais/modulos-adicionais/pratto-control/utilitarios/manual-dos-niveis-de-acesso-individual-por-usuario-do-sistema-pratto-control.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Pré Venda",
+          "files": [
+            {
+              "title": "Manual Pré Venda Móvel",
+              "path": "assets/manuais/modulos-adicionais/pre-venda/manual-pre-venda-movel.pdf"
+            },
+            {
+              "title": "Manual do Pré Venda Móvel a partir da versão de 2022",
+              "path": "assets/manuais/modulos-adicionais/pre-venda/manual-do-pre-venda-movel-a-partir-da-versao-de-2022.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Sistema de Lote",
+          "files": [
+            {
+              "title": "Configuração de Lote no Sistema",
+              "path": "assets/manuais/modulos-adicionais/sistema-de-lote/configuracao-de-lote-no-sistema.pdf"
+            },
+            {
+              "title": "Devolução de Venda",
+              "path": "assets/manuais/modulos-adicionais/sistema-de-lote/devolucao-de-venda.pdf"
+            },
+            {
+              "title": "Distribuição automática de lote",
+              "path": "assets/manuais/modulos-adicionais/sistema-de-lote/distribuicao-automatica-de-lote.pdf"
+            },
+            {
+              "title": "Entrada de nota de compra",
+              "path": "assets/manuais/modulos-adicionais/sistema-de-lote/entrada-de-nota-de-compra.pdf"
+            },
+            {
+              "title": "Manual do cadastro de lotes",
+              "path": "assets/manuais/modulos-adicionais/sistema-de-lote/manual-do-cadastro-de-lotes.pdf"
+            },
+            {
+              "title": "Manual do cadastro de produtos de lote",
+              "path": "assets/manuais/modulos-adicionais/sistema-de-lote/manual-do-cadastro-de-produtos-de-lote.pdf"
+            },
+            {
+              "title": "Módulos adicionais_ Conferência e Ajuste de Estoque",
+              "path": "assets/manuais/modulos-adicionais/sistema-de-lote/modulos-adicionais-conferencia-e-ajuste-de-estoque.pdf"
+            },
+            {
+              "title": "Módulos adicionais_ Devolução de Compra",
+              "path": "assets/manuais/modulos-adicionais/sistema-de-lote/modulos-adicionais-devolucao-de-compra.pdf"
+            },
+            {
+              "title": "Módulos adicionais_ Entrada e Saída manual de Estoque",
+              "path": "assets/manuais/modulos-adicionais/sistema-de-lote/modulos-adicionais-entrada-e-saida-manual-de-estoque.pdf"
+            },
+            {
+              "title": "Módulos adicionais_ Entrega futura _ Pedido de entrega",
+              "path": "assets/manuais/modulos-adicionais/sistema-de-lote/modulos-adicionais-entrega-futura-pedido-de-entrega.pdf"
+            },
+            {
+              "title": "Módulos adicionais_ Informações relevantes_Configurações especificas do Lote",
+              "path": "assets/manuais/modulos-adicionais/sistema-de-lote/modulos-adicionais-informacoes-relevantes-configuracoes-especificas-do-lote.pdf"
+            },
+            {
+              "title": "Módulos adicionais_ Lotes vencidos e a vencer",
+              "path": "assets/manuais/modulos-adicionais/sistema-de-lote/modulos-adicionais-lotes-vencidos-e-a-vencer.pdf"
+            },
+            {
+              "title": "Módulos adicionais_ Ordem de Produção",
+              "path": "assets/manuais/modulos-adicionais/sistema-de-lote/modulos-adicionais-ordem-de-producao.pdf"
+            },
+            {
+              "title": "Módulos adicionais_ Produtos com divergência da quantidade lançada x lote",
+              "path": "assets/manuais/modulos-adicionais/sistema-de-lote/modulos-adicionais-produtos-com-divergencia-da-quantidade-lancada-x-lote.pdf"
+            },
+            {
+              "title": "Módulos adicionais_ Rastreio de lote",
+              "path": "assets/manuais/modulos-adicionais/sistema-de-lote/modulos-adicionais-rastreio-de-lote.pdf"
+            },
+            {
+              "title": "Módulos adicionais_ Remessa para conserto - Entrada",
+              "path": "assets/manuais/modulos-adicionais/sistema-de-lote/modulos-adicionais-remessa-para-conserto-entrada.pdf"
+            },
+            {
+              "title": "Módulos adicionais_ Remessa para conserto - Saída",
+              "path": "assets/manuais/modulos-adicionais/sistema-de-lote/modulos-adicionais-remessa-para-conserto-saida.pdf"
+            },
+            {
+              "title": "Módulos adicionais_ Transferência interna (Entrada)",
+              "path": "assets/manuais/modulos-adicionais/sistema-de-lote/modulos-adicionais-transferencia-interna-entrada.pdf"
+            },
+            {
+              "title": "Módulos adicionais_ Transferência interna (Saída)",
+              "path": "assets/manuais/modulos-adicionais/sistema-de-lote/modulos-adicionais-transferencia-interna-saida.pdf"
+            },
+            {
+              "title": "Nota Fiscal Avulsa",
+              "path": "assets/manuais/modulos-adicionais/sistema-de-lote/nota-fiscal-avulsa.pdf"
+            },
+            {
+              "title": "Venda de produto com Lote",
+              "path": "assets/manuais/modulos-adicionais/sistema-de-lote/venda-de-produto-com-lote.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Smart Sales Force",
+          "files": [
+            {
+              "title": "Configurações Iniciais — Liberação do aplicativo no Control Desktop",
+              "path": "assets/manuais/modulos-adicionais/smart-sales-force/configuracoes-iniciais/liberacao-do-aplicativo-no-control-desktop.pdf"
+            },
+            {
+              "title": "Configurações Iniciais — Manual de como efetuar o download do aplicativo em sistema Android",
+              "path": "assets/manuais/modulos-adicionais/smart-sales-force/configuracoes-iniciais/manual-de-como-efetuar-o-download-do-aplicativo-em-sistema-android.pdf"
+            },
+            {
+              "title": "Configurações Iniciais — Manual de como efetuar o download do aplicativo em sistema IOS",
+              "path": "assets/manuais/modulos-adicionais/smart-sales-force/configuracoes-iniciais/manual-de-como-efetuar-o-download-do-aplicativo-em-sistema-ios.pdf"
+            },
+            {
+              "title": "Configurações Iniciais — Manual de instalação dos módulos adicionais",
+              "path": "assets/manuais/modulos-adicionais/smart-sales-force/configuracoes-iniciais/manual-de-instalacao-dos-modulos-adicionais.pdf"
+            },
+            {
+              "title": "Configurações Iniciais — Manual do primeiro acesso ao aplicativo",
+              "path": "assets/manuais/modulos-adicionais/smart-sales-force/configuracoes-iniciais/manual-do-primeiro-acesso-ao-aplicativo.pdf"
+            },
+            {
+              "title": "Funcionalidades — Manual de recuperação de senha",
+              "path": "assets/manuais/modulos-adicionais/smart-sales-force/funcionalidades/manual-de-recuperacao-de-senha.pdf"
+            },
+            {
+              "title": "Funcionalidades — Manual do menu de clientes",
+              "path": "assets/manuais/modulos-adicionais/smart-sales-force/funcionalidades/manual-do-menu-de-clientes.pdf"
+            },
+            {
+              "title": "Funcionalidades — Manual do menu de pedidos",
+              "path": "assets/manuais/modulos-adicionais/smart-sales-force/funcionalidades/manual-do-menu-de-pedidos.pdf"
+            },
+            {
+              "title": "Funcionalidades — Manual do menu de produtos",
+              "path": "assets/manuais/modulos-adicionais/smart-sales-force/funcionalidades/manual-do-menu-de-produtos.pdf"
+            },
+            {
+              "title": "Funcionalidades — Manual do menu mais opções",
+              "path": "assets/manuais/modulos-adicionais/smart-sales-force/funcionalidades/manual-do-menu-mais-opcoes.pdf"
+            },
+            {
+              "title": "Funcionalidades — Manual do menu visita negativa",
+              "path": "assets/manuais/modulos-adicionais/smart-sales-force/funcionalidades/manual-do-menu-visita-negativa.pdf"
+            },
+            {
+              "title": "Gerenciador de Integrações — Manual da consulta de falhas de sincronização",
+              "path": "assets/manuais/modulos-adicionais/smart-sales-force/gerenciador-de-integracoes/manual-da-consulta-de-falhas-de-sincronizacao.pdf"
+            },
+            {
+              "title": "Gerenciador de Integrações — Manual das configurações do Gerenciador de Integrações - 2025",
+              "path": "assets/manuais/modulos-adicionais/smart-sales-force/gerenciador-de-integracoes/manual-das-configuracoes-do-gerenciador-de-integracoes-2025.pdf"
+            },
+            {
+              "title": "Gerenciador de Integrações — Manual das configurações do Gerenciador de Integrações - Á partir da versão 2024",
+              "path": "assets/manuais/modulos-adicionais/smart-sales-force/gerenciador-de-integracoes/manual-das-configuracoes-do-gerenciador-de-integracoes-a-partir-da-versao-2024.pdf"
+            },
+            {
+              "title": "Manutenção — Manual do módulo Associar Tabelas de Preços",
+              "path": "assets/manuais/modulos-adicionais/smart-sales-force/manutencao/manual-do-modulo-associar-tabelas-de-precos.pdf"
+            },
+            {
+              "title": "Manutenção — Manual do módulo Manutenção de Pedidos",
+              "path": "assets/manuais/modulos-adicionais/smart-sales-force/manutencao/manual-do-modulo-manutencao-de-pedidos.pdf"
+            },
+            {
+              "title": "Manutenção — Manual do módulo Manutenção de Produtos",
+              "path": "assets/manuais/modulos-adicionais/smart-sales-force/manutencao/manual-do-modulo-manutencao-de-produtos.pdf"
+            },
+            {
+              "title": "Manutenção — Manual do módulo Manutenção de Publicações",
+              "path": "assets/manuais/modulos-adicionais/smart-sales-force/manutencao/manual-do-modulo-manutencao-de-publicacoes.pdf"
+            },
+            {
+              "title": "Manutenção — Manual do módulo Visita Negativa",
+              "path": "assets/manuais/modulos-adicionais/smart-sales-force/manutencao/manual-do-modulo-visita-negativa.pdf"
+            }
+          ]
+        },
+        {
+          "name": "TEF",
+          "files": [
+            {
+              "title": "Configuração inicial do TEF",
+              "path": "assets/manuais/modulos-adicionais/tef/configuracao-inicial-do-tef.pdf"
+            },
+            {
+              "title": "Instalação PinPad - Gertec",
+              "path": "assets/manuais/modulos-adicionais/tef/instalacao-pinpad-gertec.pdf"
+            },
+            {
+              "title": "Instalação PinPad - Ingenico",
+              "path": "assets/manuais/modulos-adicionais/tef/instalacao-pinpad-ingenico.pdf"
+            },
+            {
+              "title": "Instalação TEF Express",
+              "path": "assets/manuais/modulos-adicionais/tef/instalacao-tef-express.pdf"
+            },
+            {
+              "title": "Manual de como utilizar TEF com GOC",
+              "path": "assets/manuais/modulos-adicionais/tef/manual-de-como-utilizar-tef-com-goc.pdf"
+            }
+          ]
+        }
+      ],
+      "count": 119
+    },
+    {
+      "name": "Novidades 2025",
+      "slug": "novidades-2025",
+      "groups": [
+        {
+          "name": null,
+          "files": [
+            {
+              "title": "Novidades_ Novidades versão 1.25.0.0",
+              "path": "assets/manuais/novidades-2025/novidades-novidades-versao-1-25-0-0.pdf"
+            },
+            {
+              "title": "Novidades_ Novidades versão 1.25.1.0",
+              "path": "assets/manuais/novidades-2025/novidades-novidades-versao-1-25-1-0.pdf"
+            },
+            {
+              "title": "Novidades_ Novidades versão 1.25.2.0",
+              "path": "assets/manuais/novidades-2025/novidades-novidades-versao-1-25-2-0.pdf"
+            },
+            {
+              "title": "Novidades_ Novidades versão 1.25.3.0",
+              "path": "assets/manuais/novidades-2025/novidades-novidades-versao-1-25-3-0.pdf"
+            },
+            {
+              "title": "Novidades_ Novidades versão 1.25.4.0",
+              "path": "assets/manuais/novidades-2025/novidades-novidades-versao-1-25-4-0.pdf"
+            },
+            {
+              "title": "Novidades_ Novidades versão 1.25.5.0",
+              "path": "assets/manuais/novidades-2025/novidades-novidades-versao-1-25-5-0.pdf"
+            },
+            {
+              "title": "Novidades_ Novidades versão 1.25.5.1 (Bombeiro)",
+              "path": "assets/manuais/novidades-2025/novidades-novidades-versao-1-25-5-1-bombeiro.pdf"
+            }
+          ]
+        }
+      ],
+      "count": 7
+    },
+    {
+      "name": "PDV Fiscal",
+      "slug": "pdv-fiscal",
+      "groups": [
+        {
+          "name": "Arquivos Fiscais",
+          "files": [
+            {
+              "title": "Envio do BLOCO X - Estado de Santa Catarina",
+              "path": "assets/manuais/pdv-fiscal/arquivos-fiscais/envio-do-bloco-x-estado-de-santa-catarina.pdf"
+            },
+            {
+              "title": "Lançamento manual de Redução Z",
+              "path": "assets/manuais/pdv-fiscal/arquivos-fiscais/lancamento-manual-de-reducao-z.pdf"
+            },
+            {
+              "title": "Manual de como liberar acesso para imprimir Redução Z",
+              "path": "assets/manuais/pdv-fiscal/arquivos-fiscais/manual-de-como-liberar-acesso-para-imprimir-reducao-z.pdf"
+            },
+            {
+              "title": "PDV-Fiscal_ Arquivos a serem gerados e entregues ao fisco ou ao escritório de contabilidade referente aos equipamentos emissores de cupom fiscal",
+              "path": "assets/manuais/pdv-fiscal/arquivos-fiscais/pdv-fiscal-arquivos-a-serem-gerados-e-entregues-ao-fisco-ou-ao-escritorio-de-con.pdf"
+            },
+            {
+              "title": "PDV-Fiscal_ Programas de incentivos fiscais, Minas Legal, Nota Legal, Paraíba Legal",
+              "path": "assets/manuais/pdv-fiscal/arquivos-fiscais/pdv-fiscal-programas-de-incentivos-fiscais-minas-legal-nota-legal-paraiba-legal.pdf"
+            },
+            {
+              "title": "Reimpressão do cupom fiscal - Espelho MFD",
+              "path": "assets/manuais/pdv-fiscal/arquivos-fiscais/reimpressao-do-cupom-fiscal-espelho-mfd.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Complementares",
+          "files": [
+            {
+              "title": "Lista de Impressoras NÃO FISCAIS que abrem a gaveta via CTRL F8",
+              "path": "assets/manuais/pdv-fiscal/complementares/lista-de-impressoras-nao-fiscais-que-abrem-a-gaveta-via-ctrl-f8.pdf"
+            },
+            {
+              "title": "Manual da impressão de Vale_Ficha no PDV - Fiscal",
+              "path": "assets/manuais/pdv-fiscal/complementares/manual-da-impressao-de-vale-ficha-no-pdv-fiscal.pdf"
+            },
+            {
+              "title": "Manual de como definir para imprimir ou não NFC-e_SAT_MEI",
+              "path": "assets/manuais/pdv-fiscal/complementares/manual-de-como-definir-para-imprimir-ou-nao-nfc-e-sat-mei.pdf"
+            },
+            {
+              "title": "Manual de como emitir NF-e referenciando cupom fiscal",
+              "path": "assets/manuais/pdv-fiscal/complementares/manual-de-como-emitir-nf-e-referenciando-cupom-fiscal.pdf"
+            },
+            {
+              "title": "Manual de como importar um plano de fundo no PDV",
+              "path": "assets/manuais/pdv-fiscal/complementares/manual-de-como-importar-um-plano-de-fundo-no-pdv.pdf"
+            },
+            {
+              "title": "Manual de como reimprimir a NFC-e pelo PDV",
+              "path": "assets/manuais/pdv-fiscal/complementares/manual-de-como-reimprimir-a-nfc-e-pelo-pdv.pdf"
+            },
+            {
+              "title": "Manual de como reimprimir o comprovante de recebimento",
+              "path": "assets/manuais/pdv-fiscal/complementares/manual-de-como-reimprimir-o-comprovante-de-recebimento.pdf"
+            },
+            {
+              "title": "Manual do PDV - Off-line",
+              "path": "assets/manuais/pdv-fiscal/complementares/manual-do-pdv-off-line.pdf"
+            },
+            {
+              "title": "PDV offline - Standalone",
+              "path": "assets/manuais/pdv-fiscal/complementares/pdv-offline-standalone.pdf"
+            },
+            {
+              "title": "Venda de KIT no PDV",
+              "path": "assets/manuais/pdv-fiscal/complementares/venda-de-kit-no-pdv.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Configurações de MEI",
+          "files": [
+            {
+              "title": "Manual de configuração do sistema MEI",
+              "path": "assets/manuais/pdv-fiscal/configuracoes-de-mei/manual-de-configuracao-do-sistema-mei.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Configurações de MFe",
+          "files": [
+            {
+              "title": "Manual de configuração do MF-e no PDV Fiscal",
+              "path": "assets/manuais/pdv-fiscal/configuracoes-de-mfe/manual-de-configuracao-do-mf-e-no-pdv-fiscal.pdf"
+            },
+            {
+              "title": "Sobre o Módulo Fiscal Eletrônico",
+              "path": "assets/manuais/pdv-fiscal/configuracoes-de-mfe/sobre-o-modulo-fiscal-eletronico.pdf"
+            },
+            {
+              "title": "_ Manual de como finalizar venda com TEF_POS",
+              "path": "assets/manuais/pdv-fiscal/configuracoes-de-mfe/manual-de-como-finalizar-venda-com-tef-pos.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Configurações de NFCe",
+          "files": [
+            {
+              "title": "Configuração e autorização de NFC-es emitidas em Contingência",
+              "path": "assets/manuais/pdv-fiscal/configuracoes-de-nfce/configuracao-e-autorizacao-de-nfc-es-emitidas-em-contingencia.pdf"
+            },
+            {
+              "title": "Manual das configurações para emissão de NFC-e",
+              "path": "assets/manuais/pdv-fiscal/configuracoes-de-nfce/manual-das-configuracoes-para-emissao-de-nfc-e.pdf"
+            },
+            {
+              "title": "Manual de como alterar tamanho da fonte de itens na impressão da NFC-e",
+              "path": "assets/manuais/pdv-fiscal/configuracoes-de-nfce/manual-de-como-alterar-tamanho-da-fonte-de-itens-na-impressao-da-nfc-e.pdf"
+            },
+            {
+              "title": "Manual de configuração da contingência automática",
+              "path": "assets/manuais/pdv-fiscal/configuracoes-de-nfce/manual-de-configuracao-da-contingencia-automatica.pdf"
+            },
+            {
+              "title": "Manual de configuração e autorização de NFC-es emitidas em contingência",
+              "path": "assets/manuais/pdv-fiscal/configuracoes-de-nfce/manual-de-configuracao-e-autorizacao-de-nfc-es-emitidas-em-contingencia.pdf"
+            },
+            {
+              "title": "Manual para reimpressão de notas em contingência",
+              "path": "assets/manuais/pdv-fiscal/configuracoes-de-nfce/manual-para-reimpressao-de-notas-em-contingencia.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Configurações de SAT",
+          "files": [
+            {
+              "title": "PDV-Fiscal_ Manual de configuração do SAT compartilhado",
+              "path": "assets/manuais/pdv-fiscal/configuracoes-de-sat/pdv-fiscal-manual-de-configuracao-do-sat-compartilhado.pdf"
+            },
+            {
+              "title": "SAT",
+              "path": "assets/manuais/pdv-fiscal/configuracoes-de-sat/sat.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Configurações de TEF",
+          "files": [
+            {
+              "title": "Manual das configurações do TEF no PDV",
+              "path": "assets/manuais/pdv-fiscal/configuracoes-de-tef/manual-das-configuracoes-do-tef-no-pdv.pdf"
+            },
+            {
+              "title": "Manual de venda com o software de integração TEF Pay&Go",
+              "path": "assets/manuais/pdv-fiscal/configuracoes-de-tef/manual-de-venda-com-o-software-de-integracao-tef-pay-go.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Manuais de Utilização",
+          "files": [
+            {
+              "title": "Configurações — Manual de configuração de acesso padrão do PDV",
+              "path": "assets/manuais/pdv-fiscal/manuais-de-utilizacao/configuracoes/manual-de-configuracao-de-acesso-padrao-do-pdv.pdf"
+            },
+            {
+              "title": "Configurações — Manual de utilização do crachá para liberação de descontos e cancelamentos",
+              "path": "assets/manuais/pdv-fiscal/manuais-de-utilizacao/configuracoes/manual-de-utilizacao-do-cracha-para-liberacao-de-descontos-e-cancelamentos.pdf"
+            },
+            {
+              "title": "Menus — Manual completo sobre sangria, suprimento e como definir o limite de caixa",
+              "path": "assets/manuais/pdv-fiscal/manuais-de-utilizacao/menus/manual-completo-sobre-sangria-suprimento-e-como-definir-o-limite-de-caixa.pdf"
+            },
+            {
+              "title": "Menus — Manual do menu Ajuda - F1",
+              "path": "assets/manuais/pdv-fiscal/manuais-de-utilizacao/menus/manual-do-menu-ajuda-f1.pdf"
+            },
+            {
+              "title": "Menus — Manual do menu Fiscal - F11",
+              "path": "assets/manuais/pdv-fiscal/manuais-de-utilizacao/menus/manual-do-menu-fiscal-f11.pdf"
+            },
+            {
+              "title": "Menus — Manual do menu de operações - Ctrl F11",
+              "path": "assets/manuais/pdv-fiscal/manuais-de-utilizacao/menus/manual-do-menu-de-operacoes-ctrl-f11.pdf"
+            },
+            {
+              "title": "Vendas — Manual das opções de lançamento dos itens",
+              "path": "assets/manuais/pdv-fiscal/manuais-de-utilizacao/vendas/manual-das-opcoes-de-lancamento-dos-itens.pdf"
+            },
+            {
+              "title": "Vendas — Manual de como iniciar venda no Retaguarda e finalizar no PDV",
+              "path": "assets/manuais/pdv-fiscal/manuais-de-utilizacao/vendas/manual-de-como-iniciar-venda-no-retaguarda-e-finalizar-no-pdv.pdf"
+            },
+            {
+              "title": "Vendas — Manual do processo de venda no PDV",
+              "path": "assets/manuais/pdv-fiscal/manuais-de-utilizacao/vendas/manual-do-processo-de-venda-no-pdv.pdf"
+            }
+          ]
+        }
+      ],
+      "count": 39
+    },
+    {
+      "name": "Treinamento Geral",
+      "slug": "treinamento-geral",
+      "groups": [
+        {
+          "name": "Atualização e Configuração",
+          "files": [
+            {
+              "title": "Atualização do sistema completa (Servidor e terminais) pelo link do update, em sistema com versão superior a 2018",
+              "path": "assets/manuais/treinamento-geral/atualizacao-e-configuracao/atualizacao-do-sistema-completa-servidor-e-terminais-pelo-link-do-update-em-sist.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Cadastros",
+          "files": [
+            {
+              "title": "Manual Completo do cadastro de um novo cliente_consumidor",
+              "path": "assets/manuais/treinamento-geral/cadastros/manual-completo-do-cadastro-de-um-novo-cliente-consumidor.pdf"
+            },
+            {
+              "title": "Manual de inclusão de cadastro de fornecedores",
+              "path": "assets/manuais/treinamento-geral/cadastros/manual-de-inclusao-de-cadastro-de-fornecedores.pdf"
+            },
+            {
+              "title": "Manual de inclusão de cadastro de transportadoras",
+              "path": "assets/manuais/treinamento-geral/cadastros/manual-de-inclusao-de-cadastro-de-transportadoras.pdf"
+            },
+            {
+              "title": "Manual de inclusão de produtos",
+              "path": "assets/manuais/treinamento-geral/cadastros/manual-de-inclusao-de-produtos.pdf"
+            },
+            {
+              "title": "Manual do cadastro de vendedores e usuários",
+              "path": "assets/manuais/treinamento-geral/cadastros/manual-do-cadastro-de-vendedores-e-usuarios.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Caixa",
+          "files": [
+            {
+              "title": "Manual da Abertura de Caixa",
+              "path": "assets/manuais/treinamento-geral/caixa/manual-da-abertura-de-caixa.pdf"
+            },
+            {
+              "title": "Manual da Transferência Financeira",
+              "path": "assets/manuais/treinamento-geral/caixa/manual-da-transferencia-financeira.pdf"
+            },
+            {
+              "title": "Manual da inclusão e lançamentos no Extra Caixa",
+              "path": "assets/manuais/treinamento-geral/caixa/manual-da-inclusao-e-lancamentos-no-extra-caixa.pdf"
+            },
+            {
+              "title": "Manual de consulta e lançamentos no caixa",
+              "path": "assets/manuais/treinamento-geral/caixa/manual-de-consulta-e-lancamentos-no-caixa.pdf"
+            },
+            {
+              "title": "Manual do Fechamento no Caixa",
+              "path": "assets/manuais/treinamento-geral/caixa/manual-do-fechamento-no-caixa.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Carta de Correção",
+          "files": [
+            {
+              "title": "Cartas de Correções Eletrônicas",
+              "path": "assets/manuais/treinamento-geral/carta-de-correcao/cartas-de-correcoes-eletronicas.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Compras",
+          "files": [
+            {
+              "title": "Lançar notas de compra (Importação arquivo XML)",
+              "path": "assets/manuais/treinamento-geral/compras/lancar-notas-de-compra-importacao-arquivo-xml.pdf"
+            },
+            {
+              "title": "Manual completo da devolução de compra",
+              "path": "assets/manuais/treinamento-geral/compras/manual-completo-da-devolucao-de-compra.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Configuração de Documentos Eletrônicos",
+          "files": [
+            {
+              "title": "Configuração Impressora Fiscal (ECF)",
+              "path": "assets/manuais/treinamento-geral/configuracao-de-documentos-eletronicos/configuracao-impressora-fiscal-ecf.pdf"
+            },
+            {
+              "title": "Configuração de NF-e - Nota Fiscal Eletrônica",
+              "path": "assets/manuais/treinamento-geral/configuracao-de-documentos-eletronicos/configuracao-de-nf-e-nota-fiscal-eletronica.pdf"
+            },
+            {
+              "title": "Manual de configuração do SAT compartilhado",
+              "path": "assets/manuais/treinamento-geral/configuracao-de-documentos-eletronicos/manual-de-configuracao-do-sat-compartilhado.pdf"
+            },
+            {
+              "title": "Manual de configuração do sistema MEI",
+              "path": "assets/manuais/treinamento-geral/configuracao-de-documentos-eletronicos/manual-de-configuracao-do-sistema-mei.pdf"
+            },
+            {
+              "title": "Manual de configurações técnicas de NFC-e",
+              "path": "assets/manuais/treinamento-geral/configuracao-de-documentos-eletronicos/manual-de-configuracoes-tecnicas-de-nfc-e.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Contas à Pagar",
+          "files": [
+            {
+              "title": "Manual completo do Contas à Pagar (Quitar _ Consultar)",
+              "path": "assets/manuais/treinamento-geral/contas-a-pagar/manual-completo-do-contas-a-pagar-quitar-consultar.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Contas à Receber",
+          "files": [
+            {
+              "title": "Manual completo de como lançar faturas avulsas",
+              "path": "assets/manuais/treinamento-geral/contas-a-receber/manual-completo-de-como-lancar-faturas-avulsas.pdf"
+            },
+            {
+              "title": "Manual completo do módulo Contas á Receber (Quitar _ Consultar)",
+              "path": "assets/manuais/treinamento-geral/contas-a-receber/manual-completo-do-modulo-contas-a-receber-quitar-consultar.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Cópia de Segurança (Backup)",
+          "files": [
+            {
+              "title": "Como efetuar a cópia de segurança (backup) no terminal",
+              "path": "assets/manuais/treinamento-geral/copia-de-seguranca-backup/como-efetuar-a-copia-de-seguranca-backup-no-terminal.pdf"
+            },
+            {
+              "title": "Como fazer backup da base Control",
+              "path": "assets/manuais/treinamento-geral/copia-de-seguranca-backup/como-fazer-backup-da-base-control.pdf"
+            },
+            {
+              "title": "Configurando backup em mais de uma base de dados, e configurando o caminho para ser salvo o backup",
+              "path": "assets/manuais/treinamento-geral/copia-de-seguranca-backup/configurando-backup-em-mais-de-uma-base-de-dados-e-configurando-o-caminho-para-s.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Instalação do sistema",
+          "files": [
+            {
+              "title": "Instalação e configuração do Sistema Control e PDV-Fiscal",
+              "path": "assets/manuais/treinamento-geral/instalacao-do-sistema/instalacao-e-configuracao-do-sistema-control-e-pdv-fiscal.pdf"
+            },
+            {
+              "title": "Instalação e configuração do Software denominado Sistema CONTROL com mais de uma base de dados",
+              "path": "assets/manuais/treinamento-geral/instalacao-do-sistema/instalacao-e-configuracao-do-software-denominado-sistema-control-com-mais-de-uma.pdf"
+            },
+            {
+              "title": "Recriar ícones na área de trabalho",
+              "path": "assets/manuais/treinamento-geral/instalacao-do-sistema/recriar-icones-na-area-de-trabalho.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Manutenção de Estoque",
+          "files": [
+            {
+              "title": "Manual completo da conferência e ajuste de estoque manual e por importação",
+              "path": "assets/manuais/treinamento-geral/manutencao-de-estoque/manual-completo-da-conferencia-e-ajuste-de-estoque-manual-e-por-importacao.pdf"
+            },
+            {
+              "title": "Manual completo da entrada e saída manual de estoque",
+              "path": "assets/manuais/treinamento-geral/manutencao-de-estoque/manual-completo-da-entrada-e-saida-manual-de-estoque.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Ordem de Serviço",
+          "files": [
+            {
+              "title": "Manual completo do módulo ordem de serviço",
+              "path": "assets/manuais/treinamento-geral/ordem-de-servico/manual-completo-do-modulo-ordem-de-servico.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Orçamentos",
+          "files": [
+            {
+              "title": "Manual do módulo de Orçamentos",
+              "path": "assets/manuais/treinamento-geral/orcamentos/manual-do-modulo-de-orcamentos.pdf"
+            }
+          ]
+        },
+        {
+          "name": "PDV Fiscal",
+          "files": [
+            {
+              "title": "Configuração de acesso padrão do PDV",
+              "path": "assets/manuais/treinamento-geral/pdv-fiscal/configuracao-de-acesso-padrao-do-pdv.pdf"
+            },
+            {
+              "title": "Efetuando venda no retaguarda e finalizando no frente de caixa",
+              "path": "assets/manuais/treinamento-geral/pdv-fiscal/efetuando-venda-no-retaguarda-e-finalizando-no-frente-de-caixa.pdf"
+            },
+            {
+              "title": "Processo de venda no PDV",
+              "path": "assets/manuais/treinamento-geral/pdv-fiscal/processo-de-venda-no-pdv.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Vendas",
+          "files": [
+            {
+              "title": "Manual completo da devolução de venda",
+              "path": "assets/manuais/treinamento-geral/vendas/manual-completo-da-devolucao-de-venda.pdf"
+            },
+            {
+              "title": "Manual de como realizar vendas (á vista e a prazo)",
+              "path": "assets/manuais/treinamento-geral/vendas/manual-de-como-realizar-vendas-a-vista-e-a-prazo.pdf"
+            }
+          ]
+        }
+      ],
+      "count": 37
+    }
+  ],
+  "total": 643
+}
