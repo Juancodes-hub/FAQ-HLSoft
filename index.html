@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HL SOFT — Central de Ajuda | HL Tele Informática</title>
-<meta name="description" content="Central de ajuda do sistema HL SOFT, pela HL Tele Informática. Perguntas frequentes, vídeos e manuais do sistema ARPA.">
+<title>HL SOFT — Central de Ajuda | HL Teleinformática</title>
+<meta name="description" content="Central de ajuda do sistema HL SOFT, pela HL Teleinformática. Perguntas frequentes, vídeos e manuais do Sistema Control.">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,24 +58,23 @@
   /* ---------- Header ---------- */
   header{
     position:sticky;top:0;z-index:50;
-    background:rgba(244,246,241,0.92);
-    backdrop-filter:blur(6px);
-    border-bottom:1px solid var(--border);
+    background:var(--ink);
+    border-bottom:1px solid rgba(255,255,255,0.08);
   }
   .headbar{
     display:flex;align-items:center;justify-content:space-between;
-    padding:16px 24px;max-width:var(--maxw);margin:0 auto;gap:16px;
+    padding:14px 24px;max-width:var(--maxw);margin:0 auto;gap:16px;
   }
   .brandblock{display:flex;flex-direction:column;align-items:flex-start;line-height:1.1;}
-  .brandlogo{height:32px;width:auto;display:block;}
-  .brandsub{font-size:0.72rem;color:var(--muted);margin-top:6px;}
+  .brandlogo{height:42px;width:auto;display:block;}
+  .brandsub{font-size:0.72rem;color:rgba(255,255,255,0.6);margin-top:6px;}
 
   nav.chips{display:none;gap:6px;}
   nav.chips a{
-    font-size:0.9rem;text-decoration:none;color:var(--ink);
+    font-size:0.9rem;text-decoration:none;color:rgba(255,255,255,0.85);
     padding:8px 14px;border-radius:999px;white-space:nowrap;
   }
-  nav.chips a:hover{background:#E7ECE3;}
+  nav.chips a:hover{background:rgba(255,255,255,0.1);color:#fff;}
 
   .btn{
     display:inline-flex;align-items:center;gap:8px;
@@ -116,11 +115,19 @@
     background:var(--card);
     border:1px solid var(--border);
     border-radius:4px;
-    padding:26px 24px 34px;
+    padding:34px 24px 34px;
     max-width:340px;
     margin:0 auto;
     box-shadow:0 18px 40px -18px rgba(14,42,43,0.35);
     position:relative;
+  }
+  .support-icon{
+    position:absolute;top:-24px;left:50%;transform:translateX(-50%);
+    width:52px;height:52px;border-radius:50%;
+    background:linear-gradient(135deg, var(--brand), var(--brand-dark));
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 10px 22px -8px rgba(11,127,224,0.55);
+    border:4px solid var(--paper);
   }
   .receipt::after{
     content:"";
@@ -185,7 +192,7 @@
   }
   details[open] summary::after{content:"–";}
   details p{
-    margin:0;padding:0 20px 20px;color:var(--muted);max-width:68ch;
+    margin:0;padding:0 20px 20px;color:var(--muted);
   }
 
   /* ---------- Videos ---------- */
@@ -287,7 +294,7 @@
     color:var(--muted);font-size:0.85rem;
   }
   .footer-brand{display:flex;align-items:center;gap:12px;}
-  .footer-brand img{height:34px;width:auto;border-radius:6px;}
+  .footer-brand img{height:26px;width:auto;}
 
   /* ---------- Floating WhatsApp ---------- */
   .float-whats{
@@ -306,7 +313,7 @@
   <div class="headbar">
     <div class="brandblock">
       <img class="brandlogo" src="assets/logo-hlsoft-horizontal.png" alt="HL SOFT">
-      <span class="brandsub">Central de ajuda · HL Tele Informática</span>
+      <span class="brandsub">Central de ajuda · HL Teleinformática</span>
     </div>
     <nav class="chips">
       <a href="#faq">Perguntas frequentes</a>
@@ -327,7 +334,7 @@
       <div class="eyebrow">Automação comercial · Suporte HL SOFT</div>
       <h1>Dúvidas sobre o HL SOFT? Estão todas aqui.</h1>
       <p class="lead">
-        Central de ajuda da HL Tele Informática para quem usa o sistema no
+        Central de ajuda da HL Teleinformática para quem usa o sistema no
         dia a dia do comércio: vendas, estoque, notas fiscais e financeiro,
         explicados sem enrolação.
       </p>
@@ -340,14 +347,20 @@
       </div>
     </div>
     <div class="receipt">
-      <div class="receipt-head">CUPOM DE ATENDIMENTO
-        <small>HL Tele Informática · HL SOFT</small>
+      <div class="support-icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 18v-6a9 9 0 0 1 18 0v6"/>
+          <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/>
+        </svg>
       </div>
-      <div class="receipt-line"><span>1x</span><span>Sistema HL SOFT ........... ativo</span></div>
-      <div class="receipt-line"><span>1x</span><span>Suporte via WhatsApp ...... imediato</span></div>
-      <div class="receipt-line"><span>1x</span><span>Manuais do sistema ........ disponíveis</span></div>
-      <div class="receipt-line"><span>1x</span><span>Vídeos explicativos ....... no canal</span></div>
-      <div class="receipt-total"><span>TOTAL</span><span>dúvida resolvida ✔</span></div>
+      <div class="receipt-head">TICKET DE SUPORTE
+        <small>HL Teleinformática · HL SOFT</small>
+      </div>
+      <div class="receipt-line"><span>Canal</span><span>WhatsApp direto</span></div>
+      <div class="receipt-line"><span>Resposta</span><span>poucos minutos</span></div>
+      <div class="receipt-line"><span>Manuais</span><span>mais de 600 disponíveis</span></div>
+      <div class="receipt-line"><span>Vídeos</span><span>explicativos no canal</span></div>
+      <div class="receipt-total"><span>STATUS</span><span>atendimento pronto ✔</span></div>
     </div>
   </div>
 </section>
@@ -359,20 +372,23 @@
       <h2>Tudo o que perguntam sobre o HL SOFT</h2>
       <p>Separado por assunto. Não achou sua dúvida aqui? É só chamar o suporte.</p>
     </div>
+    <input type="search" id="faqSearch" class="manual-search" placeholder="Buscar uma pergunta (ex: backup, desconto, NF-e...)">
+    <p id="faqEmpty" class="manual-empty" style="display:none;">Nenhuma pergunta encontrada para essa busca.</p>
 
+    <div id="faqArea">
     <div class="faq-cat">
       <h3>Sobre o sistema</h3>
       <details>
         <summary>O que é o sistema HL SOFT?</summary>
-        <p>O HL SOFT é o sistema de automação comercial da HL Tele Informática. Ele reúne em um só programa o controle de vendas (PDV), estoque, financeiro e emissão de notas fiscais, pensado para o dia a dia de lojas e comércios em geral. A HL Tele Informática também presta suporte ao sistema ARPA — veja a seção de manuais mais abaixo.</p>
+        <p>O HL SOFT é o sistema de automação comercial da HL Teleinformática, desenvolvido para facilitar a gestão do dia a dia de lojas e comércios. Em uma única solução, o sistema reúne recursos como vendas (PDV), controle de estoque, financeiro e emissão de documentos fiscais, proporcionando mais praticidade e organização para o negócio.</p>
       </details>
       <details>
         <summary>Preciso de internet para usar o sistema?</summary>
-        <p>O funcionamento básico do PDV e do controle de estoque roda localmente no computador. A internet entra nos momentos de comunicação com a Sefaz — emissão de NF-e/NFC-e, consulta de XML e atualizações. Se a conexão cair no meio do expediente, dá para continuar vendendo e emitir os documentos fiscais assim que ela voltar.</p>
+        <p>O HL SOFT permite realizar as principais operações do sistema localmente, como vendas e controle de estoque. A conexão com a internet é necessária para recursos que dependem de comunicação com a Sefaz, como a emissão de documentos fiscais, além de atualizações e outros serviços online. Caso a conexão seja interrompida, algumas operações continuam normalmente, e os processos que dependem da comunicação online são concluídos assim que a internet voltar.</p>
       </details>
       <details>
         <summary>Em quais computadores o sistema funciona?</summary>
-        <p>O sistema roda em computadores com Windows. Antes de instalar, é bom que nossa equipe avalie a configuração da máquina para garantir que atende aos requisitos mínimos — fale com o suporte para essa checagem.</p>
+        <p>O HL SOFT é compatível com <strong>qualquer computador com acesso à internet, além de celular e tablet</strong>. Para uma melhor experiência e desempenho, recomendamos processador superior a Intel Core i5 ou Ryzen 5, memória RAM acima de 8 GB e armazenamento SSD de no mínimo 256 GB — isso garante mais agilidade durante o uso do sistema. Se você já tem um computador com outra configuração, nossa equipe de suporte pode avaliar o equipamento e verificar a compatibilidade.</p>
       </details>
     </div>
 
@@ -380,19 +396,19 @@
       <h3>Vendas e PDV</h3>
       <details>
         <summary>Como faço uma venda no caixa (PDV)?</summary>
-        <p>No menu principal, entre em Vendas &gt; PDV/Caixa, informe os itens (por código, código de barras ou nome do produto), confira os valores e finalize escolhendo a forma de pagamento. Se tiver dúvida na hora, o suporte consegue te orientar por WhatsApp com a tela aberta.</p>
-      </details>
-      <details>
-        <summary>Como emito a nota fiscal (NF-e) ou o cupom fiscal (NFC-e)?</summary>
-        <p>Depois de fechar a venda no PDV, o sistema oferece a opção de emitir o documento fiscal vinculado a ela. É importante manter o certificado digital e a conexão com a Sefaz ativos nesse momento. Se a Sefaz rejeitar, o motivo aparece na tela — nesse caso, chame o suporte informando o código do erro.</p>
+        <p>No dashboard do sistema, vá em Movimentações &gt; Pré-venda e NFC-e. No canto direito, clique em PDV e aperte Salvar para abrir o caixa. Use F2 para selecionar os itens e F4 para finalizar a venda, escolhendo e adicionando a forma de pagamento.</p>
       </details>
       <details>
         <summary>Como cancelo uma venda já registrada?</summary>
-        <p>Vendas ainda não fiscais podem ser canceladas direto na tela do PDV. Se já foi emitida nota fiscal, o cancelamento precisa seguir o prazo e as regras da Sefaz — fale com o suporte antes de cancelar um documento já emitido, para não ter problema fiscal.</p>
+        <p>Na parte de Pré-vendas e NFC-e, localize a venda que deseja cancelar e clique no botão vermelho de cancelar. Escolha o motivo e confirme o cancelamento.</p>
       </details>
       <details>
         <summary>Dá para dar desconto em uma venda?</summary>
-        <p>Sim, o desconto pode ser aplicado por item ou no total da venda, dentro dos limites configurados para o seu usuário. Se o campo de desconto estiver bloqueado, provavelmente é uma permissão de perfil — o suporte pode ajustar isso.</p>
+        <p>Sim! Basta selecionar a aba de desconto na hora da venda, informar o valor ou o percentual desejado e apertar Enter.</p>
+      </details>
+      <details>
+        <summary>Como emito a nota fiscal (NF-e)?</summary>
+        <p>Basta clicar em Movimentações &gt; NF-e &gt; Nova NF-e. Fique atento na hora de preencher as tributações — se precisar de ajuda, chame a gente no WhatsApp.</p>
       </details>
     </div>
 
@@ -400,11 +416,11 @@
       <h3>Estoque e produtos</h3>
       <details>
         <summary>Como cadastro um novo produto?</summary>
-        <p>Acesse o cadastro de Produtos e preencha código, descrição, unidade, preço e os dados fiscais (NCM, CFOP, tributação). Preencher os dados fiscais corretamente evita rejeição na hora de emitir a nota — na dúvida, peça ajuda ao suporte.</p>
+        <p>Basta ir na aba de Cadastros, clicar em Produtos e depois em Novo — você já estará pronto para cadastrar.</p>
       </details>
       <details>
         <summary>Como consulto o estoque de um produto?</summary>
-        <p>No cadastro ou na consulta rápida de produtos você vê a quantidade disponível em tempo real, já descontando vendas e somando compras registradas.</p>
+        <p>Basta ir em Cadastros e filtrar pelo produto desejado. Lá você pode ver preços, estoque e muito mais.</p>
       </details>
       <details>
         <summary>Como registro a entrada de mercadoria de um fornecedor?</summary>
@@ -412,7 +428,7 @@
       </details>
       <details>
         <summary>Como faço a devolução de uma venda ou compra?</summary>
-        <p>Existe uma rotina própria de devolução, tanto para venda (gera crédito para o cliente e caixa) quanto para compra (gera crédito com o fornecedor). Ela já ajusta o estoque e o financeiro automaticamente.</p>
+        <p>Você pode fazer uma nota de devolução. Entre em contato que a gente te auxilia.</p>
       </details>
     </div>
 
@@ -420,11 +436,11 @@
       <h3>Financeiro</h3>
       <details>
         <summary>Como lanço uma conta a pagar ou a receber?</summary>
-        <p>No módulo Financeiro, cadastre o título informando valor, vencimento e categoria — o sistema mantém o controle de contas em aberto, pagas e atrasadas.</p>
+        <p>No PDV, depois de realizar a venda, você pode consultar na aba Financeiro.</p>
       </details>
       <details>
         <summary>Como emito o relatório de vendas do dia ou do mês?</summary>
-        <p>Em Relatórios &gt; Vendas, escolha o período desejado. Dá para filtrar por vendedor, forma de pagamento ou produto — útil para fechar o caixa do dia ou conferir o movimento do mês.</p>
+        <p>Na aba Movimentações &gt; Relatórios, você pode escolher o relatório desejado.</p>
       </details>
     </div>
 
@@ -432,7 +448,7 @@
       <h3>Backup, atualização e problemas técnicos</h3>
       <details>
         <summary>Como faço backup dos dados do sistema?</summary>
-        <p>Recomendamos manter o backup automático ativado, configurado com o suporte na instalação. Vale também guardar uma cópia periódica em outro local (nuvem ou pen drive) — dados de venda e fiscais não têm como ser recuperados sem um backup.</p>
+        <p>Não se preocupe — o HL SOFT é online, então não existe necessidade de fazer backup manual. Seus dados ficam salvos com segurança automaticamente.</p>
       </details>
       <details>
         <summary>O sistema travou ou está lento, o que eu faço?</summary>
@@ -444,24 +460,25 @@
       </details>
       <details>
         <summary>Como atualizo o sistema para a versão mais recente?</summary>
-        <p>As atualizações do HL SOFT costumam ser aplicadas remotamente pelo nosso suporte, para garantir que nada trave no meio da operação. Se aparecer um aviso de atualização disponível na tela, chame a gente antes de aceitar sozinho.</p>
+        <p>O HL SOFT é atualizado automaticamente — você sempre vai ver novidades chegando semanalmente, sem precisar instalar nada manualmente.</p>
       </details>
     </div>
 
     <div class="faq-cat">
       <h3>Suporte e manuais</h3>
       <details>
-        <summary>Como falo com o suporte da HL Tele Informática?</summary>
-        <p>O mais rápido é pelo botão de WhatsApp aqui no site. Também atendemos pelos e-mails suporteautomacao@gmail.com e suporteadmhl@gmail.com.</p>
+        <summary>Como falo com o suporte da HL Teleinformática?</summary>
+        <p>O mais rápido é pelo botão de WhatsApp aqui no site.</p>
       </details>
       <details>
-        <summary>Vocês também dão suporte ao sistema ARPA?</summary>
-        <p>Sim. Além do HL SOFT, a HL Tele Informática atende clientes que usam o sistema ARPA. Os manuais completos do ARPA estão organizados por assunto na seção "Manuais" logo abaixo.</p>
+        <summary>Vocês também dão suporte ao Sistema Control?</summary>
+        <p>Sim. Além do HL SOFT, a HL Teleinformática atende clientes que usam o Sistema Control. Os manuais completos estão organizados por assunto na seção "Manuais" logo abaixo.</p>
       </details>
       <details>
         <summary>Vocês dão treinamento para novos funcionários?</summary>
         <p>Sim — fale com o suporte para agendar um treinamento, presencial ou por chamada de vídeo, para a equipe que vai usar o sistema no dia a dia.</p>
       </details>
+    </div>
     </div>
   </div>
 </section>
@@ -484,8 +501,8 @@
   <div class="wrap">
     <div class="section-head">
       <div class="section-tag">Manuais</div>
-      <h2>Manuais do sistema ARPA</h2>
-      <p>A HL Tele Informática também dá suporte ao sistema ARPA. Mais de 600 manuais organizados por assunto — use a busca ou abra por categoria.</p>
+      <h2>Manuais do Sistema Control</h2>
+      <p>A HL Teleinformática também dá suporte ao Sistema Control. Mais de 600 manuais organizados por assunto — use a busca ou abra por categoria.</p>
     </div>
     <input type="search" id="manualSearch" class="manual-search" style="display:none" placeholder="Buscar um manual (ex: boleto, backup, NFC-e...)">
     <p id="manualStatus" style="color:var(--muted);font-size:0.92rem;">Carregando manuais…</p>
@@ -502,22 +519,28 @@
     </div>
     <div class="support-grid">
       <div class="support-card">
-        <h3>WhatsApp</h3>
+        <h3>Suporte</h3>
         <p>Atendimento mais rápido, com print ou vídeo da tela se precisar.</p>
         <a class="value" target="_blank" rel="noopener"
            href="https://wa.me/5588999246404?text=Ol%C3%A1!%20Preciso%20de%20suporte%20com%20o%20sistema%20HL%20SOFT.">
-          (88) 99924-6404
+          (88) 9 9924-6404
         </a>
       </div>
       <div class="support-card">
-        <h3>Suporte técnico</h3>
-        <p>Para dúvidas de uso, erros e emissão fiscal.</p>
-        <a class="value" href="mailto:suporteautomacao@gmail.com">suporteautomacao@gmail.com</a>
+        <h3>Financeiro</h3>
+        <p>Para pagamentos, contratos e mensalidades.</p>
+        <a class="value" target="_blank" rel="noopener"
+           href="https://wa.me/5588998073904?text=Ol%C3%A1!%20Preciso%20falar%20com%20o%20financeiro.">
+          (88) 9 9807-3904
+        </a>
       </div>
       <div class="support-card">
-        <h3>Administrativo</h3>
-        <p>Para contratos, licenças e assuntos administrativos.</p>
-        <a class="value" href="mailto:suporteadmhl@gmail.com">suporteadmhl@gmail.com</a>
+        <h3>Gerência</h3>
+        <p>Para assuntos comerciais e administrativos.</p>
+        <a class="value" target="_blank" rel="noopener"
+           href="https://wa.me/5588996714271?text=Ol%C3%A1!%20Preciso%20falar%20com%20a%20ger%C3%AAncia.">
+          (88) 9 9671-4271
+        </a>
       </div>
     </div>
   </div>
@@ -526,8 +549,8 @@
 <footer>
   <div class="wrap">
     <div class="footer-brand">
-      <img src="assets/logo-hlteleinformatica.png" alt="HL Tele Informática">
-      <span>HL SOFT e suporte ao sistema ARPA</span>
+      <img src="assets/logo-hlsoft-horizontal.png" alt="HL SOFT">
+      <span>HL Teleinformática — Solucionando com tecnologia</span>
     </div>
     <span>Senador Pompeu, CE</span>
   </div>
@@ -679,6 +702,39 @@
       search.remove();
       area.innerHTML = '<div class="manual-fallback">Não foi possível carregar a lista de manuais agora. Peça o manual direto pelo WhatsApp ou e-mail do suporte.</div>';
     });
+})();
+</script>
+
+<script>
+(function(){
+  const input = document.getElementById('faqSearch');
+  const empty = document.getElementById('faqEmpty');
+  const cats = Array.prototype.slice.call(document.querySelectorAll('#faqArea .faq-cat'));
+
+  input.addEventListener('input', function(){
+    const t = input.value.trim().toLowerCase();
+    let anyVisible = false;
+
+    cats.forEach(function(cat){
+      const items = Array.prototype.slice.call(cat.querySelectorAll('details'));
+      let catHasMatch = false;
+
+      items.forEach(function(item){
+        const text = item.textContent.toLowerCase();
+        const match = !t || text.includes(t);
+        item.style.display = match ? '' : 'none';
+        if(match){
+          catHasMatch = true;
+          if(t) item.setAttribute('open', ''); else item.removeAttribute('open');
+        }
+      });
+
+      cat.style.display = catHasMatch ? '' : 'none';
+      if(catHasMatch) anyVisible = true;
+    });
+
+    empty.style.display = anyVisible ? 'none' : '';
+  });
 })();
 </script>
 
