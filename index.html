@@ -66,7 +66,7 @@
     padding:14px 24px;max-width:var(--maxw);margin:0 auto;gap:16px;
   }
   .brandblock{display:flex;flex-direction:column;align-items:flex-start;line-height:1.1;}
-  .brandlogo{height:42px;width:auto;display:block;}
+  .brandlogo{height:54px;width:auto;display:block;}
   .brandsub{font-size:0.72rem;color:rgba(255,255,255,0.6);margin-top:6px;}
 
   nav.chips{display:none;gap:6px;}
@@ -110,54 +110,17 @@
   }
   .hero-ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px;}
 
-  /* receipt mock */
-  .receipt{
-    background:var(--card);
-    border:1px solid var(--border);
-    border-radius:4px;
-    padding:34px 24px 34px;
-    max-width:340px;
+  /* hero logo panel */
+  .hero-logo-panel{
+    background:linear-gradient(160deg, var(--ink), var(--brand-dark));
+    border-radius:20px;
+    padding:48px 32px;
+    max-width:380px;
     margin:0 auto;
-    box-shadow:0 18px 40px -18px rgba(14,42,43,0.35);
-    position:relative;
-  }
-  .support-icon{
-    position:absolute;top:-24px;left:50%;transform:translateX(-50%);
-    width:52px;height:52px;border-radius:50%;
-    background:linear-gradient(135deg, var(--brand), var(--brand-dark));
     display:flex;align-items:center;justify-content:center;
-    box-shadow:0 10px 22px -8px rgba(11,127,224,0.55);
-    border:4px solid var(--paper);
+    box-shadow:0 24px 48px -20px rgba(9,42,69,0.5);
   }
-  .receipt::after{
-    content:"";
-    position:absolute;left:0;right:0;bottom:-11px;height:20px;
-    background-image:
-      linear-gradient(135deg, var(--paper) 25%, transparent 25%),
-      linear-gradient(225deg, var(--paper) 25%, transparent 25%);
-    background-size:16px 22px;
-    background-position:0 0;
-    background-color:var(--card);
-  }
-  .receipt-head{
-    font-family:'Space Grotesk',sans-serif;font-weight:700;
-    text-align:center;font-size:0.95rem;letter-spacing:0.04em;
-    border-bottom:1px dashed var(--border);padding-bottom:14px;margin-bottom:14px;
-  }
-  .receipt-head small{display:block;font-family:'IBM Plex Sans';font-weight:400;
-    color:var(--muted);letter-spacing:normal;margin-top:4px;font-size:0.78rem;}
-  .receipt-line{
-    display:flex;justify-content:space-between;gap:12px;
-    font-family:'IBM Plex Mono','IBM Plex Sans',monospace;font-size:0.82rem;
-    padding:6px 0;color:var(--ink);
-  }
-  .receipt-line span:first-child{color:var(--muted);}
-  .receipt-total{
-    display:flex;justify-content:space-between;
-    border-top:1px dashed var(--border);margin-top:10px;padding-top:12px;
-    font-weight:700;font-family:'Space Grotesk',sans-serif;font-size:0.92rem;
-  }
-  .receipt-total span:last-child{color:var(--brand-dark);}
+  .hero-logo-panel img{width:100%;max-width:260px;}
 
   /* ---------- Sections generic ---------- */
   section{padding:60px 0;}
@@ -312,12 +275,12 @@
 <header>
   <div class="headbar">
     <div class="brandblock">
-      <img class="brandlogo" src="assets/logo-hlsoft-horizontal.png" alt="HL SOFT">
+      <img class="brandlogo" src="assets/logo-hlsoft-stacked.png" alt="HL SOFT">
       <span class="brandsub">Central de ajuda · HL Teleinformática</span>
     </div>
     <nav class="chips">
-      <a href="#faq">Perguntas frequentes</a>
       <a href="#videos">Vídeos</a>
+      <a href="#faq">Perguntas frequentes</a>
       <a href="#manuais">Manuais</a>
       <a href="#suporte">Suporte</a>
     </nav>
@@ -346,21 +309,22 @@
         <a class="btn btn-outline" href="#faq">Ver perguntas frequentes</a>
       </div>
     </div>
-    <div class="receipt">
-      <div class="support-icon">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M3 18v-6a9 9 0 0 1 18 0v6"/>
-          <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/>
-        </svg>
-      </div>
-      <div class="receipt-head">TICKET DE SUPORTE
-        <small>HL Teleinformática · HL SOFT</small>
-      </div>
-      <div class="receipt-line"><span>Canal</span><span>WhatsApp direto</span></div>
-      <div class="receipt-line"><span>Resposta</span><span>poucos minutos</span></div>
-      <div class="receipt-line"><span>Manuais</span><span>mais de 600 disponíveis</span></div>
-      <div class="receipt-line"><span>Vídeos</span><span>explicativos no canal</span></div>
-      <div class="receipt-total"><span>STATUS</span><span>atendimento pronto ✔</span></div>
+    <div class="hero-logo-panel">
+      <img src="assets/logo-hlsoft-stacked.png" alt="HL SOFT">
+    </div>
+  </div>
+</section>
+
+<section id="videos">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="section-tag">Vídeos</div>
+      <h2>Vídeos explicativos do sistema</h2>
+      <p>Prévias direto do nosso canal do YouTube. Clique em qualquer vídeo para assistir lá.</p>
+    </div>
+    <div id="videoArea">
+      <p id="videoStatus">Carregando vídeos do canal…</p>
+      <div class="video-grid" id="videoGrid"></div>
     </div>
   </div>
 </section>
@@ -479,20 +443,6 @@
         <p>Sim — fale com o suporte para agendar um treinamento, presencial ou por chamada de vídeo, para a equipe que vai usar o sistema no dia a dia.</p>
       </details>
     </div>
-    </div>
-  </div>
-</section>
-
-<section id="videos">
-  <div class="wrap">
-    <div class="section-head">
-      <div class="section-tag">Vídeos</div>
-      <h2>Vídeos explicativos do sistema</h2>
-      <p>Prévias direto do nosso canal do YouTube. Clique em qualquer vídeo para assistir lá.</p>
-    </div>
-    <div id="videoArea">
-      <p id="videoStatus">Carregando vídeos do canal…</p>
-      <div class="video-grid" id="videoGrid"></div>
     </div>
   </div>
 </section>
@@ -620,7 +570,7 @@
     .then(function(r){ return r.json(); })
     .then(function(data){
       if (data.status !== 'ok' || !data.items || !data.items.length) throw new Error('rss2json vazio');
-      renderFromRss2Json(data.items.slice(0, 6));
+      renderFromRss2Json(data.items.slice(0, 12));
     })
     .catch(function(){
       // Estratégia 2: proxy genérico + parse do XML original
@@ -629,7 +579,7 @@
         .then(function(r){ return r.text(); })
         .then(function(xmlText){
           const xml = new DOMParser().parseFromString(xmlText, 'text/xml');
-          const entries = Array.prototype.slice.call(xml.querySelectorAll('entry')).slice(0, 6);
+          const entries = Array.prototype.slice.call(xml.querySelectorAll("entry")).slice(0, 12);
           if (!entries.length) throw new Error('sem entradas');
           renderFromXml(entries);
         })
