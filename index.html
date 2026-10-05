@@ -58,24 +58,23 @@
   /* ---------- Header ---------- */
   header{
     position:sticky;top:0;z-index:50;
-    background:rgba(244,246,250,0.92);
-    backdrop-filter:blur(6px);
-    border-bottom:1px solid var(--border);
+    background:var(--ink);
+    border-bottom:1px solid rgba(255,255,255,0.08);
   }
   .headbar{
     display:flex;align-items:center;justify-content:space-between;
     padding:14px 24px;max-width:var(--maxw);margin:0 auto;gap:16px;
   }
   .brandblock{display:flex;flex-direction:column;align-items:flex-start;line-height:1.1;}
-  .brandlogo{height:46px;width:auto;display:block;}
-  .brandsub{font-size:0.72rem;color:var(--muted);margin-top:6px;}
+  .brandlogo{height:46px;width:auto;display:block;border-radius:8px;}
+  .brandsub{font-size:0.72rem;color:rgba(255,255,255,0.6);margin-top:6px;}
 
   nav.chips{display:none;gap:6px;}
   nav.chips a{
-    font-size:0.9rem;text-decoration:none;color:var(--ink);
+    font-size:0.9rem;text-decoration:none;color:rgba(255,255,255,0.85);
     padding:8px 14px;border-radius:999px;white-space:nowrap;
   }
-  nav.chips a:hover{background:#E4EAF2;}
+  nav.chips a:hover{background:rgba(255,255,255,0.1);color:#fff;}
 
   .btn{
     display:inline-flex;align-items:center;gap:8px;
@@ -113,15 +112,16 @@
 
   /* hero logo panel */
   .hero-logo-panel{
-    background:linear-gradient(160deg, var(--ink), var(--brand-dark));
+    background:var(--card);
+    border:1px solid var(--border);
     border-radius:20px;
-    padding:48px 32px;
+    padding:40px 32px;
     max-width:380px;
     margin:0 auto;
     display:flex;align-items:center;justify-content:center;
-    box-shadow:0 24px 48px -20px rgba(9,42,69,0.5);
+    box-shadow:0 24px 48px -20px rgba(14,42,69,0.25);
   }
-  .hero-logo-panel img{width:100%;max-width:260px;}
+  .hero-logo-panel img{width:100%;max-width:280px;border-radius:8px;}
 
   /* ---------- Sections generic ---------- */
   section{padding:60px 0;}
@@ -311,7 +311,7 @@
       </div>
     </div>
     <div class="hero-logo-panel">
-      <img src="assets/logo-hlsoft-stacked.png" alt="HL SOFT">
+      <img src="assets/logo-hlsoft-stacked-white.jpg" alt="HL SOFT">
     </div>
   </div>
 </section>
