@@ -58,23 +58,24 @@
   /* ---------- Header ---------- */
   header{
     position:sticky;top:0;z-index:50;
-    background:var(--ink);
-    border-bottom:1px solid rgba(255,255,255,0.08);
+    background:rgba(244,246,250,0.92);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--border);
   }
   .headbar{
     display:flex;align-items:center;justify-content:space-between;
     padding:14px 24px;max-width:var(--maxw);margin:0 auto;gap:16px;
   }
   .brandblock{display:flex;flex-direction:column;align-items:flex-start;line-height:1.1;}
-  .brandlogo{height:46px;width:auto;display:block;border-radius:8px;background:#fff;padding:3px 10px;}
-  .brandsub{font-size:0.72rem;color:rgba(255,255,255,0.6);margin-top:6px;}
+  .brandlogo{height:46px;width:auto;display:block;}
+  .brandsub{font-size:0.72rem;color:var(--muted);margin-top:6px;}
 
   nav.chips{display:none;gap:6px;}
   nav.chips a{
-    font-size:0.9rem;text-decoration:none;color:rgba(255,255,255,0.85);
+    font-size:0.9rem;text-decoration:none;color:var(--ink);
     padding:8px 14px;border-radius:999px;white-space:nowrap;
   }
-  nav.chips a:hover{background:rgba(255,255,255,0.1);color:#fff;}
+  nav.chips a:hover{background:#E4EAF2;}
 
   .btn{
     display:inline-flex;align-items:center;gap:8px;
