@@ -66,7 +66,7 @@
     padding:14px 24px;max-width:var(--maxw);margin:0 auto;gap:16px;
   }
   .brandblock{display:flex;flex-direction:column;align-items:flex-start;line-height:1.1;}
-  .brandlogo{height:46px;width:auto;display:block;}
+  .brandlogo{height:62px;width:auto;display:block;}
   .brandsub{font-size:0.72rem;color:rgba(255,255,255,0.6);margin-top:6px;}
 
   nav.chips{display:none;gap:6px;}
@@ -352,7 +352,7 @@
 <header>
   <div class="headbar">
     <div class="brandblock">
-      <img class="brandlogo" src="assets/logo-hlsoft-stacked.png" alt="HL SOFT">
+      <img class="brandlogo" src="assets/logo-hlsoft-header.png" alt="HL SOFT">
       <span class="brandsub">Central de ajuda · HL Teleinformática</span>
     </div>
     <nav class="chips">
@@ -779,7 +779,7 @@
   var actions = document.getElementById('videoActions');
   var channelUrl = 'https://www.youtube.com/@hlsoft_sistemacomercial';
   var rssUrl = 'https://www.youtube.com/feeds/videos.xml?channel_id=UCIFDpPTBFAtVk8OYBNWs1fA';
-  var VISIBLE = 8;
+  var VISIBLE = 8, STEP = 12;
 
   function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;'); }
 
@@ -802,6 +802,15 @@
     '</a>';
   }
 
+  // Fonte 1: função do próprio site (/api/videos) — traz a lista completa do canal
+  function fromApi(){
+    return fetch('/api/videos')
+      .then(function(r){ return r.json(); })
+      .then(function(d){ return (d && d.videos) ? d.videos : []; })
+      .catch(function(){ return []; });
+  }
+
+  // Fontes 2 e 3 (reserva): RSS do YouTube por proxies públicos (até 15 vídeos)
   function fromRss2Json(){
     return fetch('https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(rssUrl))
       .then(function(r){ return r.json(); })
@@ -814,7 +823,6 @@
       })
       .catch(function(){ return []; });
   }
-
   function fromProxy(){
     return fetch('https://api.allorigins.win/raw?url=' + encodeURIComponent(rssUrl))
       .then(function(r){ return r.text(); })
@@ -830,31 +838,42 @@
       })
       .catch(function(){ return []; });
   }
-
-  Promise.all([fromRss2Json(), fromProxy()]).then(function(lists){
-    lists.sort(function(a, b){ return b.length - a.length; });
-    var merged = [], seen = {};
-    lists.forEach(function(l){
-      l.forEach(function(v){ if (!seen[v.id]) { seen[v.id] = 1; merged.push(v); } });
+  function fromBackups(){
+    return Promise.all([fromRss2Json(), fromProxy()]).then(function(lists){
+      lists.sort(function(a, b){ return b.length - a.length; });
+      var merged = [], seen = {};
+      lists.forEach(function(l){ l.forEach(function(v){ if (!seen[v.id]) { seen[v.id] = 1; merged.push(v); } }); });
+      return merged;
     });
-    if (!merged.length) return fallback();
+  }
 
+  function show(videos){
+    if (!videos.length) return fallback();
     if (status) status.remove();
-    grid.innerHTML = merged.map(function(v, i){ return card(v, i >= VISIBLE); }).join('');
-    window.hlVideos = merged;
+    grid.innerHTML = videos.map(function(v, i){ return card(v, i >= VISIBLE); }).join('');
+    window.hlVideos = videos;
 
-    if (merged.length > VISIBLE) {
+    var hidden = videos.length - VISIBLE;
+    if (hidden > 0) {
       var btn = document.createElement('button');
       btn.type = 'button';
       btn.className = 'btn btn-outline';
-      btn.textContent = 'Mostrar mais vídeos (' + (merged.length - VISIBLE) + ')';
+      var label = function(){ return 'Mostrar mais vídeos (' + hidden + ')'; };
+      btn.textContent = label();
       btn.addEventListener('click', function(){
-        var open = grid.classList.toggle('expanded');
-        btn.textContent = open ? 'Mostrar menos' : 'Mostrar mais vídeos (' + (merged.length - VISIBLE) + ')';
+        var extras = grid.querySelectorAll('.video-card.is-extra');
+        for (var i = 0; i < Math.min(STEP, extras.length); i++) extras[i].classList.remove('is-extra');
+        hidden = grid.querySelectorAll('.video-card.is-extra').length;
+        if (hidden > 0) btn.textContent = label(); else btn.remove();
       });
       actions.insertBefore(btn, actions.firstChild);
     }
-  });
+  }
+
+  fromApi().then(function(list){
+    if (list.length) return list;
+    return fromBackups();
+  }).then(show);
 })();
 
 </script>

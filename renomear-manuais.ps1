@@ -1,5 +1,3 @@
-# Rode este arquivo na raiz do repositorio (pasta repo-hlsoft).
-# Ele so renomeia 11 PDFs com git mv, sem reenviar os arquivos.
 $b = "assets/manuais"
 
 git mv "$b/complementares/vendas/procedimentos-complementares-manual-do-processo-de-venda-f12-utilizando-arpag.pdf" "$b/complementares/vendas/procedimentos-complementares-manual-do-processo-de-venda-f12-utilizando-pagamento.pdf"
