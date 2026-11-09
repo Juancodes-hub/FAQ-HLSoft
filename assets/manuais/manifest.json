@@ -387,7 +387,7 @@
             },
             {
               "title": "Manual do processo de Venda (F12) utilizando Arpag",
-              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-manual-do-processo-de-venda-f12-utilizando-arpag.pdf"
+              "path": "assets/manuais/complementares/vendas/procedimentos-complementares-manual-do-processo-de-venda-f12-utilizando-pagamento.pdf"
             },
             {
               "title": "Manual do processo de Venda (F12) utilizando TEF",
@@ -443,7 +443,7 @@
             },
             {
               "title": "Manual de conversão de Arpa para Arpa",
-              "path": "assets/manuais/conversao-de-banco-de-dados/manual-de-conversao-de-arpa-para-arpa.pdf"
+              "path": "assets/manuais/conversao-de-banco-de-dados/manual-de-conversao-de-control-para-control.pdf"
             },
             {
               "title": "Manual de conversão de banco de dados MongoDB",
@@ -455,7 +455,7 @@
             },
             {
               "title": "Manual do Conversor Universal ARPA Sistemas",
-              "path": "assets/manuais/conversao-de-banco-de-dados/manual-do-conversor-universal-arpa-sistemas.pdf"
+              "path": "assets/manuais/conversao-de-banco-de-dados/manual-do-conversor-universal-control-sistemas.pdf"
             },
             {
               "title": "Manual do conversor de banco de dados de sistemas específicos",
@@ -463,7 +463,7 @@
             },
             {
               "title": "Manual dos campos obrigatórios utilizados no Conversor Universal ARPA Sistemas",
-              "path": "assets/manuais/conversao-de-banco-de-dados/manual-dos-campos-obrigatorios-utilizados-no-conversor-universal-arpa-sistemas.pdf"
+              "path": "assets/manuais/conversao-de-banco-de-dados/manual-dos-campos-obrigatorios-utilizados-no-conversor-universal-control-sistemas.pdf"
             }
           ]
         }
@@ -2029,7 +2029,7 @@
             },
             {
               "title": "Manual completo do Gerenciador de serviços Arpa",
-              "path": "assets/manuais/menu-utilitarios/configuracoes/manual-completo-do-gerenciador-de-servicos-arpa.pdf"
+              "path": "assets/manuais/menu-utilitarios/configuracoes/manual-completo-do-gerenciador-de-servicos-control.pdf"
             },
             {
               "title": "Manual de como atualizar endereços Webservices",
@@ -2143,27 +2143,27 @@
           "files": [
             {
               "title": "Manual de configuração_utilização do aplicativo Arpag - Cielo",
-              "path": "assets/manuais/modulos-adicionais/arpag/manual-de-configuracao-utilizacao-do-aplicativo-arpag-cielo.pdf"
+              "path": "assets/manuais/modulos-adicionais/pagamento/manual-de-configuracao-utilizacao-do-aplicativo-pagamento-cielo.pdf"
             },
             {
               "title": "Manual de configuração_utilização do aplicativo Arpag - Fiserv",
-              "path": "assets/manuais/modulos-adicionais/arpag/manual-de-configuracao-utilizacao-do-aplicativo-arpag-fiserv.pdf"
+              "path": "assets/manuais/modulos-adicionais/pagamento/manual-de-configuracao-utilizacao-do-aplicativo-pagamento-fiserv.pdf"
             },
             {
               "title": "Manual de configuração_utilização do aplicativo Arpag - PagSeguro",
-              "path": "assets/manuais/modulos-adicionais/arpag/manual-de-configuracao-utilizacao-do-aplicativo-arpag-pagseguro.pdf"
+              "path": "assets/manuais/modulos-adicionais/pagamento/manual-de-configuracao-utilizacao-do-aplicativo-pagamento-pagseguro.pdf"
             },
             {
               "title": "Manual de configuração_utilização do aplicativo Arpag - Rede",
-              "path": "assets/manuais/modulos-adicionais/arpag/manual-de-configuracao-utilizacao-do-aplicativo-arpag-rede.pdf"
+              "path": "assets/manuais/modulos-adicionais/pagamento/manual-de-configuracao-utilizacao-do-aplicativo-pagamento-rede.pdf"
             },
             {
               "title": "Manual de configuração_utilização do aplicativo Arpag - Stone",
-              "path": "assets/manuais/modulos-adicionais/arpag/manual-de-configuracao-utilizacao-do-aplicativo-arpag-stone.pdf"
+              "path": "assets/manuais/modulos-adicionais/pagamento/manual-de-configuracao-utilizacao-do-aplicativo-pagamento-stone.pdf"
             },
             {
               "title": "Manual de configuração_utilização do aplicativo Arpag - Vero",
-              "path": "assets/manuais/modulos-adicionais/arpag/manual-de-configuracao-utilizacao-do-aplicativo-arpag-vero.pdf"
+              "path": "assets/manuais/modulos-adicionais/pagamento/manual-de-configuracao-utilizacao-do-aplicativo-pagamento-vero.pdf"
             }
           ]
         },

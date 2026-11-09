@@ -269,6 +269,82 @@
     text-decoration:none;
   }
   .float-whats:hover{background:var(--whatsapp-dark);}
+
+  /* ---------- FAQ por sistema ---------- */
+  .faq-system-label{
+    display:inline-block;font-family:'Space Grotesk',sans-serif;font-weight:700;
+    font-size:0.8rem;letter-spacing:0.05em;text-transform:uppercase;
+    color:var(--brand-dark);background:#E4F0FB;padding:6px 12px;border-radius:999px;margin-bottom:16px;
+  }
+  .faq-system + .faq-system{margin-top:38px;padding-top:32px;border-top:1px solid var(--border);}
+  .faq-note{color:var(--muted);font-size:0.9rem;margin:0 0 22px;max-width:72ch;}
+  .manual-links{padding:0 20px 18px;}
+  .manual-links div{margin-top:6px;}
+  .manual-link{
+    display:inline-flex;gap:8px;align-items:flex-start;font-size:0.85rem;font-weight:600;
+    color:var(--brand-dark);text-decoration:none;
+  }
+  .manual-link::before{
+    content:"";width:14px;height:16px;flex:none;margin-top:2px;
+    background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230968B5' stroke-width='2'><path d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z'/><path d='M14 2v6h6'/></svg>") no-repeat center/contain;
+  }
+  .manual-link:hover{text-decoration:underline;}
+  details > p + p{padding-top:0;margin-top:-8px;}
+  .faq-keys,.faq-versions{margin:0;padding:0 20px 16px 40px;color:var(--muted);}
+  .faq-keys{columns:2;column-gap:28px;}
+  .faq-keys li,.faq-versions li{margin-bottom:6px;break-inside:avoid;}
+  .faq-keys b,.faq-versions b{color:var(--ink);}
+  @media (max-width:640px){.faq-keys{columns:1;}}
+
+  /* ---------- Busca rápida (quadrados) ---------- */
+  .search-grid{display:grid;grid-template-columns:1fr;gap:20px;align-items:start;}
+  @media (min-width:860px){.search-grid{grid-template-columns:1fr 1fr;}}
+  .search-card{
+    position:relative;overflow:hidden;border-radius:22px;padding:30px 26px 26px;
+    color:#fff;min-height:300px;display:flex;flex-direction:column;
+    box-shadow:0 24px 48px -24px rgba(14,42,69,0.55);
+  }
+  .search-card.control{background:linear-gradient(155deg,#0E2238 0%,#122A45 45%,#0B4F8F 100%);}
+  .search-card.hlsoft{background:linear-gradient(155deg,#0968B5 0%,#0B7FE0 62%,#3FC6F0 135%);}
+  .sc-watermark{
+    position:absolute;right:16px;top:14px;text-align:right;pointer-events:none;user-select:none;
+    font-family:'Space Grotesk',sans-serif;font-weight:700;line-height:0.95;letter-spacing:-0.02em;
+    font-size:clamp(2.2rem,5.5vw,3.6rem);text-transform:uppercase;color:rgba(255,255,255,0.1);
+  }
+  .sc-body{position:relative;z-index:1;display:flex;flex-direction:column;gap:12px;flex:1;justify-content:flex-end;}
+  .sc-title{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.3rem;}
+  .sc-sub{font-size:0.88rem;color:rgba(255,255,255,0.8);margin:0;}
+  .sc-input{
+    width:100%;font:inherit;font-size:1rem;color:var(--ink);
+    padding:15px 18px;border-radius:12px;border:2px solid transparent;background:#fff;
+  }
+  .sc-input:focus{outline:none;border-color:var(--amber);}
+  .sc-chips{display:flex;flex-wrap:wrap;gap:8px;}
+  .sc-chip{
+    font:inherit;font-size:0.8rem;font-weight:600;color:#fff;cursor:pointer;
+    background:rgba(255,255,255,0.14);border:1px solid rgba(255,255,255,0.3);
+    padding:6px 12px;border-radius:999px;
+  }
+  .sc-chip:hover{background:rgba(255,255,255,0.26);}
+  .sc-results{display:flex;flex-direction:column;gap:8px;margin-top:2px;}
+  .sc-results:empty{display:none;}
+  .sc-item{display:block;background:#fff;color:var(--ink);border-radius:12px;padding:12px 14px;text-decoration:none;}
+  a.sc-item:hover{outline:2px solid var(--amber);}
+  .sc-item-title{font-weight:600;font-size:0.92rem;}
+  .sc-item-meta{font-size:0.72rem;color:var(--brand-dark);font-weight:600;margin-top:2px;}
+  .sc-item-desc{font-size:0.82rem;color:var(--muted);margin-top:4px;}
+  .sc-item-action{font:inherit;font-size:0.8rem;font-weight:600;color:var(--brand-dark);background:none;border:none;padding:0;margin-top:8px;cursor:pointer;}
+  .sc-item-action:hover{text-decoration:underline;}
+  .sc-video{display:flex;gap:12px;align-items:center;}
+  .sc-video img{width:96px;aspect-ratio:16/9;object-fit:cover;border-radius:8px;flex:none;}
+  .sc-group{font-size:0.72rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;color:rgba(255,255,255,0.8);margin:6px 0 -2px;}
+  .sc-none{background:rgba(255,255,255,0.12);border:1px dashed rgba(255,255,255,0.45);border-radius:12px;padding:14px;font-size:0.88rem;}
+  .sc-none a{color:#fff;font-weight:600;}
+
+  /* ---------- Vídeos: ver mais ---------- */
+  .video-card.is-extra{display:none;}
+  .video-grid.expanded .video-card.is-extra{display:block;}
+  .video-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px;}
 </style>
 </head>
 <body>
@@ -280,9 +356,9 @@
       <span class="brandsub">Central de ajuda · HL Teleinformática</span>
     </div>
     <nav class="chips">
+      <a href="#buscar">Buscar</a>
       <a href="#videos">Vídeos</a>
       <a href="#faq">Perguntas frequentes</a>
-      <a href="#manuais">Manuais</a>
       <a href="#suporte">Suporte</a>
     </nav>
     <a class="btn btn-whats btn-sm" target="_blank" rel="noopener"
@@ -316,6 +392,47 @@
   </div>
 </section>
 
+<section id="buscar">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="section-tag">Busca rápida</div>
+      <h2>Qual é a sua dúvida?</h2>
+      <p>Digite o que você procura e o site mostra o manual ou a resposta certa.</p>
+    </div>
+    <div class="search-grid">
+
+      <div class="search-card control">
+        <div class="sc-watermark" aria-hidden="true">Sistema<br>Control</div>
+        <div class="sc-body">
+          <div class="sc-title">Sistema Control</div>
+          <p class="sc-sub">Pesquise nos mais de 640 manuais do sistema.</p>
+          <input type="search" id="scControl" class="sc-input" placeholder="Ex.: backup, boleto, carta de correção…" autocomplete="off" aria-label="Buscar manual do Sistema Control">
+          <div class="sc-results" id="scControlResults" aria-live="polite"></div>
+        </div>
+      </div>
+
+      <div class="search-card hlsoft">
+        <div class="sc-watermark" aria-hidden="true">HL<br>Soft</div>
+        <div class="sc-body">
+          <div class="sc-title">HL SOFT</div>
+          <p class="sc-sub">Pesquise nas perguntas frequentes e nos vídeos.</p>
+          <input type="search" id="scHl" class="sc-input" placeholder="Ex.: venda no caixa, desconto, nota fiscal…" autocomplete="off" aria-label="Buscar no HL SOFT">
+          <div class="sc-chips" id="scHlChips">
+            <button type="button" class="sc-chip" data-q="venda no caixa">Venda no caixa</button>
+            <button type="button" class="sc-chip" data-q="nota fiscal">Nota fiscal</button>
+            <button type="button" class="sc-chip" data-q="desconto">Desconto</button>
+            <button type="button" class="sc-chip" data-q="estoque">Estoque</button>
+            <button type="button" class="sc-chip" data-q="relatório">Relatórios</button>
+            <button type="button" class="sc-chip" data-q="internet">Internet</button>
+          </div>
+          <div class="sc-results" id="scHlResults" aria-live="polite"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 <section id="videos">
   <div class="wrap">
     <div class="section-head">
@@ -326,6 +443,9 @@
     <div id="videoArea">
       <p id="videoStatus">Carregando vídeos do canal…</p>
       <div class="video-grid" id="videoGrid"></div>
+      <div class="video-actions" id="videoActions">
+        <a class="btn btn-outline" target="_blank" rel="noopener" href="https://www.youtube.com/@hlsoft_sistemacomercial">Ver todos os vídeos no YouTube</a>
+      </div>
     </div>
   </div>
 </section>
@@ -341,6 +461,8 @@
     <p id="faqEmpty" class="manual-empty" style="display:none;">Nenhuma pergunta encontrada para essa busca.</p>
 
     <div id="faqArea">
+    <div class="faq-system" data-system="hlsoft">
+    <div class="faq-system-label">HL SOFT</div>
     <div class="faq-cat">
       <h3>Sobre o sistema</h3>
       <details>
@@ -437,7 +559,7 @@
       </details>
       <details>
         <summary>Vocês também dão suporte ao Sistema Control?</summary>
-        <p>Sim. Além do HL SOFT, a HL Teleinformática atende clientes que usam o Sistema Control. Os manuais completos estão organizados por assunto na seção "Manuais" logo abaixo.</p>
+        <p>Sim. Além do HL SOFT, a HL Teleinformática atende clientes que usam o Sistema Control. Para achar um manual, use a caixa de busca do Sistema Control no topo desta página.</p>
       </details>
       <details>
         <summary>Vocês dão treinamento para novos funcionários?</summary>
@@ -445,19 +567,157 @@
       </details>
     </div>
     </div>
+<div class="faq-system" data-system="control">
+  <div class="faq-system-label">Sistema Control · respostas tiradas dos manuais</div>
+  <p class="faq-note">Os resumos abaixo foram feitos a partir dos manuais do Sistema Control. Em cada resposta há o link do manual completo (PDF).</p>
+  <div class="faq-cat">
+    <h3>Instalação, atualização e acesso remoto</h3>
+    <details>
+      <summary>Como sei se existe uma versão nova do sistema e como atualizo?</summary>
+      <p>Quando o sistema é aberto e há uma versão nova, o Assistente de Atualização exibe uma janela avisando. Você pode iniciar o download na hora ou apenas verificar se há versão disponível. Para conferir manualmente, use o menu Ajuda &gt; Verificar atualizações. Na própria janela há um link para ver as novidades de cada versão.</p><p>O assistente existe a partir da versão 1.25.4.0.</p>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/atualizacao/manual-do-assistente-de-atualizacao-a-partir-da-versao-1-25-4-0.pdf">Manual completo: Manual do Assistente de Atualização (Á partir da versão 1.25.4.0)</a></div></div>
+    </details>
+    <details>
+      <summary>Quais são os requisitos mínimos para instalar?</summary>
+      <p>Sistemas Windows aceitos: 8, 8.1, 10, Server 2012 ou 2016. O Windows 8, o Server 2003 e o 2008 têm restrições para NF-e, NFC-e, SAT e MF-e, porque a versão 4.00 dos documentos eletrônicos exige o protocolo TLS 1.2.</p><p>Demais requisitos citados no manual: SSD (ou superior) conectado a SATA 3, 8 GB de memória RAM e monitor com resolução mínima de 1024x768 (recomendado 1680x1050 ou superior).</p>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/instalacao/manual-de-instalacao-e-configuracao-do-software-denominado-sistema-control-e-seu.pdf">Manual completo: Manual de instalação e configuração do Software denominado Sistema CONTROL e seu frente de caixa denominado PDV-FISCAL</a></div></div>
+    </details>
+    <details>
+      <summary>O computador servidor vai ser formatado. O que fazer antes?</summary>
+      <p>Antes de formatar, desative a licença da máquina em Ajuda &gt; Dados do Registro / Licenças: selecione a licença do servidor e clique em Desativar Terminal. O sistema mostra o número do HD para você conferir se está desativando o terminal correto. Depois da formatação, siga o manual de reinstalação.</p>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/reinstalacao/reinstalacao-do-sistema-no-micro-servidor.pdf">Manual completo: Reinstalação do sistema no micro Servidor</a></div></div>
+    </details>
+    <details>
+      <summary>Como o suporte acessa meu computador remotamente?</summary>
+      <p>O acesso remoto já vem junto com o sistema. Há três formas de liberar: pelo executável chamado Suporte, na pasta de instalação do sistema; pelo atalho na pasta do sistema na área de trabalho; ou pelo menu Ajuda &gt; Assistência Remota.</p><p>Depois de abrir, é só informar ao atendente o número que aparece em "Sua ID".</p>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/menu-ajuda/manual-do-acesso-remoto-assistencia-remota.pdf">Manual completo: Manual do acesso remoto (assistência remota)</a></div></div>
+    </details>
+    <details>
+      <summary>O que é a Manutenção de Tabelas e quando usar?</summary>
+      <p>É usada quando há suspeita de que alguma tabela do banco de dados corrompeu, ou para redefinir algum procedimento. O manual recomenda executar apenas com o suporte técnico, porque pode causar danos irreversíveis à base, e só depois de pelo menos três backups por base, com tamanhos válidos. Fica em Ajuda &gt; Manutenção de tabelas.</p>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/menu-ajuda/manual-de-como-realizar-manutencao-de-tabelas.pdf">Manual completo: Manual de como realizar manutenção de tabelas</a></div></div>
+    </details>
   </div>
-</section>
-
-<section id="manuais">
-  <div class="wrap">
-    <div class="section-head">
-      <div class="section-tag">Manuais</div>
-      <h2>Manuais do Sistema Control</h2>
-      <p>A HL Teleinformática também dá suporte ao Sistema Control. Mais de 600 manuais organizados por assunto — use a busca ou abra por categoria.</p>
+  <div class="faq-cat">
+    <h3>Backup e segurança dos dados</h3>
+    <details>
+      <summary>Como faço o backup manual?</summary>
+      <p>No computador servidor, dê dois cliques no ícone Preparar Cópia de Segurança, na área de trabalho. Enquanto o cursor estiver piscando, o backup está sendo feito; quando a janela fechar, a cópia foi salva no diretório configurado na instalação.</p><p>Depois, confira a data, a hora e o tamanho do arquivo pelo atalho Ver Cópias de Segurança e salve uma cópia em mídia externa.</p>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/backup/como-efetuar-a-copia-de-seguranca-conferir-a-mesma-e-salvar-em-um-midia-externa.pdf">Manual completo: Como efetuar a cópia de segurança conferir a mesma e salvar em um mídia externa</a></div><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/backup/como-fazer-backup-da-base-control.pdf">Manual completo: Como fazer backup da base Control</a></div></div>
+    </details>
+    <details>
+      <summary>Existe backup automático ou em nuvem?</summary>
+      <p>Sim. O backup automático é um executável que fica apenas no computador servidor e permite salvar a cópia em nuvem pelo Dropbox e pelo Google Drive. Para habilitar, acesse o Control Desktop em Utilitários &gt; Configurações &gt; Serviços &gt; Gerenciador de base de dados e habilite as bases desejadas (não é permitido habilitar duas bases com o mesmo CNPJ).</p><p>O aplicativo de backup em nuvem exige o sistema na versão 1.19.2.0 ou superior e uma licença adquirida com o setor comercial. A partir da versão 1.25.3.0, o nome do arquivo de backup automático passa a incluir o CNPJ da empresa.</p>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/backup/manual-do-agendamento-de-backups.pdf">Manual completo: Manual do agendamento de backups</a></div><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/backup/manual-do-aplicativo-de-backup-em-nuvem.pdf">Manual completo: Manual do aplicativo de backup em nuvem</a></div><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/backup/manual-para-iniciar-o-uso-do-backup-automatico.pdf">Manual completo: Manual para iniciar o uso do backup automático</a></div></div>
+    </details>
+  </div>
+  <div class="faq-cat">
+    <h3>Caixa e PDV Fiscal</h3>
+    <details>
+      <summary>Como abrir e fechar o caixa?</summary>
+      <p>Acesse Manutenção &gt; Bancos e Caixa &gt; Abertura de Caixa, ou use a tecla F8 a qualquer momento. Informe o operador (o sistema sugere o usuário logado), a espécie e o valor de abertura. O fechamento funciona da mesma forma, em Fechamento do Caixa (ou F8).</p><p>Os manuais recomendam fechar todos os caixas antes de atualizar a versão do sistema e abrir só depois da atualização, para evitar divergência de valores nos relatórios.</p>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/treinamento-geral/caixa/manual-da-abertura-de-caixa.pdf">Manual completo: Manual da Abertura de Caixa</a></div><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/treinamento-geral/caixa/manual-do-fechamento-no-caixa.pdf">Manual completo: Manual do Fechamento no Caixa</a></div></div>
+    </details>
+    <details>
+      <summary>Quais são as teclas de atalho do PDV Fiscal?</summary>
+      <ul class="faq-keys"><li><b>F2</b> exclui a venda atual</li><li><b>F3</b> dados do consumidor</li><li><b>F4</b> consulta de produtos</li><li><b>F6 / F7</b> finaliza a venda à vista / a prazo</li><li><b>F8</b> abre ou fecha o caixa</li><li><b>F9</b> importa venda feita no retaguarda</li><li><b>F11</b> menu fiscal</li><li><b>F12</b> pré-venda</li><li><b>Ctrl + D</b> desconto ou acréscimo no item ou no total</li><li><b>Ctrl + P</b> imprime o pedido de venda antes da NFC-e</li><li><b>Ctrl + F2</b> troca rápida de usuário</li><li><b>Ctrl + F6</b> contas a receber</li><li><b>Ctrl + F8</b> abre a gaveta</li><li><b>Ctrl + F11</b> menu de opções</li><li><b>Ctrl + L</b> limpa o frente de caixa</li><li><b>-</b> (menos) cancela o item</li></ul>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/pdv-fiscal/manuais-de-utilizacao/menus/manual-do-menu-ajuda-f1.pdf">Manual completo: Menus — Manual do menu Ajuda - F1</a></div><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/pdv-fiscal/manuais-de-utilizacao/menus/manual-do-menu-fiscal-f11.pdf">Manual completo: Menus — Manual do menu Fiscal - F11</a></div><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/pdv-fiscal/manuais-de-utilizacao/menus/manual-do-menu-de-operacoes-ctrl-f11.pdf">Manual completo: Menus — Manual do menu de operações - Ctrl F11</a></div></div>
+    </details>
+    <details>
+      <summary>Como fazer sangria e suprimento?</summary>
+      <p>No PDV Fiscal, pressione Ctrl+F11 para abrir o menu de opções e clique em Sangria. A janela tem três partes: a origem (de qual caixa sai o valor), o destino e os dados da sangria. O destino pode ser o caixa de outro operador, o caixa cofre da empresa ou um banco cadastrado no sistema. Para usar o caixa cofre, antes é preciso marcar uma conta como caixa cofre.</p>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/pdv-fiscal/manuais-de-utilizacao/menus/manual-completo-sobre-sangria-suprimento-e-como-definir-o-limite-de-caixa.pdf">Manual completo: Menus — Manual completo sobre sangria, suprimento e como definir o limite de caixa</a></div></div>
+    </details>
+    <details>
+      <summary>A NFC-e não pôde ser emitida. Existe contingência automática?</summary>
+      <p>Existe. Em Utilitários &gt; Configurações &gt; Configurações do Sistema, aba NFC-e, habilite "Habilitar contingência: automático". O limite padrão é de 100 notas em contingência, e você pode alterar. Quando uma instabilidade ou erro cadastral impede a emissão, as notas pendentes são autorizadas em segundo plano por um serviço, evitando fila e travamento do caixa.</p>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/pdv-fiscal/configuracoes-de-nfce/manual-de-configuracao-da-contingencia-automatica.pdf">Manual completo: Manual de configuração da contingência automática</a></div><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/pdv-fiscal/configuracoes-de-nfce/configuracao-e-autorizacao-de-nfc-es-emitidas-em-contingencia.pdf">Manual completo: Configuração e autorização de NFC-es emitidas em Contingência</a></div></div>
+    </details>
+    <details>
+      <summary>O PDV funciona sem conexão com o servidor?</summary>
+      <p>Para isso existe o PDV Off-line (antigo Standalone), que roda por um serviço do Windows instalado junto com o terminal e sincroniza os dados com o servidor (importação e exportação). Para usar a versão 2, acesse Utilitários &gt; Configurações &gt; Configurações do Sistema, aba Configurações2, e escolha "Versão 2 (Nova)".</p><p>Ele não funciona para empresas do regime MEI, e na tabela de planos o PDV Fiscal Off-line aparece apenas no plano Completo.</p>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/pdv-fiscal/complementares/manual-do-pdv-off-line.pdf">Manual completo: Manual do PDV - Off-line</a></div><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/pdv-fiscal/complementares/pdv-offline-standalone.pdf">Manual completo: PDV offline - Standalone</a></div><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/planos-do-sistema/tabela-de-diferencas-entre-os-planos-do-sistema.pdf">Manual completo: Tabela de diferenças entre os planos do Sistema</a></div></div>
+    </details>
+  </div>
+  <div class="faq-cat">
+    <h3>Notas fiscais e certificado digital</h3>
+    <details>
+      <summary>Como emitir uma Carta de Correção Eletrônica da NF-e?</summary>
+      <p>Acesse Manutenção &gt; Cartas de Correção Eletrônica, filtre por data e status da nota, clique em Abrir e depois em Incluir. Informe o número da nota e pressione Enter, descreva a correção (de 15 a 1000 caracteres, sem caracteres especiais nem quebra de linha) e clique em Autorizar.</p><p>A carta não pode corrigir valores que determinam o imposto (base de cálculo, alíquota, preço, quantidade, valor da operação — nesses casos usa-se NF-e complementar), dados que mudem remetente ou destinatário, nem a data de emissão ou de saída.</p>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/treinamento-geral/carta-de-correcao/cartas-de-correcoes-eletronicas.pdf">Manual completo: Cartas de Correções Eletrônicas</a></div></div>
+    </details>
+    <details>
+      <summary>Como acompanho o vencimento do certificado digital?</summary>
+      <p>No menu Ajuda &gt; Loja do certificado você visualiza os itens, valores e informações de cada certificado e pode comprar. O sistema também exibe um alerta quando o certificado está prestes a vencer ou já venceu.</p>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/menu-ajuda/manual-de-como-acessar-a-loja-do-certificado-digital.pdf">Manual completo: Manual de como acessar a loja do certificado digital</a></div></div>
+    </details>
+    <details>
+      <summary>De que formas posso lançar uma nota de compra?</summary>
+      <p>Em Manutenção &gt; Compras &gt; Lançar Notas de Compra, clique em Importar XML. São três possibilidades: inclusão manual (comum na compra de produtor rural, em que a empresa faz a contranota); importar o XML da Receita, pela chave de acesso da nota; ou importar o XML a partir de um arquivo.</p><p>Na versão 1.25.0.0 foi criada, na aba Compras das configurações, a opção de bloquear a importação de XML de outros CNPJs (vem desmarcada por padrão).</p>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/treinamento-geral/compras/lancar-notas-de-compra-importacao-arquivo-xml.pdf">Manual completo: Lançar notas de compra (Importação arquivo XML)</a></div><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/novidades-2025/novidades-novidades-versao-1-25-0-0.pdf">Manual completo: Novidades_ Novidades versão 1.25.0.0</a></div></div>
+    </details>
+  </div>
+  <div class="faq-cat">
+    <h3>Financeiro e pagamentos</h3>
+    <details>
+      <summary>Como gerar remessa e importar o retorno dos boletos?</summary>
+      <p>Remessa: Manutenção &gt; Contas à Receber &gt; Gerenciar Boletos &gt; Gerar Remessa. Para o boleto aparecer no filtro, a venda precisa estar finalizada, com as parcelas no contas a receber e o boleto vinculado à parcela.</p><p>Retorno: Manutenção &gt; Contas à Receber &gt; Gerenciar Retornos &gt; Importar Retornos. Informe a conta e o convênio, selecione o arquivo de retorno e clique em Abrir. O controle de geração de boletos consta apenas no plano Completo.</p>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/menu-manutencao/contas-a-receber/gerenciamento-de-boletos/manual-de-como-gerar-remessas.pdf">Manual completo: Gerenciamento de Boletos — Manual de como gerar remessas</a></div><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/menu-manutencao/contas-a-receber/gerenciamento-de-boletos/manual-de-como-importar-retornos.pdf">Manual completo: Gerenciamento de Boletos — Manual de como importar retornos</a></div></div>
+    </details>
+    <details>
+      <summary>Como funciona o PIX integrado?</summary>
+      <p>Gera um QR-Code exclusivo para cada transação; o cliente escaneia ou usa o copia e cola. A integração é feita pela API PIX do banco, com monitoramento dos pagamentos em tempo real, e elimina taxas de adquirentes.</p><p>Exige licença válida: no método Pós Pago, só no plano Completo; no Pré Pago, em todos os planos. A chave é cadastrada em Cadastros &gt; Financeiro &gt; Chaves PIX integrado (bancos disponíveis no manual: Sicoob, Sicredi, Banrisul, Banco do Brasil, Bradesco e PagSeguro).</p>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/menu-cadastros/financeiro/manual-das-chaves-pix-integrado.pdf">Manual completo: Manual das Chaves PIX integrado</a></div></div>
+    </details>
+    <details>
+      <summary>Como configuro o TEF no PDV?</summary>
+      <p>No PDV, abra o menu de opções com Ctrl+F11, clique em Ativar/Desativar TEF, selecione SIM e confirme em OK. No retaguarda, confira as espécies de cartão em Cadastros &gt; Financeiro &gt; Espécies, verificando os campos marcados (como Comprovante TEF).</p>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/pdv-fiscal/configuracoes-de-tef/manual-das-configuracoes-do-tef-no-pdv.pdf">Manual completo: Manual das configurações do TEF no PDV</a></div></div>
+    </details>
+  </div>
+  <div class="faq-cat">
+    <h3>Vendas, estoque e filiais</h3>
+    <details>
+      <summary>Como faço a devolução de uma venda?</summary>
+      <p>Use o módulo específico: Manutenção &gt; Vendas &gt; Devolução de vendas. Passe com Enter o número e a data do pedido, informe o cliente (o mesmo código da venda) e clique em Abrir para informar os itens devolvidos. Pelo módulo, o preço da venda é mantido e o estoque é controlado corretamente.</p>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/treinamento-geral/vendas/manual-completo-da-devolucao-de-venda.pdf">Manual completo: Manual completo da devolução de venda</a></div></div>
+    </details>
+    <details>
+      <summary>Como criar um orçamento?</summary>
+      <p>Acesse Manutenção &gt; Vendas &gt; Orçamentos. O número do orçamento é sequencial e gerado pelo sistema (basta passar com Enter) e a data é preenchida automaticamente. Informe o cliente (código interno), o vendedor e a validade. Pela lupa é possível consultar reservas abertas, fechadas ou canceladas. O módulo de orçamento consta nos planos Intermediário e Completo.</p>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/treinamento-geral/orcamentos/manual-do-modulo-de-orcamentos.pdf">Manual completo: Manual do módulo de Orçamentos</a></div></div>
+    </details>
+    <details>
+      <summary>Como funciona a Ordem de Serviço?</summary>
+      <p>A ordem de serviço formaliza um trabalho a ser efetuado e pode ser encaminhada ao cliente ou servir apenas de controle interno. Acesse Manutenção &gt; Vendas &gt; Ordem de Serviço, ou use o atalho Ctrl+F11. O número do pedido é sequencial e gerado pelo sistema (Enter). Esse módulo consta apenas no plano Completo.</p>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/treinamento-geral/ordem-de-servico/manual-completo-do-modulo-ordem-de-servico.pdf">Manual completo: Manual completo do módulo ordem de serviço</a></div></div>
+    </details>
+    <details>
+      <summary>Como cadastrar uma filial e transferir mercadorias entre filiais?</summary>
+      <p>Primeiro cadastre a filial em Cadastros &gt; Filiais (só é possível excluir filiais que ainda não tiveram movimentação). A transferência acontece em duas pontas: a empresa que envia faz a saída em Manutenção &gt; Operações com Filiais &gt; Saída - Transferência Interna, informando a empresa destino e o operador, e a filial registra a entrada na própria base. O controle de matriz e filial consta no plano Completo.</p>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/menu-cadastros/outros/manual-do-cadastro-de-filiais.pdf">Manual completo: Manual do cadastro de filiais</a></div><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/menu-manutencao/operacoes-com-filiais/manual-da-transferencia-entre-filiais-entrada-e-saida.pdf">Manual completo: Manual da transferência entre filiais (entrada e saída)</a></div></div>
+    </details>
+    <details>
+      <summary>Posso trazer os dados de outro sistema?</summary>
+      <p>Sim, pelo Conversor Universal, que converte dados de qualquer sistema usando planilhas do Excel. O sistema precisa estar instalado no computador onde será feita a conversão. Os arquivos .xls ficam na pasta estrutura_padrao e devem ser preenchidos com o que se deseja converter (por exemplo, produtos.xls para os produtos).</p>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/conversao-de-banco-de-dados/manual-do-conversor-universal-control-sistemas.pdf">Manual completo: Manual do Conversor Universal Sistema Control</a></div><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/conversao-de-banco-de-dados/manual-dos-campos-obrigatorios-utilizados-no-conversor-universal-control-sistemas.pdf">Manual completo: Manual dos campos obrigatórios utilizados no Conversor Universal Sistema Control</a></div></div>
+    </details>
+  </div>
+  <div class="faq-cat">
+    <h3>Planos e novidades das versões</h3>
+    <details>
+      <summary>Qual a diferença entre os planos Básico, Intermediário e Completo?</summary>
+      <p>Alguns exemplos da tabela do manual: emissão de NF-e, NFC-e, SAT e MF-e e controle financeiro estão nos três planos; orçamento de venda, NFS-e e controle de estoque estão no Intermediário e no Completo; ordem de serviço, geração de boletos, matriz e filial, controle de lotes e PDV Fiscal Off-line estão apenas no Completo.</p>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/instalacao-atualizacao-backup-e-planos-do-sistema/planos-do-sistema/tabela-de-diferencas-entre-os-planos-do-sistema.pdf">Manual completo: Tabela de diferenças entre os planos do Sistema</a></div></div>
+    </details>
+    <details>
+      <summary>O que mudou nas versões 1.25 do sistema?</summary>
+      <ul class="faq-versions"><li><b>1.25.0.0</b> — novos conceitos de cliente (Judicial e Suspenso bloqueiam a venda a prazo; VIP, Regularizado e Beneficiado faturam normalmente) e o conceito também aparece no Contas a Receber.</li><li><b>1.25.1.0</b> — bloqueio para não abrir o mesmo módulo mais de uma vez; ajuste de estoque só depois de distribuir os lotes, nos produtos de lote.</li><li><b>1.25.2.0</b> — QR Code do PIX ampliado; configuração para controlar o produto por validade, independente do controle de lotes.</li><li><b>1.25.3.0</b> — arquivo do backup automático inclui o CNPJ no nome; nova configuração de destino padrão das mercadorias no cadastro de clientes.</li><li><b>1.25.4.0</b> — novo Assistente de Atualização; fundo do PDV Fiscal personalizável (.JPG); campos Fone, Data de nascimento e E-mail no cadastro rápido (F3); PIX do Banco Inter homologado.</li><li><b>1.25.5.0</b> — DAV - Orçamentos disponível como executável separado; novos níveis de acesso em Gerenciar Boletos; aba Ativações e Desativações no cadastro de produtos.</li><li><b>1.25.5.1</b> — correções de estabilidade (Compras, licenças vencidas, PIX por QR-Code, manutenção de tabelas) e envio automático dos schemas no assistente de atualização.</li></ul>
+      <div class="manual-links"><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/novidades-2025/novidades-novidades-versao-1-25-0-0.pdf">Manual completo: Novidades_ Novidades versão 1.25.0.0</a></div><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/novidades-2025/novidades-novidades-versao-1-25-1-0.pdf">Manual completo: Novidades_ Novidades versão 1.25.1.0</a></div><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/novidades-2025/novidades-novidades-versao-1-25-2-0.pdf">Manual completo: Novidades_ Novidades versão 1.25.2.0</a></div><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/novidades-2025/novidades-novidades-versao-1-25-3-0.pdf">Manual completo: Novidades_ Novidades versão 1.25.3.0</a></div><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/novidades-2025/novidades-novidades-versao-1-25-4-0.pdf">Manual completo: Novidades_ Novidades versão 1.25.4.0</a></div><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/novidades-2025/novidades-novidades-versao-1-25-5-0.pdf">Manual completo: Novidades_ Novidades versão 1.25.5.0</a></div><div><a class="manual-link" target="_blank" rel="noopener" href="assets/manuais/novidades-2025/novidades-novidades-versao-1-25-5-1-bombeiro.pdf">Manual completo: Novidades_ Novidades versão 1.25.5.1 (Bombeiro)</a></div></div>
+    </details>
+  </div>
+</div>
     </div>
-    <input type="search" id="manualSearch" class="manual-search" style="display:none" placeholder="Buscar um manual (ex: boleto, backup, NFC-e...)">
-    <p id="manualStatus" style="color:var(--muted);font-size:0.92rem;">Carregando manuais…</p>
-    <div id="manualArea"></div>
   </div>
 </section>
 
@@ -514,11 +774,14 @@
 
 <script>
 (function(){
-  const grid = document.getElementById('videoGrid');
-  const status = document.getElementById('videoStatus');
-  const channelUrl = 'https://www.youtube.com/@hlsoft_sistemacomercial';
-  const channelId = 'UCIFDpPTBFAtVk8OYBNWs1fA';
-  const rssUrl = 'https://www.youtube.com/feeds/videos.xml?channel_id=' + channelId;
+  var grid = document.getElementById('videoGrid');
+  var status = document.getElementById('videoStatus');
+  var actions = document.getElementById('videoActions');
+  var channelUrl = 'https://www.youtube.com/@hlsoft_sistemacomercial';
+  var rssUrl = 'https://www.youtube.com/feeds/videos.xml?channel_id=UCIFDpPTBFAtVk8OYBNWs1fA';
+  var VISIBLE = 8;
+
+  function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;'); }
 
   function fallback(){
     if (status) status.remove();
@@ -529,164 +792,326 @@
       '</div>';
   }
 
-  function cardHtml(videoId, title){
-    const thumb = 'https://i.ytimg.com/vi/' + videoId + '/hqdefault.jpg';
-    const videoUrl = 'https://www.youtube.com/watch?v=' + videoId;
-    return (
-      '<a class="video-card" target="_blank" rel="noopener" href="' + videoUrl + '">' +
-        '<div class="video-thumb">' +
-          '<img loading="lazy" src="' + thumb + '" alt="">' +
-          '<div class="play-badge"><span>' +
-            '<svg width="16" height="16" viewBox="0 0 24 24" fill="#0B7FE0"><path d="M8 5v14l11-7z"/></svg>' +
-          '</span></div>' +
-        '</div>' +
-        '<div class="vtitle">' + String(title).replace(/</g,'&lt;') + '</div>' +
-      '</a>'
-    );
+  function card(v, extra){
+    return '<a class="video-card' + (extra ? ' is-extra' : '') + '" target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=' + v.id + '">' +
+      '<div class="video-thumb">' +
+        '<img loading="lazy" src="https://i.ytimg.com/vi/' + v.id + '/hqdefault.jpg" alt="">' +
+        '<div class="play-badge"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="#0B7FE0"><path d="M8 5v14l11-7z"/></svg></span></div>' +
+      '</div>' +
+      '<div class="vtitle">' + esc(v.title) + '</div>' +
+    '</a>';
   }
 
-  function renderFromRss2Json(items){
-    if (status) status.remove();
-    grid.innerHTML = items.map(function(item){
-      const m = (item.link || '').match(/[?&]v=([^&]+)/);
-      const videoId = m ? m[1] : (item.guid || '').split(':').pop();
-      return cardHtml(videoId, item.title || 'Vídeo');
-    }).join('');
+  function fromRss2Json(){
+    return fetch('https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(rssUrl))
+      .then(function(r){ return r.json(); })
+      .then(function(d){
+        if (!d || d.status !== 'ok' || !d.items) return [];
+        return d.items.map(function(it){
+          var m = (it.link || '').match(/[?&]v=([^&]+)/);
+          return m ? { id: m[1], title: it.title || 'Vídeo' } : null;
+        }).filter(Boolean);
+      })
+      .catch(function(){ return []; });
   }
 
-  function renderFromXml(entries){
-    if (status) status.remove();
-    grid.innerHTML = entries.map(function(entry){
-      const title = (entry.querySelector('title') || {}).textContent || 'Vídeo';
-      const linkEl = entry.querySelector('link');
-      const videoUrl = linkEl ? linkEl.getAttribute('href') : channelUrl;
-      const idMatch = videoUrl.match(/v=([^&]+)/);
-      const videoId = idMatch ? idMatch[1] : null;
-      return videoId ? cardHtml(videoId, title) : '';
-    }).join('');
+  function fromProxy(){
+    return fetch('https://api.allorigins.win/raw?url=' + encodeURIComponent(rssUrl))
+      .then(function(r){ return r.text(); })
+      .then(function(txt){
+        var xml = new DOMParser().parseFromString(txt, 'text/xml');
+        return Array.prototype.slice.call(xml.querySelectorAll('entry')).map(function(e){
+          var l = e.querySelector('link');
+          var href = l ? l.getAttribute('href') : '';
+          var m = (href || '').match(/[?&]v=([^&]+)/);
+          var t = e.querySelector('title');
+          return m ? { id: m[1], title: t ? t.textContent : 'Vídeo' } : null;
+        }).filter(Boolean);
+      })
+      .catch(function(){ return []; });
   }
 
-  // Estratégia 1: rss2json (rápido, já entrega em JSON)
-  fetch('https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(rssUrl))
-    .then(function(r){ return r.json(); })
-    .then(function(data){
-      if (data.status !== 'ok' || !data.items || !data.items.length) throw new Error('rss2json vazio');
-      renderFromRss2Json(data.items.slice(0, 12));
-    })
-    .catch(function(){
-      // Estratégia 2: proxy genérico + parse do XML original
-      const proxy = 'https://api.allorigins.win/raw?url=';
-      fetch(proxy + encodeURIComponent(rssUrl))
-        .then(function(r){ return r.text(); })
-        .then(function(xmlText){
-          const xml = new DOMParser().parseFromString(xmlText, 'text/xml');
-          const entries = Array.prototype.slice.call(xml.querySelectorAll("entry")).slice(0, 12);
-          if (!entries.length) throw new Error('sem entradas');
-          renderFromXml(entries);
-        })
-        .catch(fallback);
+  Promise.all([fromRss2Json(), fromProxy()]).then(function(lists){
+    lists.sort(function(a, b){ return b.length - a.length; });
+    var merged = [], seen = {};
+    lists.forEach(function(l){
+      l.forEach(function(v){ if (!seen[v.id]) { seen[v.id] = 1; merged.push(v); } });
     });
-})();
-</script>
+    if (!merged.length) return fallback();
 
-<script>
-(function(){
-  const area = document.getElementById('manualArea');
-  const status = document.getElementById('manualStatus');
-  const search = document.getElementById('manualSearch');
-  let manifest = null;
+    if (status) status.remove();
+    grid.innerHTML = merged.map(function(v, i){ return card(v, i >= VISIBLE); }).join('');
+    window.hlVideos = merged;
 
-  function esc(s){ return String(s).replace(/</g,'&lt;'); }
-
-  function highlight(text, term){
-    if(!term) return esc(text);
-    const idx = text.toLowerCase().indexOf(term.toLowerCase());
-    if(idx === -1) return esc(text);
-    return esc(text.slice(0,idx)) + '<mark>' + esc(text.slice(idx, idx+term.length)) + '</mark>' + esc(text.slice(idx+term.length));
-  }
-
-  const fileIcon = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>';
-
-  function render(term){
-    const t = (term || '').trim().toLowerCase();
-    let anyMatch = false;
-    const html = manifest.categories.map(function(cat){
-      const groupsHtml = cat.groups.map(function(g){
-        const files = g.files.filter(function(f){ return !t || f.title.toLowerCase().includes(t); });
-        if(!files.length) return '';
-        const listHtml = files.map(function(f){
-          return '<li><a target="_blank" rel="noopener" href="' + f.path + '">' + fileIcon +
-                 '<span>' + highlight(f.title, t) + '</span></a></li>';
-        }).join('');
-        return (g.name ? '<div class="manual-group-name">' + esc(g.name) + '</div>' : '') +
-               '<ul class="manual-file-list">' + listHtml + '</ul>';
-      }).join('');
-      const matchCount = cat.groups.reduce(function(sum,g){
-        return sum + g.files.filter(function(f){ return !t || f.title.toLowerCase().includes(t); }).length;
-      }, 0);
-      if(!matchCount) return '';
-      anyMatch = true;
-      const openAttr = t ? ' open' : '';
-      return (
-        '<details class="manual-cat"' + openAttr + '>' +
-          '<summary><span class="manual-cat-title">' + esc(cat.name) + '</span>' +
-            '<span class="manual-cat-count">' + matchCount + '</span></summary>' +
-          '<div class="manual-cat-body">' + groupsHtml + '</div>' +
-        '</details>'
-      );
-    }).join('');
-
-    area.innerHTML = anyMatch ? html : '<div class="manual-empty">Nenhum manual encontrado para essa busca.</div>';
-  }
-
-  fetch('assets/manuais/manifest.json')
-    .then(function(r){ return r.json(); })
-    .then(function(data){
-      manifest = data;
-      status.remove();
-      search.style.display = '';
-      render('');
-      search.addEventListener('input', function(){ render(search.value); });
-    })
-    .catch(function(){
-      status.remove();
-      search.remove();
-      area.innerHTML = '<div class="manual-fallback">Não foi possível carregar a lista de manuais agora. Peça o manual direto pelo WhatsApp ou e-mail do suporte.</div>';
-    });
-})();
-</script>
-
-<script>
-(function(){
-  const input = document.getElementById('faqSearch');
-  const empty = document.getElementById('faqEmpty');
-  const cats = Array.prototype.slice.call(document.querySelectorAll('#faqArea .faq-cat'));
-
-  input.addEventListener('input', function(){
-    const t = input.value.trim().toLowerCase();
-    let anyVisible = false;
-
-    cats.forEach(function(cat){
-      const items = Array.prototype.slice.call(cat.querySelectorAll('details'));
-      let catHasMatch = false;
-
-      items.forEach(function(item){
-        const text = item.textContent.toLowerCase();
-        const match = !t || text.includes(t);
-        item.style.display = match ? '' : 'none';
-        if(match){
-          catHasMatch = true;
-          if(t) item.setAttribute('open', ''); else item.removeAttribute('open');
-        }
+    if (merged.length > VISIBLE) {
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'btn btn-outline';
+      btn.textContent = 'Mostrar mais vídeos (' + (merged.length - VISIBLE) + ')';
+      btn.addEventListener('click', function(){
+        var open = grid.classList.toggle('expanded');
+        btn.textContent = open ? 'Mostrar menos' : 'Mostrar mais vídeos (' + (merged.length - VISIBLE) + ')';
       });
-
-      cat.style.display = catHasMatch ? '' : 'none';
-      if(catHasMatch) anyVisible = true;
-    });
-
-    empty.style.display = anyVisible ? 'none' : '';
+      actions.insertBefore(btn, actions.firstChild);
+    }
   });
 })();
+
+</script>
+
+<script>
+(function(){
+  var WA = 'https://wa.me/5588999246404?text=Ol%C3%A1!%20Preciso%20de%20suporte%20com%20o%20sistema.';
+
+  function norm(s){
+    s = (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    return s.replace(/nf-?c-?e/g, 'nfce').replace(/nf-?e\b/g, 'nfe').replace(/nfs-?e/g, 'nfse').replace(/mf-?e/g, 'mfe');
+  }
+  function words(s){ return ' ' + norm(s).replace(/[^a-z0-9]+/g, ' ').trim() + ' '; }
+  function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+  var STOP = {};
+  ('como fazer faco para que uma uns por dos das nos nas com sem sobre entre qual quais onde quando posso preciso quero tem tenho meu minha voce pode esta isso ele ela nao sim mais muito um de do da em no na se ou os as ao e o a').split(' ').forEach(function(w){ STOP[w] = 1; });
+  var SYN = {
+    backup: ['copia', 'seguranca'], copia: ['backup'], cartao: ['tef', 'pos'],
+    imprimir: ['reimpressao', 'impressao'], atualizar: ['atualizacao'], senha: ['acesso'],
+    devolver: ['devolucao'], emitir: ['emissao'], formatar: ['reinstalacao'],
+    gerar: ['geracao'], cadastrar: ['cadastro'], atalhos: ['atalho', 'teclas'], atalho: ['atalhos', 'teclas']
+  };
+
+  function parse(query){
+    var toks = norm(query).replace(/[^a-z0-9]+/g, ' ').trim().split(' ').filter(Boolean);
+    var useful = toks.filter(function(t){ return !STOP[t] && t.length >= 2; });
+    return (useful.length ? useful : toks).map(function(t){
+      var alts = [{ t: t, w: 1 }];
+      if (t.length >= 7) alts.push({ t: t.slice(0, t.length - 2), w: 0.8 });
+      (SYN[t] || []).forEach(function(x){ alts.push({ t: x, w: 0.5 }); });
+      return alts;
+    });
+  }
+  function has(hay, tok){ return hay.indexOf(' ' + tok) !== -1; }
+  function need(n){ return n <= 2 ? n : n - 1; }
+
+  // ---------- Sistema Control: busca nos manuais ----------
+  (function(){
+    var input = document.getElementById('scControl');
+    var box = document.getElementById('scControlResults');
+    var index = null, loading = null, timer = null;
+
+    function load(){
+      if (index) return Promise.resolve(index);
+      if (loading) return loading;
+      loading = fetch('assets/manuais/search-index.json').then(function(r){ return r.json(); }).then(function(data){
+        index = data.map(function(d){
+          return { t: d.t, c: d.c, g: d.g, p: d.p, d: d.d,
+                   wt: words(d.t), wk: words(d.k), wd: words(d.d), wc: words(d.c + ' ' + d.g) };
+        });
+        return index;
+      });
+      return loading;
+    }
+
+    function search(q){
+      var qs = parse(q);
+      var n = qs.length, min = need(n), res = [];
+      index.forEach(function(d){
+        var matched = 0, score = 0;
+        qs.forEach(function(alts){
+          var best = 0;
+          alts.forEach(function(a){
+            var s = 0;
+            if (has(d.wt, a.t)) s = 12;
+            else if (has(d.wk, a.t)) s = 5;
+            else if (has(d.wc, a.t)) s = 4;
+            else if (has(d.wd, a.t)) s = 2;
+            s = s * a.w;
+            if (s > best) best = s;
+          });
+          if (best > 0) { matched++; score += best; }
+        });
+        if (matched >= min && matched > 0) res.push({ d: d, score: score + (matched === n ? 6 : 0) });
+      });
+      res.sort(function(a, b){ return b.score - a.score; });
+      return res.slice(0, 6);
+    }
+
+    function render(q){
+      var res = search(q);
+      if (!res.length) {
+        box.innerHTML = '<div class="sc-none">Nenhum manual encontrado para "' + esc(q) + '". Tente outra palavra ou <a href="' + WA + '" target="_blank" rel="noopener">chame o suporte no WhatsApp</a>.</div>';
+        return;
+      }
+      box.innerHTML = res.map(function(r){
+        var d = r.d;
+        return '<a class="sc-item" target="_blank" rel="noopener" href="' + esc(d.p) + '">' +
+          '<div class="sc-item-title">' + esc(d.t) + '</div>' +
+          '<div class="sc-item-meta">' + esc(d.c + (d.g ? ' › ' + d.g : '')) + '</div>' +
+          (d.d ? '<div class="sc-item-desc">' + esc(d.d) + '</div>' : '') +
+        '</a>';
+      }).join('');
+    }
+
+    input.addEventListener('input', function(){
+      clearTimeout(timer);
+      var q = input.value.trim();
+      if (q.length < 2) { box.innerHTML = ''; return; }
+      timer = setTimeout(function(){
+        load().then(function(){ render(q); }).catch(function(){
+          box.innerHTML = '<div class="sc-none">Não foi possível carregar a busca agora. <a href="' + WA + '" target="_blank" rel="noopener">Chame o suporte no WhatsApp</a>.</div>';
+        });
+      }, 150);
+    });
+    input.addEventListener('focus', function(){ load().catch(function(){}); });
+  })();
+
+  // ---------- HL SOFT: busca nas perguntas frequentes e nos vídeos ----------
+  (function(){
+    var input = document.getElementById('scHl');
+    var box = document.getElementById('scHlResults');
+    var chips = document.getElementById('scHlChips');
+    var timer = null;
+
+    var faq = Array.prototype.slice.call(document.querySelectorAll('.faq-system[data-system="hlsoft"] details')).map(function(el){
+      var q = el.querySelector('summary').textContent.trim();
+      var p = el.querySelector('p');
+      var a = p ? p.textContent.trim() : '';
+      return { el: el, q: q, a: a, wq: words(q), wa: words(a) };
+    });
+
+    function scoreText(qs, wq, wa, wqPts, waPts){
+      var matched = 0, score = 0;
+      qs.forEach(function(alts){
+        var best = 0;
+        alts.forEach(function(a){
+          var s = 0;
+          if (has(wq, a.t)) s = wqPts;
+          else if (wa && has(wa, a.t)) s = waPts;
+          s = s * a.w;
+          if (s > best) best = s;
+        });
+        if (best > 0) { matched++; score += best; }
+      });
+      return { matched: matched, score: score };
+    }
+
+    function openFaq(el){
+      var fs = document.getElementById('faqSearch');
+      if (fs && fs.value) { fs.value = ''; fs.dispatchEvent(new Event('input')); }
+      el.setAttribute('open', '');
+      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    function render(q){
+      var qs = parse(q), n = qs.length, min = need(n);
+
+      var faqRes = [];
+      faq.forEach(function(f, i){
+        var r = scoreText(qs, f.wq, f.wa, 12, 3);
+        if (r.matched >= min && r.matched > 0) faqRes.push({ i: i, score: r.score + (r.matched === n ? 6 : 0) });
+      });
+      faqRes.sort(function(a, b){ return b.score - a.score; });
+      faqRes = faqRes.slice(0, 4);
+
+      var vidRes = [];
+      (window.hlVideos || []).forEach(function(v){
+        var r = scoreText(qs, words(v.title), '', 8, 0);
+        if (r.matched >= min && r.matched > 0) vidRes.push({ v: v, score: r.score + (r.matched === n ? 6 : 0) });
+      });
+      vidRes.sort(function(a, b){ return b.score - a.score; });
+      vidRes = vidRes.slice(0, 3);
+
+      if (!faqRes.length && !vidRes.length) {
+        box.innerHTML = '<div class="sc-none">Nada encontrado para "' + esc(q) + '". Tente outra palavra ou <a href="' + WA + '" target="_blank" rel="noopener">chame o suporte no WhatsApp</a>.</div>';
+        return;
+      }
+
+      var html = '';
+      if (faqRes.length) {
+        html += '<div class="sc-group">Perguntas frequentes</div>';
+        html += faqRes.map(function(r){
+          var f = faq[r.i];
+          var ans = f.a.length > 240 ? f.a.slice(0, 237) + '…' : f.a;
+          return '<div class="sc-item">' +
+            '<div class="sc-item-title">' + esc(f.q) + '</div>' +
+            '<div class="sc-item-desc">' + esc(ans) + '</div>' +
+            '<button type="button" class="sc-item-action" data-faq="' + r.i + '">Abrir no FAQ ↓</button>' +
+          '</div>';
+        }).join('');
+      }
+      if (vidRes.length) {
+        html += '<div class="sc-group">Vídeos</div>';
+        html += vidRes.map(function(r){
+          return '<a class="sc-item sc-video" target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=' + r.v.id + '">' +
+            '<img loading="lazy" src="https://i.ytimg.com/vi/' + r.v.id + '/mqdefault.jpg" alt="">' +
+            '<div class="sc-item-title">' + esc(r.v.title) + '</div>' +
+          '</a>';
+        }).join('');
+      }
+      box.innerHTML = html;
+    }
+
+    function run(){
+      var q = input.value.trim();
+      if (q.length < 2) { box.innerHTML = ''; return; }
+      render(q);
+    }
+
+    input.addEventListener('input', function(){ clearTimeout(timer); timer = setTimeout(run, 150); });
+    chips.addEventListener('click', function(e){
+      var b = e.target.closest('.sc-chip');
+      if (!b) return;
+      input.value = b.getAttribute('data-q');
+      run();
+    });
+    box.addEventListener('click', function(e){
+      var b = e.target.closest('[data-faq]');
+      if (!b) return;
+      openFaq(faq[parseInt(b.getAttribute('data-faq'), 10)].el);
+    });
+  })();
+})();
+
+</script>
+
+<script>
+(function(){
+  var input = document.getElementById('faqSearch');
+  var empty = document.getElementById('faqEmpty');
+  var systems = Array.prototype.slice.call(document.querySelectorAll('#faqArea .faq-system'));
+
+  function norm(s){
+    s = (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    return s.replace(/nf-?c-?e/g, 'nfce').replace(/nf-?e\b/g, 'nfe').replace(/nfs-?e/g, 'nfse').replace(/mf-?e/g, 'mfe');
+  }
+
+  input.addEventListener('input', function(){
+    var tokens = norm(input.value.trim()).split(/\s+/).filter(Boolean);
+    var any = false;
+
+    systems.forEach(function(sys){
+      var sysAny = false;
+      Array.prototype.slice.call(sys.querySelectorAll('.faq-cat')).forEach(function(cat){
+        var catAny = false;
+        Array.prototype.slice.call(cat.querySelectorAll('details')).forEach(function(d){
+          var text = norm(d.textContent);
+          var match = tokens.every(function(t){ return text.indexOf(t) !== -1; });
+          d.style.display = match ? '' : 'none';
+          if (match) {
+            catAny = true;
+            if (tokens.length) d.setAttribute('open', ''); else d.removeAttribute('open');
+          }
+        });
+        cat.style.display = catAny ? '' : 'none';
+        if (catAny) sysAny = true;
+      });
+      sys.style.display = sysAny ? '' : 'none';
+      if (sysAny) any = true;
+    });
+
+    empty.style.display = any ? 'none' : '';
+  });
+})();
+
 </script>
 
 </body>
